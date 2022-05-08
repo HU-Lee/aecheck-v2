@@ -1,0 +1,5527 @@
+[
+	{
+		"id": 1,
+		"code": "101000011",
+		"style": "4.5",
+		"category": 38,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			2,
+			3
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 2,
+		"code": "101000011",
+		"style": "ns",
+		"category": 38,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			1
+		],
+		"change": [
+			3
+		],
+		"book": "아우라",
+		"book_get": [
+			"식인 늪"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 3,
+		"code": "101000011",
+		"style": "as",
+		"category": 38,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			2
+		],
+		"book": "티타니아",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 4,
+		"code": "101000031",
+		"style": "4.5",
+		"category": 38,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			5,
+			6
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 5,
+		"code": "101000031",
+		"style": "ns",
+		"category": 38,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			4
+		],
+		"change": [
+			6
+		],
+		"book": "하이어로팬트",
+		"book_get": [
+			"차원전함"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 6,
+		"code": "101000031",
+		"style": "as",
+		"category": 38,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			5
+		],
+		"book": "하이 프리스티스",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 7,
+		"code": "101000041",
+		"style": "4.5",
+		"category": 28,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			8,
+			9
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 8,
+		"code": "101000041",
+		"style": "ns",
+		"category": 28,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			7
+		],
+		"change": [
+			9
+		],
+		"book": "아쿠아 룰러",
+		"book_get": [
+			"공업도시 폐허"
+		],
+		"manifest_jap": "진현현",
+		"manifest_glo": "진현현"
+	},
+	{
+		"id": 9,
+		"code": "101000041",
+		"style": "as",
+		"category": 28,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			8
+		],
+		"book": "히프노시스트",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 10,
+		"code": "101000051",
+		"style": "4.5",
+		"category": 48,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			11,
+			12,
+			13
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 11,
+		"code": "101000051",
+		"style": "ns",
+		"category": 48,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			10
+		],
+		"change": [
+			12,
+			13
+		],
+		"book": "지오맨서",
+		"book_get": [
+			"식인 늪",
+			"칠흑의 영장 기관",
+			"이스카리옷"
+		],
+		"manifest_jap": "진현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 12,
+		"code": "101000051",
+		"style": "as",
+		"category": 48,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			11
+		],
+		"book": "커스 브라이드",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 13,
+		"code": "101040171",
+		"style": "ns",
+		"category": 44,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			11
+		],
+		"book": "페르세포네",
+		"book_get": [
+			"경전록"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 14,
+		"code": "101000061",
+		"style": "4.5",
+		"category": 18,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			15
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 15,
+		"code": "101000061",
+		"style": "ns",
+		"category": 18,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			14
+		],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 16,
+		"code": "101000081",
+		"style": "4.5",
+		"category": 18,
+		"free": true,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			17,
+			18
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 17,
+		"code": "101000081",
+		"style": "ns",
+		"category": 18,
+		"free": true,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			16
+		],
+		"change": [
+			18
+		],
+		"book": "플레임 로드",
+		"book_get": [
+			"나다라 화산"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 18,
+		"code": "101000081",
+		"style": "as",
+		"category": 18,
+		"free": true,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			16,
+			17
+		],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 19,
+		"code": "101000111",
+		"style": "4.5",
+		"category": 38,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			20
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 20,
+		"code": "101000111",
+		"style": "ns",
+		"category": 38,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [
+			19
+		],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 21,
+		"code": "101000121",
+		"style": "4.5",
+		"category": 28,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			22,
+			23
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 22,
+		"code": "101000121",
+		"style": "ns",
+		"category": 28,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			21
+		],
+		"change": [
+			23
+		],
+		"book": "무녀",
+		"book_get": [
+			"식인 늪"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 23,
+		"code": "101000121",
+		"style": "as",
+		"category": 28,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			22
+		],
+		"book": "미즈하노메",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 24,
+		"code": "101000141",
+		"style": "4.5",
+		"category": 38,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			25
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 25,
+		"code": "101000141",
+		"style": "ns",
+		"category": 38,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			24
+		],
+		"change": [],
+		"book": "리베트",
+		"book_get": [
+			"공업도시 폐허"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 26,
+		"code": "101000171",
+		"style": "4.5",
+		"category": 18,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			27,
+			28
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 27,
+		"code": "101000171",
+		"style": "ns",
+		"category": 18,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			26
+		],
+		"change": [
+			28
+		],
+		"book": "디비네이터",
+		"book_get": [
+			"나다라 화산"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 28,
+		"code": "101000171",
+		"style": "as",
+		"category": 18,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			27
+		],
+		"book": "포르투나",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 29,
+		"code": "101000191",
+		"style": "4.5",
+		"category": 48,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			30
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 30,
+		"code": "101000191",
+		"style": "as",
+		"category": 48,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [],
+		"book": "사요리히메",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 31,
+		"code": "101000201",
+		"style": "ns",
+		"category": 28,
+		"free": true,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			32
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 32,
+		"code": "101000201",
+		"style": "as",
+		"category": 28,
+		"free": true,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			31
+		],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 33,
+		"code": "101000221",
+		"style": "4.5",
+		"category": 48,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			34,
+			35
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 34,
+		"code": "101000221",
+		"style": "ns",
+		"category": 48,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			33
+		],
+		"change": [
+			35
+		],
+		"book": "라팽",
+		"book_get": [
+			"달그림자 숲"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 35,
+		"code": "101000221",
+		"style": "as",
+		"category": 48,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			34
+		],
+		"book": "키벨레",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 36,
+		"code": "101000231",
+		"style": "4.5",
+		"category": 28,
+		"free": true,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			37
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 37,
+		"code": "101000231",
+		"style": "as",
+		"category": 28,
+		"free": true,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			36
+		],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 38,
+		"code": "101000241",
+		"style": "4.5",
+		"category": 18,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			39,
+			40
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 39,
+		"code": "101000241",
+		"style": "ns",
+		"category": 18,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			38
+		],
+		"change": [
+			40
+		],
+		"book": "저지먼트",
+		"book_get": [
+			"나다라 화산",
+			"고대 제르베리야 결정",
+			"실락의 도시",
+			"고대 제르베리야 그림자",
+			"고대 제르베리야 번개"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 40,
+		"code": "101000241",
+		"style": "as",
+		"category": 18,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			39
+		],
+		"book": "리미타토르",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 41,
+		"code": "101000251",
+		"style": "4.5",
+		"category": 38,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			42,
+			43
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 42,
+		"code": "101000251",
+		"style": "ns",
+		"category": 38,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			41
+		],
+		"change": [
+			43
+		],
+		"book": "소울 브링거",
+		"book_get": [
+			"뱀의 간 다마크"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 43,
+		"code": "101000251",
+		"style": "as",
+		"category": 38,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			42
+		],
+		"book": "제일러 그나드",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 44,
+		"code": "101000261",
+		"style": "4.5",
+		"category": 58,
+		"free": true,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			45,
+			46
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 45,
+		"code": "101000261",
+		"style": "ns",
+		"category": 58,
+		"free": true,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			44
+		],
+		"change": [
+			46
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 46,
+		"code": "101000261",
+		"style": "as",
+		"category": 58,
+		"free": true,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			44,
+			45
+		],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 47,
+		"code": "101000271",
+		"style": "4.5",
+		"category": 28,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			48
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 48,
+		"code": "101000271",
+		"style": "ns",
+		"category": 28,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			47
+		],
+		"change": [],
+		"book": "스카디",
+		"book_get": [
+			"마수성"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 49,
+		"code": "101000281",
+		"style": "4.5",
+		"category": 58,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			50
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 50,
+		"code": "101000281",
+		"style": "ns",
+		"category": 58,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			49
+		],
+		"change": [],
+		"book": "드래고미라주",
+		"book_get": [
+			"차원전함"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 51,
+		"code": "101000291",
+		"style": "ns",
+		"category": 28,
+		"free": true,
+		"sky": "light",
+		"first": true,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 52,
+		"code": "101010011",
+		"style": "4.5",
+		"category": 21,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			53,
+			54
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 53,
+		"code": "101010011",
+		"style": "ns",
+		"category": 21,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			52
+		],
+		"change": [
+			54
+		],
+		"book": "성기사",
+		"book_get": [
+			"미글랜스 성"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 54,
+		"code": "101010011",
+		"style": "as",
+		"category": 21,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			53
+		],
+		"book": "신성 기사",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 55,
+		"code": "101010031",
+		"style": "4.5",
+		"category": 31,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			56
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 56,
+		"code": "101010031",
+		"style": "as",
+		"category": 31,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [],
+		"book": "루프트 알브",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 57,
+		"code": "101010041",
+		"style": "4.5",
+		"category": 11,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			58,
+			59,
+			60
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 58,
+		"code": "101010041",
+		"style": "ns",
+		"category": 11,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			57
+		],
+		"change": [
+			59,
+			60
+		],
+		"book": "프린세스",
+		"book_get": [
+			"기묘한 숲"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 59,
+		"code": "101010041",
+		"style": "as",
+		"category": 11,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			58,
+			60
+		],
+		"book": "미네르바",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 60,
+		"code": "101010041",
+		"style": "es",
+		"category": 54,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			58,
+			59
+		],
+		"book": "아테나",
+		"book_get": [
+			"개전"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 61,
+		"code": "101010051",
+		"style": "4.5",
+		"category": 41,
+		"free": true,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			62
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 62,
+		"code": "101010051",
+		"style": "ns",
+		"category": 41,
+		"free": true,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			61
+		],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 63,
+		"code": "101010081",
+		"style": "4.5",
+		"category": 21,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			64,
+			65
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 64,
+		"code": "101010081",
+		"style": "ns",
+		"category": 21,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			63
+		],
+		"change": [
+			65
+		],
+		"book": "아크 나이트",
+		"book_get": [
+			"차원전함"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 65,
+		"code": "101010081",
+		"style": "as",
+		"category": 21,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			64
+		],
+		"book": "브륀힐드",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 66,
+		"code": "101010091",
+		"style": "4.5",
+		"category": 31,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			67,
+			68
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 67,
+		"code": "101010091",
+		"style": "ns",
+		"category": 31,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			66
+		],
+		"change": [
+			68
+		],
+		"book": "화이트 나이트",
+		"book_get": [
+			"차원전함"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 68,
+		"code": "101010091",
+		"style": "as",
+		"category": 31,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			67
+		],
+		"book": "뷰티 폴리스",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 69,
+		"code": "101010101",
+		"style": "4.5",
+		"category": 31,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			70
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 70,
+		"code": "101010101",
+		"style": "ns",
+		"category": 31,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			69
+		],
+		"change": [],
+		"book": "그리므와르",
+		"book_get": [
+			"토토 드림랜드"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 71,
+		"code": "101010111",
+		"style": "4.5",
+		"category": 11,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			72,
+			266
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 72,
+		"code": "101010111",
+		"style": "ns",
+		"category": 11,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			71
+		],
+		"change": [
+			266
+		],
+		"book": "홍염 기사",
+		"book_get": [
+			"미글랜스 성"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 73,
+		"code": "101010121",
+		"style": "4.5",
+		"category": 51,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			74,
+			75
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 74,
+		"code": "101010121",
+		"style": "ns",
+		"category": 51,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			73
+		],
+		"change": [
+			75
+		],
+		"book": "어비스 데보티",
+		"book_get": [
+			"나다라 화산",
+			"고대 제르베리야 결정",
+			"실락의 도시",
+			"고대 제르베리야 그림자",
+			"고대 제르베리야 번개"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 75,
+		"code": "101010121",
+		"style": "as",
+		"category": 51,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			74
+		],
+		"book": "어비스 리버레이터",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 76,
+		"code": "101020011",
+		"style": "4.5",
+		"category": 32,
+		"free": true,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			77
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 77,
+		"code": "101020011",
+		"style": "ns",
+		"category": 32,
+		"free": true,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			76
+		],
+		"change": [],
+		"book": "아마테라스",
+		"book_get": [
+			"달그림자 숲"
+		],
+		"manifest_jap": "진현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 78,
+		"code": "101020021",
+		"style": "4.5",
+		"category": 22,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			79
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 79,
+		"code": "101020021",
+		"style": "as",
+		"category": 22,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [],
+		"book": "야소마가츠히",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 80,
+		"code": "101020031",
+		"style": "4.5",
+		"category": 12,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			81,
+			82
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 81,
+		"code": "101020031",
+		"style": "ns",
+		"category": 12,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			80
+		],
+		"change": [
+			82
+		],
+		"book": "카구츠치",
+		"book_get": [
+			"미글랜스 성"
+		],
+		"manifest_jap": "진현현",
+		"manifest_glo": "진현현"
+	},
+	{
+		"id": 82,
+		"code": "101020031",
+		"style": "as",
+		"category": 12,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			81
+		],
+		"book": "타케미카즈치",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 83,
+		"code": "101020041",
+		"style": "4.5",
+		"category": 42,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			84
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 84,
+		"code": "101020041",
+		"style": "as",
+		"category": 42,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [],
+		"book": "묘다라천녀",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 85,
+		"code": "101020051",
+		"style": "4.5",
+		"category": 12,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			86
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 86,
+		"code": "101020051",
+		"style": "as",
+		"category": 12,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [],
+		"book": "미카하야히",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 87,
+		"code": "101020071",
+		"style": "4.5",
+		"category": 32,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			88,
+			89,
+			90,
+			91
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 88,
+		"code": "101020071",
+		"style": "ns",
+		"category": 32,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			87
+		],
+		"change": [
+			89,
+			90,
+			91
+		],
+		"book": "애드미럴",
+		"book_get": [
+			"이스카리옷",
+			"칠흑의 영장 기관",
+			"제노 도메인"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 89,
+		"code": "101020071",
+		"style": "as",
+		"category": 32,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			88,
+			90
+		],
+		"book": "스텔라",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 90,
+		"code": "101020071",
+		"style": "es",
+		"category": 51,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			88,
+			89
+		],
+		"book": "유스티티아",
+		"book_get": [
+			"개전"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 91,
+		"code": "101020141",
+		"style": "ns",
+		"category": 52,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			88
+		],
+		"book": "유다",
+		"book_get": [
+			"경전록"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 92,
+		"code": "101020081",
+		"style": "4.5",
+		"category": 12,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			93,
+			94,
+			95
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 93,
+		"code": "101020081",
+		"style": "ns",
+		"category": 12,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			92
+		],
+		"change": [
+			94,
+			95
+		],
+		"book": "무라사메",
+		"book_get": [
+			"달그림자 숲"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 94,
+		"code": "101020081",
+		"style": "as",
+		"category": 12,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			93,
+			95
+		],
+		"book": "사라시나히메",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 95,
+		"code": "101020081",
+		"style": "es",
+		"category": 35,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			93,
+			94
+		],
+		"book": "시나츠히메노카미",
+		"book_get": [
+			"개전"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 96,
+		"code": "101020091",
+		"style": "4.5",
+		"category": 42,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			97,
+			98
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 97,
+		"code": "101020091",
+		"style": "ns",
+		"category": 42,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			96
+		],
+		"change": [
+			98
+		],
+		"book": "저거너트",
+		"book_get": [
+			"뱀의 간 다마크"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 98,
+		"code": "101020091",
+		"style": "as",
+		"category": 42,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			97
+		],
+		"book": "오르코 필리아",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 99,
+		"code": "101020101",
+		"style": "4.5",
+		"category": 22,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			100,
+			101
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 100,
+		"code": "101020101",
+		"style": "ns",
+		"category": 22,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			99
+		],
+		"change": [
+			101
+		],
+		"book": "해신",
+		"book_get": [
+			"미글랜스 성"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 101,
+		"code": "101020101",
+		"style": "as",
+		"category": 22,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			100
+		],
+		"book": "스사노오",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 102,
+		"code": "101020111",
+		"style": "4.5",
+		"category": 52,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			103,
+			104
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 103,
+		"code": "101020111",
+		"style": "ns",
+		"category": 52,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			102
+		],
+		"change": [
+			104
+		],
+		"book": "인드라",
+		"book_get": [
+			"마수성"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 104,
+		"code": "101020111",
+		"style": "as",
+		"category": 52,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			103
+		],
+		"book": "오메테오틀",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 105,
+		"code": "101020121",
+		"style": "4.5",
+		"category": 32,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			106
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 106,
+		"code": "101020121",
+		"style": "ns",
+		"category": 32,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			105
+		],
+		"change": [],
+		"book": "카라쿠레나이",
+		"book_get": [
+			"미글랜스 성"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 107,
+		"code": "101020131",
+		"style": "4.5",
+		"category": 52,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			108
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 108,
+		"code": "101020131",
+		"style": "ns",
+		"category": 52,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			107
+		],
+		"change": [],
+		"book": "슬레이어",
+		"book_get": [
+			"공업도시 폐허"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 109,
+		"code": "101020151",
+		"style": "4.5",
+		"category": 52,
+		"free": true,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			110
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 110,
+		"code": "101020151",
+		"style": "ns",
+		"category": 52,
+		"free": true,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			109
+		],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 111,
+		"code": "101030071",
+		"style": "4.5",
+		"category": 43,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			112,
+			113,
+			114
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 112,
+		"code": "101030071",
+		"style": "ns",
+		"category": 43,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			111
+		],
+		"change": [
+			113,
+			114
+		],
+		"book": "팔지 사신",
+		"book_get": [
+			"식인 늪"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 113,
+		"code": "101030071",
+		"style": "as",
+		"category": 43,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			112,
+			114
+		],
+		"book": "텐타클메어",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 114,
+		"code": "101030071",
+		"style": "es",
+		"category": 58,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			112,
+			113
+		],
+		"book": "크리툴리툴",
+		"book_get": [
+			"개전"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 115,
+		"code": "101030091",
+		"style": "4.5",
+		"category": 13,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			116,
+			117
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 116,
+		"code": "101030091",
+		"style": "ns",
+		"category": 13,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			115
+		],
+		"change": [
+			117
+		],
+		"book": "인스펙터",
+		"book_get": [
+			"제노 도메인"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 117,
+		"code": "101030091",
+		"style": "as",
+		"category": 13,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			116
+		],
+		"book": "언더커버",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 118,
+		"code": "101030101",
+		"style": "4.5",
+		"category": 33,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			119,
+			120
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 119,
+		"code": "101030101",
+		"style": "ns",
+		"category": 33,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			118
+		],
+		"change": [
+			120
+		],
+		"book": "그림 리퍼",
+		"book_get": [
+			"차원전함"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 120,
+		"code": "101030101",
+		"style": "as",
+		"category": 33,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			119
+		],
+		"book": "리비티나",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 121,
+		"code": "101030111",
+		"style": "4.5",
+		"category": 23,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			122,
+			123
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 122,
+		"code": "101030111",
+		"style": "ns",
+		"category": 23,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			121
+		],
+		"change": [
+			123
+		],
+		"book": "아무르타트",
+		"book_get": [
+			"토토 드림랜드"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 123,
+		"code": "101030111",
+		"style": "as",
+		"category": 23,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			122
+		],
+		"book": "비슈론",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 124,
+		"code": "101030121",
+		"style": "4.5",
+		"category": 33,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			125,
+			126
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 125,
+		"code": "101030121",
+		"style": "ns",
+		"category": 33,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			124
+		],
+		"change": [
+			126
+		],
+		"book": "릴라 블리츠",
+		"book_get": [
+			"토토 드림랜드"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 126,
+		"code": "101030121",
+		"style": "as",
+		"category": 33,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			125
+		],
+		"book": "트랜스포터",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 127,
+		"code": "101030131",
+		"style": "4.5",
+		"category": 23,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			128,
+			129
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 128,
+		"code": "101030131",
+		"style": "ns",
+		"category": 23,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			127
+		],
+		"change": [
+			129
+		],
+		"book": "데몬 리퍼",
+		"book_get": [
+			"뱀의 간 다마크"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 129,
+		"code": "101030131",
+		"style": "as",
+		"category": 23,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			128
+		],
+		"book": "소울 키퍼",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 130,
+		"code": "101030151",
+		"style": "4.5",
+		"category": 43,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			131
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 131,
+		"code": "101030151",
+		"style": "ns",
+		"category": 43,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			130
+		],
+		"change": [],
+		"book": "금화묘",
+		"book_get": [
+			"달그림자 숲"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 132,
+		"code": "101030171",
+		"style": "4.5",
+		"category": 53,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			133
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 133,
+		"code": "101030171",
+		"style": "ns",
+		"category": 53,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [
+			132
+		],
+		"change": [],
+		"book": "발키리",
+		"book_get": [
+			"마수성"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 134,
+		"code": "101040031",
+		"style": "4.5",
+		"category": 34,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			135,
+			136,
+			137,
+			138
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 135,
+		"code": "101040031",
+		"style": "ns",
+		"category": 34,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			134
+		],
+		"change": [
+			136,
+			137,
+			138
+		],
+		"book": "드라고나",
+		"book_get": [
+			"이스카리옷",
+			"칠흑의 영장 기관",
+			"제노 도메인"
+		],
+		"manifest_jap": "진현현",
+		"manifest_glo": "진현현"
+	},
+	{
+		"id": 136,
+		"code": "101040031",
+		"style": "as",
+		"category": 34,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			135,
+			137
+		],
+		"book": "불꽃 나비 소녀",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 137,
+		"code": "101040031",
+		"style": "es",
+		"category": 17,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			135,
+			136
+		],
+		"book": "루시퍼",
+		"book_get": [
+			"개전"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 138,
+		"code": "101030161",
+		"style": "ns",
+		"category": 33,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			135
+		],
+		"book": "체르노 보그",
+		"book_get": [
+			"경전록"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 139,
+		"code": "101040051",
+		"style": "4.5",
+		"category": 24,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			140
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 140,
+		"code": "101040051",
+		"style": "as",
+		"category": 24,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [],
+		"book": "하스타 안티카",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 141,
+		"code": "101040071",
+		"style": "4.5",
+		"category": 14,
+		"free": true,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			142
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 142,
+		"code": "101040071",
+		"style": "ns",
+		"category": 14,
+		"free": true,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			141
+		],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 143,
+		"code": "101040081",
+		"style": "4.5",
+		"category": 24,
+		"free": true,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			144
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 144,
+		"code": "101040081",
+		"style": "as",
+		"category": 24,
+		"free": true,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			143
+		],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 145,
+		"code": "101040091",
+		"style": "4.5",
+		"category": 14,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			146,
+			147
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 146,
+		"code": "101040091",
+		"style": "ns",
+		"category": 14,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			145
+		],
+		"change": [
+			147
+		],
+		"book": "에이전트",
+		"book_get": [
+			"제노 도메인"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 147,
+		"code": "101040091",
+		"style": "as",
+		"category": 14,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			146
+		],
+		"book": "크림슨 레이",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 148,
+		"code": "101040101",
+		"style": "4.5",
+		"category": 44,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			149,
+			150
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 149,
+		"code": "101040101",
+		"style": "ns",
+		"category": 44,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			148
+		],
+		"change": [
+			150
+		],
+		"book": "이스쿠두",
+		"book_get": [
+			"미글랜스 성"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 150,
+		"code": "101040101",
+		"style": "as",
+		"category": 44,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			149
+		],
+		"book": "미글 아스피다",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 151,
+		"code": "101040111",
+		"style": "4.5",
+		"category": 24,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			152,
+			153
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 152,
+		"code": "101040111",
+		"style": "ns",
+		"category": 24,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			151
+		],
+		"change": [
+			153
+		],
+		"book": "브류나크",
+		"book_get": [
+			"공업도시 폐허"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 153,
+		"code": "101040111",
+		"style": "as",
+		"category": 24,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			152
+		],
+		"book": "아랴드바르",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 154,
+		"code": "101040121",
+		"style": "4.5",
+		"category": 44,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			155,
+			156
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 155,
+		"code": "101040121",
+		"style": "ns",
+		"category": 44,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			154
+		],
+		"change": [
+			156
+		],
+		"book": "드래곤 룰러",
+		"book_get": [
+			"식인 늪"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 156,
+		"code": "101040121",
+		"style": "as",
+		"category": 44,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			155
+		],
+		"book": "드라코 노두스",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 157,
+		"code": "101040131",
+		"style": "4.5",
+		"category": 54,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			158,
+			159
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 158,
+		"code": "101040131",
+		"style": "ns",
+		"category": 54,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			157
+		],
+		"change": [
+			159
+		],
+		"book": "에페파네노스",
+		"book_get": [
+			"식인 늪",
+			"고대 제르베리야 결정",
+			"실락의 도시",
+			"고대 제르베리야 그림자",
+			"고대 제르베리야 번개"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 159,
+		"code": "101040131",
+		"style": "as",
+		"category": 54,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			158
+		],
+		"book": "하르피스모니아",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 160,
+		"code": "101040141",
+		"style": "4.5",
+		"category": 54,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			161
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 161,
+		"code": "101040141",
+		"style": "ns",
+		"category": 54,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			160
+		],
+		"change": [],
+		"book": "라줄리 메데이아",
+		"book_get": [
+			"나다라 화산"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 162,
+		"code": "101040161",
+		"style": "4.5",
+		"category": 34,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			163
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 163,
+		"code": "101040161",
+		"style": "ns",
+		"category": 34,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			162
+		],
+		"change": [],
+		"book": "흐룽그니르",
+		"book_get": [
+			"식인 늪"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 164,
+		"code": "101050021",
+		"style": "4.5",
+		"category": 45,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			165,
+			166
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 165,
+		"code": "101050021",
+		"style": "ns",
+		"category": 45,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			164
+		],
+		"change": [
+			166
+		],
+		"book": "라일라",
+		"book_get": [
+			"공중 정원"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 166,
+		"code": "101050021",
+		"style": "as",
+		"category": 45,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			165
+		],
+		"book": "멜로 디바",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 167,
+		"code": "101050061",
+		"style": "4.5",
+		"category": 25,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			168,
+			169
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 168,
+		"code": "101050061",
+		"style": "ns",
+		"category": 25,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			167
+		],
+		"change": [
+			169
+		],
+		"book": "민스트럴",
+		"book_get": [
+			"나다라 화산"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 169,
+		"code": "101050061",
+		"style": "as",
+		"category": 25,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			168
+		],
+		"book": "블랑 므뇌르",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 170,
+		"code": "101050081",
+		"style": "4.5",
+		"category": 35,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			171,
+			172
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 171,
+		"code": "101050081",
+		"style": "ns",
+		"category": 35,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			170
+		],
+		"change": [
+			172
+		],
+		"book": "페일너트",
+		"book_get": [
+			"공업도시 폐허"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 172,
+		"code": "101050081",
+		"style": "as",
+		"category": 35,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			171
+		],
+		"book": "마그나 렉스",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 173,
+		"code": "101050091",
+		"style": "4.5",
+		"category": 15,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			174,
+			175
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 174,
+		"code": "101050091",
+		"style": "ns",
+		"category": 15,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			173
+		],
+		"change": [
+			175
+		],
+		"book": "구미호",
+		"book_get": [
+			"마수성"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 175,
+		"code": "101050091",
+		"style": "as",
+		"category": 15,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			174
+		],
+		"book": "귀린금호",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 176,
+		"code": "101050101",
+		"style": "ns",
+		"category": 45,
+		"free": true,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 177,
+		"code": "101050111",
+		"style": "4.5",
+		"category": 45,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			178,
+			179
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 178,
+		"code": "101050111",
+		"style": "ns",
+		"category": 45,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			177
+		],
+		"change": [
+			179
+		],
+		"book": "듀얼 페르소나",
+		"book_get": [
+			"이스카리옷",
+			"칠흑의 영장 기관",
+			"제노 도메인"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 179,
+		"code": "101050151",
+		"style": "ns",
+		"category": 55,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			178
+		],
+		"book": "레셰프",
+		"book_get": [
+			"경전록"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 180,
+		"code": "101050121",
+		"style": "4.5",
+		"category": 55,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			181,
+			182
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 181,
+		"code": "101050121",
+		"style": "ns",
+		"category": 55,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			180
+		],
+		"change": [
+			182
+		],
+		"book": "이사야",
+		"book_get": [
+			"식인 늪",
+			"고대 제르베리야 결정",
+			"실락의 도시",
+			"고대 제르베리야 그림자",
+			"고대 제르베리야 번개"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 182,
+		"code": "101050121",
+		"style": "as",
+		"category": 55,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			181
+		],
+		"book": "플루마 디아나",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 183,
+		"code": "101050131",
+		"style": "4.5",
+		"category": 25,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			184
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 184,
+		"code": "101050131",
+		"style": "ns",
+		"category": 25,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			183
+		],
+		"change": [],
+		"book": "우츠타히메",
+		"book_get": [
+			"달그림자 숲"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 185,
+		"code": "101050141",
+		"style": "4.5",
+		"category": 15,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			186
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 186,
+		"code": "101050141",
+		"style": "ns",
+		"category": 15,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			185
+		],
+		"change": [],
+		"book": "시레나리아",
+		"book_get": [
+			"나다라 화산"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 187,
+		"code": "101060031",
+		"style": "4.5",
+		"category": 46,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			188,
+			189
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 188,
+		"code": "101060031",
+		"style": "ns",
+		"category": 46,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			187
+		],
+		"change": [
+			189
+		],
+		"book": "티탄",
+		"book_get": [
+			"달그림자 숲"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 189,
+		"code": "101060031",
+		"style": "as",
+		"category": 46,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			188
+		],
+		"book": "피에르테 베트",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 190,
+		"code": "101060081",
+		"style": "4.5",
+		"category": 46,
+		"free": true,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			191
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 191,
+		"code": "101060081",
+		"style": "ns",
+		"category": 46,
+		"free": true,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			190
+		],
+		"change": [],
+		"book": "엠프리스",
+		"book_get": [
+			"공업도시 폐허"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 192,
+		"code": "101060091",
+		"style": "4.5",
+		"category": 36,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			193,
+			194
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 193,
+		"code": "101060091",
+		"style": "ns",
+		"category": 36,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			192
+		],
+		"change": [
+			194
+		],
+		"book": "이스마일",
+		"book_get": [
+			"미글랜스 성"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 194,
+		"code": "101060091",
+		"style": "as",
+		"category": 36,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			193
+		],
+		"book": "라브로스키어",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 195,
+		"code": "101060101",
+		"style": "4.5",
+		"category": 26,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			196,
+			197
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 196,
+		"code": "101060101",
+		"style": "ns",
+		"category": 26,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			195
+		],
+		"change": [
+			197
+		],
+		"book": "템페스터",
+		"book_get": [
+			"이스카리옷",
+			"칠흑의 영장 기관",
+			"토토 드림랜드"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 197,
+		"code": "101060141",
+		"style": "ns",
+		"category": 56,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			196
+		],
+		"book": "레드 스콜피온",
+		"book_get": [
+			"경전록"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 198,
+		"code": "101060111",
+		"style": "4.5",
+		"category": 46,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			199,
+			200
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 199,
+		"code": "101060111",
+		"style": "ns",
+		"category": 46,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			198
+		],
+		"change": [
+			200
+		],
+		"book": "섀도 로드",
+		"book_get": [
+			"달그림자 숲"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 200,
+		"code": "101060111",
+		"style": "as",
+		"category": 46,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			199
+		],
+		"book": "펠레쿨루스",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 201,
+		"code": "101060121",
+		"style": "4.5",
+		"category": 16,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			202
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 202,
+		"code": "101060121",
+		"style": "ns",
+		"category": 16,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			201
+		],
+		"change": [],
+		"book": "러블리 셰프",
+		"book_get": [
+			"나다라 화산"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 203,
+		"code": "101060131",
+		"style": "4.5",
+		"category": 16,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			204,
+			205
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 204,
+		"code": "101060131",
+		"style": "ns",
+		"category": 16,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			203
+		],
+		"change": [
+			205
+		],
+		"book": "그레이 하운드",
+		"book_get": [
+			"차원전함"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 205,
+		"code": "101060131",
+		"style": "as",
+		"category": 16,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			204
+		],
+		"book": "매버릭",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 206,
+		"code": "101070011",
+		"style": "4.5",
+		"category": 17,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			207
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 207,
+		"code": "101070011",
+		"style": "ns",
+		"category": 17,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			206
+		],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 208,
+		"code": "101070031",
+		"style": "4.5",
+		"category": 47,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			209
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 209,
+		"code": "101070031",
+		"style": "ns",
+		"category": 47,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			208
+		],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 210,
+		"code": "101070051",
+		"style": "4.5",
+		"category": 17,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			211,
+			212
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 211,
+		"code": "101070051",
+		"style": "ns",
+		"category": 17,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			210
+		],
+		"change": [
+			212
+		],
+		"book": "네고시에이터",
+		"book_get": [
+			"차원전함"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 212,
+		"code": "101070051",
+		"style": "as",
+		"category": 17,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			211
+		],
+		"book": "커스 시커",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 213,
+		"code": "101070061",
+		"style": "4.5",
+		"category": 27,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			214,
+			215,
+			216
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 214,
+		"code": "101070061",
+		"style": "ns",
+		"category": 27,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			213
+		],
+		"change": [
+			215,
+			216
+		],
+		"book": "말아흐",
+		"book_get": [
+			"나다라 화산",
+			"고대 제르베리야 결정",
+			"실락의 도시",
+			"고대 제르베리야 그림자",
+			"고대 제르베리야 번개"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 215,
+		"code": "101070061",
+		"style": "as",
+		"category": 27,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			214,
+			216
+		],
+		"book": "퍼니시먼트",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 216,
+		"code": "101070061",
+		"style": "es",
+		"category": 56,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			214,
+			215
+		],
+		"book": "헤카톤케일",
+		"book_get": [
+			"개전"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 217,
+		"code": "101070081",
+		"style": "4.5",
+		"category": 37,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			218
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 218,
+		"code": "101070081",
+		"style": "ns",
+		"category": 37,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			217
+		],
+		"change": [],
+		"book": "코만듀어",
+		"book_get": [
+			"공업도시 폐허"
+		],
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
+	},
+	{
+		"id": 219,
+		"code": "101070091",
+		"style": "4.5",
+		"category": 47,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			220,
+			221
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 220,
+		"code": "101070091",
+		"style": "ns",
+		"category": 47,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			219
+		],
+		"change": [
+			221
+		],
+		"book": "진",
+		"book_get": [
+			"뱀의 간 다마크"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 221,
+		"code": "101070091",
+		"style": "as",
+		"category": 47,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			220
+		],
+		"book": "옥차낭랑",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 222,
+		"code": "101070101",
+		"style": "4.5",
+		"category": 37,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			223
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 223,
+		"code": "101070101",
+		"style": "ns",
+		"category": 37,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			222
+		],
+		"change": [],
+		"book": "브링로트",
+		"book_get": [
+			"차원전함"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 224,
+		"code": "101070111",
+		"style": "4.5",
+		"category": 47,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			225
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 225,
+		"code": "101070111",
+		"style": "ns",
+		"category": 47,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			224
+		],
+		"change": [],
+		"book": "염마",
+		"book_get": [
+			"식인 늪"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 226,
+		"code": "101070121",
+		"style": "ns",
+		"category": 37,
+		"free": true,
+		"sky": "shadow",
+		"first": true,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 227,
+		"code": "101110041",
+		"style": "ns",
+		"category": 56,
+		"free": true,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 228,
+		"code": "101140021",
+		"style": "4.5",
+		"category": 24,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			229
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 229,
+		"code": "101140021",
+		"style": "ns",
+		"category": 24,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			228
+		],
+		"change": [],
+		"book": "아레스 다이아",
+		"book_get": [
+			"불타는 마수성"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 230,
+		"code": "101400011",
+		"style": "ns",
+		"category": 57,
+		"free": true,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 231,
+		"code": "101400071",
+		"style": "ns",
+		"category": 41,
+		"free": true,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 232,
+		"code": "101410011",
+		"style": "4.5",
+		"category": 11,
+		"free": true,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			233
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 233,
+		"code": "101410011",
+		"style": "ns",
+		"category": 11,
+		"free": true,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			232
+		],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 234,
+		"code": "101420011",
+		"style": "ns",
+		"category": 31,
+		"free": true,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 235,
+		"code": "101430011",
+		"style": "4.5",
+		"category": 11,
+		"free": true,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			236
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 236,
+		"code": "101430011",
+		"style": "ns",
+		"category": 11,
+		"free": true,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			235
+		],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 237,
+		"code": "101430021",
+		"style": "4.5",
+		"category": 32,
+		"free": true,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			238
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 238,
+		"code": "101430021",
+		"style": "ns",
+		"category": 32,
+		"free": true,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			237
+		],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 239,
+		"code": "101430031",
+		"style": "4.5",
+		"category": 21,
+		"free": true,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			240
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 240,
+		"code": "101430031",
+		"style": "ns",
+		"category": 21,
+		"free": true,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			239
+		],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 241,
+		"code": "101430041",
+		"style": "4.5",
+		"category": 41,
+		"free": true,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			242
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 242,
+		"code": "101430041",
+		"style": "ns",
+		"category": 41,
+		"free": true,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			241
+		],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 243,
+		"code": "101440011",
+		"style": "4.5",
+		"category": 51,
+		"free": true,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			244
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 244,
+		"code": "101440011",
+		"style": "ns",
+		"category": 51,
+		"free": true,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			243
+		],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 245,
+		"code": "101440021",
+		"style": "4.5",
+		"category": 12,
+		"free": true,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			246
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 246,
+		"code": "101440021",
+		"style": "ns",
+		"category": 12,
+		"free": true,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			245
+		],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 247,
+		"code": "101440031",
+		"style": "4.5",
+		"category": 58,
+		"free": true,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			248
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 248,
+		"code": "101440031",
+		"style": "ns",
+		"category": 58,
+		"free": true,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			247
+		],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 249,
+		"code": "101800041",
+		"style": "4.5",
+		"category": 11,
+		"free": true,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			250
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 250,
+		"code": "101800041",
+		"style": "ns",
+		"category": 11,
+		"free": true,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			249
+		],
+		"change": [],
+		"book": "마왕",
+		"book_get": [
+			"마수성"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 251,
+		"code": "101800052",
+		"style": "4.5",
+		"category": 48,
+		"free": true,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			252
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 252,
+		"code": "101800052",
+		"style": "ns",
+		"category": 48,
+		"free": true,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			251
+		],
+		"change": [],
+		"book": "제노레기온",
+		"book_get": [
+			"차원전함"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 253,
+		"code": "101800111",
+		"style": "ns",
+		"category": 55,
+		"free": true,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 254,
+		"code": "101910011",
+		"style": "4.5",
+		"category": 11,
+		"free": true,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			255
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 255,
+		"code": "101910011",
+		"style": "ns",
+		"category": 11,
+		"free": true,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			254
+		],
+		"change": [],
+		"book": "드래곤 베어러",
+		"book_get": [
+			"뱀의 간 다마크",
+			"명협계"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 256,
+		"code": "101900011",
+		"style": "4.5",
+		"category": 58,
+		"free": true,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			257
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 257,
+		"code": "101900011",
+		"style": "ns",
+		"category": 58,
+		"free": true,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			256
+		],
+		"change": [],
+		"book": "고귀한 소녀",
+		"book_get": [
+			"명협계"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 258,
+		"code": "101920011",
+		"style": "4.5",
+		"category": 22,
+		"free": true,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			259
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 259,
+		"code": "101920011",
+		"style": "ns",
+		"category": 22,
+		"free": true,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			258
+		],
+		"change": [],
+		"book": "브레이브 스톰",
+		"book_get": [
+			"식인 늪"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 260,
+		"code": "101030141",
+		"style": "4.5",
+		"category": 23,
+		"free": true,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			261
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 261,
+		"code": "101030141",
+		"style": "ns",
+		"category": 23,
+		"free": true,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			260
+		],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 262,
+		"code": "101960011",
+		"style": "4.5",
+		"category": 36,
+		"free": true,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			263
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 263,
+		"code": "101960011",
+		"style": "ns",
+		"category": 36,
+		"free": true,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			262
+		],
+		"change": [],
+		"book": "갓 핸드",
+		"book_get": [
+			"토토 드림랜드"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 264,
+		"code": "101970011",
+		"style": "4.5",
+		"category": 47,
+		"free": true,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			265
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 265,
+		"code": "101970011",
+		"style": "ns",
+		"category": 47,
+		"free": true,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			264
+		],
+		"change": [],
+		"book": "그라티넬",
+		"book_get": [
+			"제노 도메인"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 266,
+		"code": "101010111",
+		"style": "as",
+		"category": 11,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			72
+		],
+		"book": "일륜 기사",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 267,
+		"code": "101440051",
+		"style": "ns",
+		"category": 58,
+		"free": true,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	}
+]

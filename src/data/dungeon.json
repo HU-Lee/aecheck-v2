@@ -1,0 +1,170 @@
+[
+	{
+		"name": "달그림자 숲",
+		"endpoint": "another-tukikagenomori-2665"
+	},
+	{
+		"name": "공업도시 폐허",
+		"endpoint": "another-kougyoutoshihaikyo-2670"
+	},
+	{
+		"name": "나다라 화산",
+		"endpoint": "another-nadarakazan-2468"
+	},
+	{
+		"name": "식인 늪",
+		"endpoint": "another-hitokuinuma-2756"
+	},
+	{
+		"name": "미글랜스 성",
+		"endpoint": "another-miguransujou-2691"
+	},
+	{
+		"name": "제노 도메인",
+		"endpoint": "anotherzenodomein-2695"
+	},
+	{
+		"name": "차원전함",
+		"endpoint": "another-jigensenkan-2713"
+	},
+	{
+		"name": "시간의 탑",
+		"endpoint": "another-tokinotou-2673"
+	},
+	{
+		"name": "시층회랑",
+		"endpoint": "another-jisoukairou-2698"
+	},
+	{
+		"name": "별의 탑",
+		"endpoint": "another-hosinotou"
+	},
+	{
+		"name": "미글랜스 지하미궁",
+		"endpoint": "another-tikameikyu-4829"
+	},
+	{
+		"name": "사키의 꿈 의식",
+		"endpoint": "another-sakiyume-6489"
+	},
+	{
+		"name": "용궁성",
+		"endpoint": "anotherryuuguujou"
+	},
+	{
+		"name": "마수성",
+		"endpoint": "anothermajujo"
+	},
+	{
+		"name": "불타는 마수성",
+		"endpoint": "anothermoerumazyuusiro"
+	},
+	{
+		"name": "도그마의 탑",
+		"endpoint": "anotherdoguma"
+	},
+	{
+		"name": "구 KMS 본사",
+		"endpoint": "kyukmshonsha"
+	},
+	{
+		"name": "마유의 꿈 의식",
+		"endpoint": "mayunoyumeisiki"
+	},
+	{
+		"name": "봉역 어렴풋한 시각의 틈새",
+		"endpoint": "huuiki"
+	},
+	{
+		"name": "뱀의 간 다마크",
+		"endpoint": "damaku"
+	},
+	{
+		"name": "토토 드림랜드",
+		"endpoint": "anothertoto"
+	},
+	{
+		"name": "공중 정원",
+		"endpoint": "anotherteien"
+	},
+	{
+		"name": "루차나 고적",
+		"endpoint": "rutyanakyuseki"
+	},
+	{
+		"name": "기묘한 숲",
+		"endpoint": "anothermori"
+	},
+	{
+		"name": "봉역 덧없는 시각의 틈새",
+		"endpoint": "utakata"
+	},
+	{
+		"name": "메멘토스",
+		"endpoint": "memenntosu"
+	},
+	{
+		"name": "환시가 꿈꾸는 이야기",
+		"endpoint": "genshinoyume"
+	},
+	{
+		"name": "이몽 - 시간의 탑",
+		"endpoint": "imutokinotouanother"
+	},
+	{
+		"name": "현대 가를레아 대륙",
+		"endpoint": "anothergalrea"
+	},
+	{
+		"name": "고대 가를레아 대륙",
+		"endpoint": "anothergalreakodai"
+	},
+	{
+		"name": "미래 가를레아 대륙",
+		"endpoint": "anothergalreamirai"
+	},
+	{
+		"name": "명협계",
+		"endpoint": "meikyoukai"
+	},
+	{
+		"name": "고대 제르베리야 번개",
+		"endpoint": "zeruberiyakaminari"
+	},
+	{
+		"name": "고대 제르베리야 결정",
+		"endpoint": "zeruberiyashou"
+	},
+	{
+		"name": "고대 제르베리야 그림자",
+		"endpoint": "zeruberiyain"
+	},
+	{
+		"name": "실락의 도시",
+		"endpoint": "siturakunomiyako"
+	},
+	{
+		"name": "망향의 아틀리에 - 묘소",
+		"endpoint": "boukyounoatorie"
+	},
+	{
+		"name": "망향의 아틀리에 - 순례",
+		"endpoint": "junrei"
+	},
+	{
+		"name": "칠흑의 영장 기관",
+		"endpoint": "anothertokoyo"
+	},
+	{
+		"name": "이스카리옷",
+		"endpoint": "anotherisukariote"
+	},
+	{
+		"name": "얼음의 바다",
+		"endpoint": "koorinoumi"
+	},
+	{
+		"name": "일그러진 소용돌이",
+		"endpoint": "ibitunaruoouzu"
+	}
+]

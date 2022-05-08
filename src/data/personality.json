@@ -1,0 +1,1577 @@
+[
+	{
+		"name": "베이나",
+		"is_extra": false,
+		"personality": [
+			"지팡이",
+			"엘프",
+			"채집",
+			"생물"
+		],
+		"description": null,
+		"code": "101000011"
+	},
+	{
+		"name": "레이븐",
+		"is_extra": false,
+		"personality": [
+			"지팡이",
+			"가면"
+		],
+		"description": null,
+		"code": "101000021"
+	},
+	{
+		"name": "마리엘",
+		"is_extra": false,
+		"personality": [
+			"지팡이",
+			"애묘가",
+			"성직자"
+		],
+		"description": null,
+		"code": "101000031"
+	},
+	{
+		"name": "마이티",
+		"is_extra": false,
+		"personality": [
+			"지팡이",
+			"IDA스쿨"
+		],
+		"description": null,
+		"code": "101000041"
+	},
+	{
+		"name": "투바",
+		"is_extra": false,
+		"personality": [
+			"지팡이"
+		],
+		"description": null,
+		"code": "101000051"
+	},
+	{
+		"name": "비베트",
+		"is_extra": false,
+		"personality": [
+			"지팡이",
+			"애묘가"
+		],
+		"description": null,
+		"code": "101000061"
+	},
+	{
+		"name": "쿨레르보",
+		"is_extra": false,
+		"personality": [
+			"지팡이",
+			"안경",
+			"과학자",
+			"채집"
+		],
+		"description": null,
+		"code": "101000071"
+	},
+	{
+		"name": "가리유",
+		"is_extra": false,
+		"personality": [
+			"지팡이"
+		],
+		"description": null,
+		"code": "101000081"
+	},
+	{
+		"name": "레레",
+		"is_extra": false,
+		"personality": [
+			"지팡이",
+			"애묘가"
+		],
+		"description": null,
+		"code": "101000101"
+	},
+	{
+		"name": "세빈",
+		"is_extra": false,
+		"personality": [
+			"지팡이",
+			"안경",
+			"IDA스쿨",
+			"로스트 랩"
+		],
+		"description": "로스트 랩은 해후 클리어 시",
+		"code": "101000111"
+	},
+	{
+		"name": "유나",
+		"is_extra": false,
+		"personality": [
+			"지팡이",
+			"동방",
+			"성직자"
+		],
+		"description": null,
+		"code": "101000121"
+	},
+	{
+		"name": "멜로디",
+		"is_extra": false,
+		"personality": [
+			"지팡이",
+			"IDA스쿨"
+		],
+		"description": null,
+		"code": "101000141"
+	},
+	{
+		"name": "에리나",
+		"is_extra": false,
+		"personality": [
+			"지팡이"
+		],
+		"description": null,
+		"code": "101000151"
+	},
+	{
+		"name": "폼",
+		"is_extra": false,
+		"personality": [
+			"지팡이",
+			"과학자",
+			"채집"
+		],
+		"description": null,
+		"code": "101000161"
+	},
+	{
+		"name": "라디카",
+		"is_extra": false,
+		"personality": [
+			"지팡이",
+			"엘프"
+		],
+		"description": null,
+		"code": "101000171"
+	},
+	{
+		"name": "치요",
+		"is_extra": false,
+		"personality": [
+			"지팡이",
+			"용궁"
+		],
+		"description": null,
+		"code": "101000191"
+	},
+	{
+		"name": "레비아",
+		"is_extra": false,
+		"personality": [
+			"지팡이",
+			"용궁"
+		],
+		"description": null,
+		"code": "101000201"
+	},
+	{
+		"name": "노놀드",
+		"is_extra": false,
+		"personality": [
+			"지팡이",
+			"과학자",
+			"채집"
+		],
+		"description": null,
+		"code": "101000211"
+	},
+	{
+		"name": "뮬루스",
+		"is_extra": false,
+		"personality": [
+			"지팡이",
+			"마수"
+		],
+		"description": null,
+		"code": "101000221"
+	},
+	{
+		"name": "사키",
+		"is_extra": false,
+		"personality": [
+			"지팡이",
+			"IDA스쿨"
+		],
+		"description": null,
+		"code": "101000231"
+	},
+	{
+		"name": "로제타",
+		"is_extra": false,
+		"personality": [
+			"지팡이",
+			"애묘가",
+			"성직자",
+			"서방"
+		],
+		"description": null,
+		"code": "101000241"
+	},
+	{
+		"name": "듀나리스",
+		"is_extra": false,
+		"personality": [
+			"지팡이",
+			"마수",
+			"연옥계"
+		],
+		"description": "연옥계는 군상 클리어시",
+		"code": "101000251"
+	},
+	{
+		"name": "클라르테",
+		"is_extra": false,
+		"personality": [
+			"지팡이",
+			"서방"
+		],
+		"description": null,
+		"code": "101000261"
+	},
+	{
+		"name": "플람라피스",
+		"is_extra": false,
+		"personality": [
+			"지팡이",
+			"대식가"
+		],
+		"description": null,
+		"code": "101000271"
+	},
+	{
+		"name": "에바",
+		"is_extra": false,
+		"personality": [
+			"지팡이"
+		],
+		"description": null,
+		"code": "101000281"
+	},
+	{
+		"name": "마유",
+		"is_extra": false,
+		"personality": [
+			"IDA스쿨",
+			"지팡이"
+		],
+		"description": null,
+		"code": "101000291"
+	},
+	{
+		"name": "아나벨",
+		"is_extra": false,
+		"personality": [
+			"검",
+			"미글랜스 왕궁",
+			"단것 애호가"
+		],
+		"description": null,
+		"code": "101010011"
+	},
+	{
+		"name": "브리노",
+		"is_extra": false,
+		"personality": [
+			"검",
+			"미글랜스 왕궁",
+			"엘프"
+		],
+		"description": null,
+		"code": "101010021"
+	},
+	{
+		"name": "루이나",
+		"is_extra": false,
+		"personality": [
+			"검",
+			"엘프",
+			"IDA스쿨",
+			"안경"
+		],
+		"description": "안경은 AS 획득 시에만",
+		"code": "101010031"
+	},
+	{
+		"name": "미유",
+		"is_extra": false,
+		"personality": [
+			"검",
+			"미글랜스 왕궁",
+			"왕족"
+		],
+		"description": null,
+		"code": "101010041"
+	},
+	{
+		"name": "미유",
+		"is_extra": true,
+		"personality": [
+			"창",
+			"미글랜스 왕궁",
+			"왕족"
+		],
+		"description": null,
+		"code": "101010041"
+	},
+	{
+		"name": "디아드라",
+		"is_extra": false,
+		"personality": [
+			"검",
+			"미글랜스 왕궁"
+		],
+		"description": null,
+		"code": "101010051"
+	},
+	{
+		"name": "뮤론",
+		"is_extra": false,
+		"personality": [
+			"검",
+			"성직자"
+		],
+		"description": null,
+		"code": "101010061"
+	},
+	{
+		"name": "셰이네",
+		"is_extra": false,
+		"personality": [
+			"검"
+		],
+		"description": null,
+		"code": "101010081"
+	},
+	{
+		"name": "섀넌",
+		"is_extra": false,
+		"personality": [
+			"검",
+			"애묘가",
+			"미술"
+		],
+		"description": null,
+		"code": "101010091"
+	},
+	{
+		"name": "신시아",
+		"is_extra": false,
+		"personality": [
+			"검",
+			"미식",
+			"미술",
+			"왕족"
+		],
+		"description": null,
+		"code": "101010101"
+	},
+	{
+		"name": "라디아스",
+		"is_extra": false,
+		"personality": [
+			"검",
+			"미글랜스 왕궁"
+		],
+		"description": null,
+		"code": "101010111"
+	},
+	{
+		"name": "틸릴",
+		"is_extra": false,
+		"personality": [
+			"검",
+			"성직자",
+			"단것 애호가",
+			"서방"
+		],
+		"description": null,
+		"code": "101010121"
+	},
+	{
+		"name": "아자미",
+		"is_extra": false,
+		"personality": [
+			"도",
+			"동방",
+			"단것 애호가"
+		],
+		"description": null,
+		"code": "101020011"
+	},
+	{
+		"name": "니케",
+		"is_extra": false,
+		"personality": [
+			"도",
+			"동방"
+		],
+		"description": null,
+		"code": "101020021"
+	},
+	{
+		"name": "시온",
+		"is_extra": false,
+		"personality": [
+			"도",
+			"동방",
+			"애묘가"
+		],
+		"description": null,
+		"code": "101020031"
+	},
+	{
+		"name": "오토하",
+		"is_extra": false,
+		"personality": [
+			"도",
+			"애묘가",
+			"동방",
+			"생물"
+		],
+		"description": null,
+		"code": "101020041"
+	},
+	{
+		"name": "아카네",
+		"is_extra": false,
+		"personality": [
+			"도",
+			"동방"
+		],
+		"description": null,
+		"code": "101020051"
+	},
+	{
+		"name": "이스카",
+		"is_extra": false,
+		"personality": [
+			"도",
+			"IDA스쿨",
+			"로스트 랩"
+		],
+		"description": "로스트 랩은 외경 1화 클리어시",
+		"code": "101020071"
+	},
+	{
+		"name": "이스카",
+		"is_extra": true,
+		"personality": [
+			"검",
+			"IDA스쿨",
+			"로스트 랩"
+		],
+		"description": "로스트 랩은 외경 1화 클리어시",
+		"code": "101020071"
+	},
+	{
+		"name": "츠키하",
+		"is_extra": false,
+		"personality": [
+			"도",
+			"동방",
+			"가면",
+			"왕족"
+		],
+		"description": null,
+		"code": "101020081"
+	},
+	{
+		"name": "츠키하",
+		"is_extra": true,
+		"personality": [
+			"활",
+			"동방",
+			"가면",
+			"왕족"
+		],
+		"description": null,
+		"code": "101020081"
+	},
+	{
+		"name": "엘가",
+		"is_extra": false,
+		"personality": [
+			"도",
+			"애묘가"
+		],
+		"description": "애묘가는 AS 획득 시에만",
+		"code": "101020091"
+	},
+	{
+		"name": "시구레",
+		"is_extra": false,
+		"personality": [
+			"도",
+			"동방",
+			"애묘가"
+		],
+		"description": null,
+		"code": "101020101"
+	},
+	{
+		"name": "빅트",
+		"is_extra": false,
+		"personality": [
+			"도"
+		],
+		"description": null,
+		"code": "101020111"
+	},
+	{
+		"name": "히이나",
+		"is_extra": false,
+		"personality": [
+			"도",
+			"동방"
+		],
+		"description": null,
+		"code": "101020121"
+	},
+	{
+		"name": "멜리사",
+		"is_extra": false,
+		"personality": [
+			"도",
+			"합성인간"
+		],
+		"description": null,
+		"code": "101020131"
+	},
+	{
+		"name": "검은 옷의 칼잡이",
+		"is_extra": false,
+		"personality": [
+			"도",
+			"로스트 랩"
+		],
+		"description": null,
+		"code": "101020141"
+	},
+	{
+		"name": "큐리오",
+		"is_extra": false,
+		"personality": [
+			"단것 애호가",
+			"도",
+			"IDA스쿨",
+			"로스트 랩"
+		],
+		"description": "로스트 랩은 외경 1화 클리어시",
+		"code": "101020151"
+	},
+	{
+		"name": "이오",
+		"is_extra": false,
+		"personality": [
+			"도끼"
+		],
+		"description": null,
+		"code": "101030011"
+	},
+	{
+		"name": "베네디트",
+		"is_extra": false,
+		"personality": [
+			"도끼",
+			"채집"
+		],
+		"description": null,
+		"code": "101030021"
+	},
+	{
+		"name": "데니",
+		"is_extra": false,
+		"personality": [
+			"도끼"
+		],
+		"description": null,
+		"code": "101030031"
+	},
+	{
+		"name": "미란다",
+		"is_extra": false,
+		"personality": [
+			"도끼"
+		],
+		"description": null,
+		"code": "101030041"
+	},
+	{
+		"name": "큐카",
+		"is_extra": false,
+		"personality": [
+			"도끼",
+			"가면"
+		],
+		"description": null,
+		"code": "101030051"
+	},
+	{
+		"name": "야즈키",
+		"is_extra": false,
+		"personality": [
+			"도끼",
+			"안경"
+		],
+		"description": null,
+		"code": "101030061"
+	},
+	{
+		"name": "나기",
+		"is_extra": false,
+		"personality": [
+			"도끼",
+			"용궁",
+			"왕족",
+			"대식가"
+		],
+		"description": "왕족은 ES퀘스트 클리어 시",
+		"code": "101030071"
+	},
+	{
+		"name": "나기",
+		"is_extra": true,
+		"personality": [
+			"지팡이",
+			"용궁",
+			"왕족",
+			"대식가"
+		],
+		"description": "왕족은 ES퀘스트 클리어 시",
+		"code": "101030071"
+	},
+	{
+		"name": "질버",
+		"is_extra": false,
+		"personality": [
+			"도끼",
+			"채집",
+			"미술"
+		],
+		"description": null,
+		"code": "101030081"
+	},
+	{
+		"name": "렌리",
+		"is_extra": false,
+		"personality": [
+			"도끼",
+			"단것 애호가",
+			"안경"
+		],
+		"description": "안경은 AS 획득 시에만",
+		"code": "101030091"
+	},
+	{
+		"name": "이루루",
+		"is_extra": false,
+		"personality": [
+			"도끼",
+			"가면",
+			"연옥계"
+		],
+		"description": null,
+		"code": "101030101"
+	},
+	{
+		"name": "필로",
+		"is_extra": false,
+		"personality": [
+			"도끼"
+		],
+		"description": null,
+		"code": "101030111"
+	},
+	{
+		"name": "키쿄",
+		"is_extra": false,
+		"personality": [
+			"도끼",
+			"애묘가",
+			"동방"
+		],
+		"description": null,
+		"code": "101030121"
+	},
+	{
+		"name": "제빌로",
+		"is_extra": false,
+		"personality": [
+			"도끼",
+			"마수",
+			"연옥계"
+		],
+		"description": null,
+		"code": "101030131"
+	},
+	{
+		"name": "소피아",
+		"is_extra": false,
+		"personality": [
+			"도끼",
+			"장비",
+			"생물",
+			"미식",
+			"미술"
+		],
+		"description": null,
+		"code": "101030141"
+	},
+	{
+		"name": "네코코",
+		"is_extra": false,
+		"personality": [
+			"도끼",
+			"동방"
+		],
+		"description": null,
+		"code": "101030151"
+	},
+	{
+		"name": "푸른 빛의 낫잡이",
+		"is_extra": false,
+		"personality": [
+			"단것 애호가",
+			"도끼",
+			"로스트 랩"
+		],
+		"description": null,
+		"code": "101030161"
+	},
+	{
+		"name": "올레이아",
+		"is_extra": false,
+		"personality": [
+			"도끼"
+		],
+		"description": null,
+		"code": "101030171"
+	},
+	{
+		"name": "코마치",
+		"is_extra": false,
+		"personality": [
+			"창",
+			"동방"
+		],
+		"description": null,
+		"code": "101040011"
+	},
+	{
+		"name": "소이라",
+		"is_extra": false,
+		"personality": [
+			"창",
+			"미글랜스 왕궁"
+		],
+		"description": null,
+		"code": "101040021"
+	},
+	{
+		"name": "수제트",
+		"is_extra": false,
+		"personality": [
+			"창",
+			"로스트 랩",
+			"단것 애호가",
+			"미식"
+		],
+		"description": "로스트 랩은 외경 1화 클리어시",
+		"code": "101040031"
+	},
+	{
+		"name": "수제트",
+		"is_extra": true,
+		"personality": [
+			"망치",
+			"로스트 랩",
+			"단것 애호가",
+			"미식"
+		],
+		"description": "로스트 랩은 외경 1화 클리어시",
+		"code": "101040031"
+	},
+	{
+		"name": "노마르",
+		"is_extra": false,
+		"personality": [
+			"창",
+			"채굴",
+			"장비"
+		],
+		"description": null,
+		"code": "101040041"
+	},
+	{
+		"name": "포란",
+		"is_extra": false,
+		"personality": [
+			"창",
+			"IDA스쿨"
+		],
+		"description": null,
+		"code": "101040051"
+	},
+	{
+		"name": "제이드",
+		"is_extra": false,
+		"personality": [
+			"창",
+			"IDA스쿨"
+		],
+		"description": null,
+		"code": "101040071"
+	},
+	{
+		"name": "시에라",
+		"is_extra": false,
+		"personality": [
+			"창",
+			"용궁",
+			"왕족"
+		],
+		"description": null,
+		"code": "101040081"
+	},
+	{
+		"name": "세티",
+		"is_extra": false,
+		"personality": [
+			"창",
+			"안경"
+		],
+		"description": "안경은 AS 획득 시에만",
+		"code": "101040091"
+	},
+	{
+		"name": "베르트랑",
+		"is_extra": false,
+		"personality": [
+			"창",
+			"미글랜스 왕궁"
+		],
+		"description": null,
+		"code": "101040101"
+	},
+	{
+		"name": "히스메나",
+		"is_extra": false,
+		"personality": [
+			"창",
+			"IDA스쿨"
+		],
+		"description": null,
+		"code": "101040111"
+	},
+	{
+		"name": "티라미수",
+		"is_extra": false,
+		"personality": [
+			"창",
+			"단것 애호가"
+		],
+		"description": null,
+		"code": "101040121"
+	},
+	{
+		"name": "미르샤",
+		"is_extra": false,
+		"personality": [
+			"창",
+			"음유시인",
+			"서방"
+		],
+		"description": null,
+		"code": "101040131"
+	},
+	{
+		"name": "이벨라",
+		"is_extra": false,
+		"personality": [
+			"창",
+			"엘프"
+		],
+		"description": null,
+		"code": "101040141"
+	},
+	{
+		"name": "가람배럴",
+		"is_extra": false,
+		"personality": [
+			"창",
+			"동방"
+		],
+		"description": null,
+		"code": "101040161"
+	},
+	{
+		"name": "보라 의상의 창술사",
+		"is_extra": false,
+		"personality": [
+			"창",
+			"로스트 랩"
+		],
+		"description": null,
+		"code": "101040171"
+	},
+	{
+		"name": "시엘",
+		"is_extra": false,
+		"personality": [
+			"활",
+			"음유시인"
+		],
+		"description": null,
+		"code": "101050021"
+	},
+	{
+		"name": "파리사",
+		"is_extra": false,
+		"personality": [
+			"활",
+			"음유시인"
+		],
+		"description": null,
+		"code": "101050031"
+	},
+	{
+		"name": "다르니스",
+		"is_extra": false,
+		"personality": [
+			"활",
+			"채집"
+		],
+		"description": null,
+		"code": "101050041"
+	},
+	{
+		"name": "로벨라",
+		"is_extra": false,
+		"personality": [
+			"활",
+			"로스트 랩"
+		],
+		"description": null,
+		"code": "101050051"
+	},
+	{
+		"name": "라클레어",
+		"is_extra": false,
+		"personality": [
+			"활"
+		],
+		"description": null,
+		"code": "101050061"
+	},
+	{
+		"name": "라비나",
+		"is_extra": false,
+		"personality": [
+			"활",
+			"음유시인"
+		],
+		"description": null,
+		"code": "101050071"
+	},
+	{
+		"name": "클로드",
+		"is_extra": false,
+		"personality": [
+			"활",
+			"IDA스쿨",
+			"왕족"
+		],
+		"description": null,
+		"code": "101050081"
+	},
+	{
+		"name": "호오즈키",
+		"is_extra": false,
+		"personality": [
+			"활",
+			"동방",
+			"요리"
+		],
+		"description": null,
+		"code": "101050091"
+	},
+	{
+		"name": "마나",
+		"is_extra": false,
+		"personality": [
+			"활",
+			"IDA스쿨"
+		],
+		"description": null,
+		"code": "101050101"
+	},
+	{
+		"name": "프레메아",
+		"is_extra": false,
+		"personality": [
+			"활"
+		],
+		"description": null,
+		"code": "101050111"
+	},
+	{
+		"name": "미스트레아",
+		"is_extra": false,
+		"personality": [
+			"활",
+			"음유시인",
+			"서방"
+		],
+		"description": null,
+		"code": "101050121"
+	},
+	{
+		"name": "유키노",
+		"is_extra": false,
+		"personality": [
+			"활",
+			"동방"
+		],
+		"description": null,
+		"code": "101050131"
+	},
+	{
+		"name": "피치카",
+		"is_extra": false,
+		"personality": [
+			"활",
+			"음유시인",
+			"북방"
+		],
+		"description": null,
+		"code": "101050141"
+	},
+	{
+		"name": "은빛을 휘감은 번개술사",
+		"is_extra": false,
+		"personality": [
+			"활",
+			"로스트 랩"
+		],
+		"description": null,
+		"code": "101050151"
+	},
+	{
+		"name": "노나",
+		"is_extra": false,
+		"personality": [
+			"활"
+		],
+		"description": null,
+		"code": "101050161"
+	},
+	{
+		"name": "링리",
+		"is_extra": false,
+		"personality": [
+			"권갑",
+			"동방",
+			"요리"
+		],
+		"description": null,
+		"code": "101060021"
+	},
+	{
+		"name": "로키드",
+		"is_extra": false,
+		"personality": [
+			"권갑",
+			"마수"
+		],
+		"description": "마수는 AS 획득 시에만",
+		"code": "101060031"
+	},
+	{
+		"name": "루프스",
+		"is_extra": false,
+		"personality": [
+			"권갑"
+		],
+		"description": null,
+		"code": "101060051"
+	},
+	{
+		"name": "마쿠마쿠",
+		"is_extra": false,
+		"personality": [
+			"권갑",
+			"단것 애호가"
+		],
+		"description": null,
+		"code": "101060061"
+	},
+	{
+		"name": "네로",
+		"is_extra": false,
+		"personality": [
+			"권갑",
+			"동방"
+		],
+		"description": null,
+		"code": "101060071"
+	},
+	{
+		"name": "셀리느",
+		"is_extra": false,
+		"personality": [
+			"권갑",
+			"안경",
+			"IDA스쿨"
+		],
+		"description": null,
+		"code": "101060081"
+	},
+	{
+		"name": "펠미나",
+		"is_extra": false,
+		"personality": [
+			"권갑",
+			"미글랜스 왕궁"
+		],
+		"description": null,
+		"code": "101060091"
+	},
+	{
+		"name": "듀이",
+		"is_extra": false,
+		"personality": [
+			"권갑"
+		],
+		"description": null,
+		"code": "101060101"
+	},
+	{
+		"name": "츠바메",
+		"is_extra": false,
+		"personality": [
+			"권갑",
+			"동방",
+			"대식가"
+		],
+		"description": null,
+		"code": "101060111"
+	},
+	{
+		"name": "러블리",
+		"is_extra": false,
+		"personality": [
+			"권갑",
+			"요리"
+		],
+		"description": null,
+		"code": "101060121"
+	},
+	{
+		"name": "하디",
+		"is_extra": false,
+		"personality": [
+			"권갑",
+			"장비",
+			"생물",
+			"단것 애호가"
+		],
+		"description": "단것 애호가는 미래외경에서 등장하는 라비앙 로즈에서 하디에게 말을 건 후",
+		"code": "101060131"
+	},
+	{
+		"name": "빨간 외투의 화염술사",
+		"is_extra": false,
+		"personality": [
+			"권갑",
+			"로스트 랩"
+		],
+		"description": null,
+		"code": "101060141"
+	},
+	{
+		"name": "프라이",
+		"is_extra": false,
+		"personality": [
+			"망치",
+			"성직자",
+			"서방",
+			"채굴"
+		],
+		"description": null,
+		"code": "101070011"
+	},
+	{
+		"name": "사모라",
+		"is_extra": false,
+		"personality": [
+			"망치",
+			"요리",
+			"채굴",
+			"미식"
+		],
+		"description": null,
+		"code": "101070021"
+	},
+	{
+		"name": "메이",
+		"is_extra": false,
+		"personality": [
+			"망치",
+			"대장간",
+			"채굴",
+			"안경"
+		],
+		"description": null,
+		"code": "101070031"
+	},
+	{
+		"name": "유인",
+		"is_extra": false,
+		"personality": [
+			"망치",
+			"안경",
+			"단것 애호가",
+			"채굴",
+			"장비"
+		],
+		"description": null,
+		"code": "101070051"
+	},
+	{
+		"name": "메리나",
+		"is_extra": false,
+		"personality": [
+			"망치",
+			"성직자",
+			"단것 애호가",
+			"음유시인",
+			"서방",
+			"채굴",
+			"왕족"
+		],
+		"description": "왕족은 서방외경 10화 진행 시",
+		"code": "101070061"
+	},
+	{
+		"name": "메리나",
+		"is_extra": true,
+		"personality": [
+			"권갑",
+			"성직자",
+			"단것 애호가",
+			"음유시인",
+			"서방",
+			"채굴",
+			"왕족"
+		],
+		"description": "왕족은 서방외경 10화 진행 시",
+		"code": "101070061"
+	},
+	{
+		"name": "노포우족",
+		"is_extra": false,
+		"personality": [
+			"망치",
+			"대장간",
+			"채굴"
+		],
+		"description": null,
+		"code": "101070071"
+	},
+	{
+		"name": "비아카",
+		"is_extra": false,
+		"personality": [
+			"망치"
+		],
+		"description": null,
+		"code": "101070081"
+	},
+	{
+		"name": "밍화",
+		"is_extra": false,
+		"personality": [
+			"망치",
+			"동방"
+		],
+		"description": null,
+		"code": "101070091"
+	},
+	{
+		"name": "이프",
+		"is_extra": false,
+		"personality": [
+			"망치",
+			"성직자"
+		],
+		"description": null,
+		"code": "101070101"
+	},
+	{
+		"name": "히나기쿠",
+		"is_extra": false,
+		"personality": [
+			"망치",
+			"연옥계"
+		],
+		"description": null,
+		"code": "101070111"
+	},
+	{
+		"name": "녹시스",
+		"is_extra": false,
+		"personality": [
+			"망치"
+		],
+		"description": null,
+		"code": "101070121"
+	},
+	{
+		"name": "짚돌이",
+		"is_extra": false,
+		"personality": [
+			"권갑",
+			"동방"
+		],
+		"description": null,
+		"code": "101110041"
+	},
+	{
+		"name": "브리아",
+		"is_extra": false,
+		"personality": [
+			"창",
+			"엘프"
+		],
+		"description": "엘프는 5성 개방 후",
+		"code": "101140021"
+	},
+	{
+		"name": "스컬",
+		"is_extra": false,
+		"personality": [
+			"망치",
+			"가면",
+			"마음의 괴도단"
+		],
+		"description": null,
+		"code": "101400011"
+	},
+	{
+		"name": "바이올렛",
+		"is_extra": false,
+		"personality": [
+			"검",
+			"가면",
+			"마음의 괴도단",
+			"대식가"
+		],
+		"description": null,
+		"code": "101400071"
+	},
+	{
+		"name": "조커",
+		"is_extra": false,
+		"personality": [
+			"검",
+			"안경",
+			"가면",
+			"마음의 괴도단"
+		],
+		"description": null,
+		"code": "101410011"
+	},
+	{
+		"name": "모르가나",
+		"is_extra": false,
+		"personality": [
+			"검",
+			"마음의 괴도단"
+		],
+		"description": null,
+		"code": "101420011"
+	},
+	{
+		"name": "클레스",
+		"is_extra": false,
+		"personality": [
+			"검"
+		],
+		"description": null,
+		"code": "101430011"
+	},
+	{
+		"name": "유리",
+		"is_extra": false,
+		"personality": [
+			"도"
+		],
+		"description": null,
+		"code": "101430021"
+	},
+	{
+		"name": "미라",
+		"is_extra": false,
+		"personality": [
+			"검"
+		],
+		"description": null,
+		"code": "101430031"
+	},
+	{
+		"name": "벨벳",
+		"is_extra": false,
+		"personality": [
+			"검"
+		],
+		"description": null,
+		"code": "101430041"
+	},
+	{
+		"name": "세르주",
+		"is_extra": false,
+		"personality": [
+			"검"
+		],
+		"description": null,
+		"code": "101440011"
+	},
+	{
+		"name": "키드",
+		"is_extra": false,
+		"personality": [
+			"도"
+		],
+		"description": null,
+		"code": "101440021"
+	},
+	{
+		"name": "츠쿠요미",
+		"is_extra": false,
+		"personality": [
+			"지팡이"
+		],
+		"description": null,
+		"code": "101440031"
+	},
+	{
+		"name": "길드너",
+		"is_extra": false,
+		"personality": [
+			"검",
+			"마수",
+			"명계의 부름",
+			"왕족"
+		],
+		"description": null,
+		"code": "101800041"
+	},
+	{
+		"name": "헬레나",
+		"is_extra": false,
+		"personality": [
+			"지팡이",
+			"가면",
+			"합성인간"
+		],
+		"description": null,
+		"code": "101800052"
+	},
+	{
+		"name": "갤리어드",
+		"is_extra": false,
+		"personality": [
+			"창",
+			"합성인간"
+		],
+		"description": null,
+		"code": "101800063"
+	},
+	{
+		"name": "알테나",
+		"is_extra": false,
+		"personality": [
+			"활",
+			"마수",
+			"왕족"
+		],
+		"description": null,
+		"code": "101800111"
+	},
+	{
+		"name": "피네",
+		"is_extra": false,
+		"personality": [
+			"지팡이",
+			"애묘가",
+			"요리"
+		],
+		"description": null,
+		"code": "101900011"
+	},
+	{
+		"name": "알도",
+		"is_extra": false,
+		"personality": [
+			"검",
+			"주인공",
+			"천계의 인도",
+			"채집"
+		],
+		"description": null,
+		"code": "101910011"
+	},
+	{
+		"name": "사이러스",
+		"is_extra": false,
+		"personality": [
+			"도",
+			"동방",
+			"천계의 인도"
+		],
+		"description": null,
+		"code": "101920011"
+	},
+	{
+		"name": "에이미",
+		"is_extra": false,
+		"personality": [
+			"권갑",
+			"대장간",
+			"요리"
+		],
+		"description": null,
+		"code": "101960011"
+	},
+	{
+		"name": "리이카",
+		"is_extra": false,
+		"personality": [
+			"망치",
+			"애묘가",
+			"채굴"
+		],
+		"description": null,
+		"code": "101970011"
+	},
+	{
+		"name": "별이",
+		"is_extra": false,
+		"personality": [
+			"지팡이"
+		],
+		"description": null,
+		"code": "101440051"
+	}
+]
