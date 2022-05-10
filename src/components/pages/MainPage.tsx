@@ -1,10 +1,11 @@
-import { Col, Row, Select, Input, Button } from 'antd'
+import { Select, Input } from 'antd'
 import React, { useContext, useState } from 'react'
 import { useIntl } from 'react-intl'
-import { Link } from 'react-router-dom'
 import { AnotherContext } from '../../contexts'
 import { GLO_NEW, JAP_NEW } from '../../data/config'
 import { ELEMENTS, WEAPONS } from '../../data/constant'
+import { directButtonLink } from '../../util/commonComponent'
+import { FlexColumnCenterDiv, PageWrapper } from '../../util/styles'
 import CheckComponent from '../organisms/CheckComponent'
 
 const { Option } = Select;
@@ -51,49 +52,36 @@ function MainPage() {
     }
 
     return (
-        <div style={{margin: "50px auto", width:"97%", maxWidth: "1400px", padding: "20px 0 20px 0"}}>
-            <Link to={"/result"}>
-                <Button 
-                    shape='round' 
-                    style={{ 
-                        height: 45, 
-                        width: 150, 
-                        fontSize: "1.5rem", 
-                        fontWeight: 600, 
-                        margin: 5
-                    }} 
-                    type="primary" 
-                >
-                    Result
-                </Button>
-            </Link>
-            <Row align="middle" justify="center" gutter={[10, 10]} style={{marginTop: "20px"}}>
-                <Col span={24} style={{display:"flex", flexDirection:"column", alignItems:"center", justifyContent: "center"}}>
-                    <b>Filter</b>
-                    <div style={{display:"flex", flexWrap: "wrap", justifyContent:"center"}}>
-                        <Select defaultValue={0} onChange={(value: React.SetStateAction<number>) => setElement(value)} style={{width:"120px", margin:3}}>
-                            {ELEMENTS.map(({id, element}) => (
-                                <Option value={id} key={id}>{formatMessage({id: element})}</Option>
-                            ))}
-                        </Select>
-                        <Select defaultValue={0} onChange={(value: React.SetStateAction<number>) => setWeapon(value)} style={{width:"120px", margin:3}}>
-                            {WEAPONS.map(({id, weapon}) => (
-                                <Option value={id} key={id}>{formatMessage({id: weapon})}</Option>
-                            ))}
-                        </Select>
-                        <Search 
-                            style={{width:"246px", margin: "0.2rem 8px 1rem 8px"}} 
-                            placeholder="Search..." 
-                            value={SearchName} 
-                            onChange={HandleChange}
-                            enterButton 
-                            allowClear
-                        />
-                    </div>
-                </Col>
-            </Row>
+        <PageWrapper style={{maxWidth: "1400px"}}>
+            <div style={{display: "flex", justifyContent: "center", flexWrap: "wrap"}}>
+                {directButtonLink("/result", "Result")}
+                {directButtonLink("/manifest", formatMessage({id: "manifest"}))}
+            </div>
+            <FlexColumnCenterDiv style={{margin: "15px"}}>
+                <b>Filter</b>
+                <div style={{display:"flex", flexWrap: "wrap", justifyContent:"center"}}>
+                    <Select defaultValue={0} onChange={(value: React.SetStateAction<number>) => setElement(value)} style={{width:"120px", margin: "5px"}}>
+                        {ELEMENTS.map((element, idx) => (
+                            <Option value={idx} key={idx}>{formatMessage({id: element})}</Option>
+                        ))}
+                    </Select>
+                    <Select defaultValue={0} onChange={(value: React.SetStateAction<number>) => setWeapon(value)} style={{width:"120px", margin: "5px"}}>
+                        {WEAPONS.map((weapon, idx) => (
+                            <Option value={idx} key={idx}>{formatMessage({id: weapon})}</Option>
+                        ))}
+                    </Select>
+                    <Search 
+                        style={{width:"250px", margin: "5px"}} 
+                        placeholder="Search..." 
+                        value={SearchName} 
+                        onChange={HandleChange}
+                        enterButton
+                        allowClear
+                    />
+                </div>
+            </FlexColumnCenterDiv>
             <CheckComponent data={filtered}/>
-        </div>
+        </PageWrapper>
     )
 }
 

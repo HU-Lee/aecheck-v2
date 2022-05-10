@@ -1,19 +1,12 @@
 import React, { useContext } from 'react'
-import styled from 'styled-components'
 import { AnotherContext } from '../../contexts'
-
-const Stylemark = styled.img`
-    position: absolute;
-    width: 30px;
-    left: -6px;
-    top: -6px;
-    z-index: 3;
-`
+import { stylemark } from '../../util/commonComponent'
 
 /**
  * CharacterSelect
  * 
  * 캐릭터를 선택할 수 있는 Component
+ * @param data : 해당하는 캐릭터의 json data
  */
 const CharacterSelect:React.FC<CharacterInfo> = (data) => {
 
@@ -31,7 +24,7 @@ const CharacterSelect:React.FC<CharacterInfo> = (data) => {
 
     return (
         <div onClick={() => toggleInven(data.id)} style={{position: "relative", width:60, margin: 3, display: "inline-block"}}>
-            {data.style !== "4.5" ? <Stylemark src={`images/category/${data.style}.png`}/> : null}
+            {stylemark(data)}
             <img className={!inven.includes(data.id) ? "gray" : ""} alt="select"
                 src={`images/character/${data.id}.png`} 
             style={{width:60, borderRadius:3 }}/>

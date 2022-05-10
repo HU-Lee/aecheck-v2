@@ -1,36 +1,21 @@
 import { MinusOutlined, PlusOutlined } from '@ant-design/icons'
 import { Button, Progress } from 'antd'
-import React, { useContext, useEffect, useState } from 'react'
+import React, { useContext, useState } from 'react'
 import { useIntl } from 'react-intl'
-import styled from 'styled-components'
 import { AnotherContext } from '../../contexts'
 import { GLO_MANIFEST_NEW, JAP_MANIFEST_NEW } from '../../data/config'
-
-const Stylemark = styled.img`
-    position: absolute;
-    width: 30px;
-    left: -6px;
-    top: -6px;
-    z-index: 3;
-`
+import { MANIFEST_STEPS } from '../../data/constant'
+import { stylemark } from '../../util/commonComponent'
 
 const CharacterManifest:React.FC<CharacterInfo> = (data_manifest) =>  {
 
     // intl, context load
     const { formatMessage } = useIntl()
-    const { manifest, changeManifest, data, inven, version } = useContext(AnotherContext)
+    const { manifest, changeManifest, version } = useContext(AnotherContext)
     
-    const levels = ["-", "현현", "진현현"]
-
-    const steps = version==="japanese" ? levels.indexOf(data_manifest.manifest_jap) : levels.indexOf(data_manifest.manifest_glo)
+    const steps = version==="japanese" ? MANIFEST_STEPS.indexOf(data_manifest.manifest_jap) : MANIFEST_STEPS.indexOf(data_manifest.manifest_glo)
 
     const [CurrentStep, setCurrentStep] = useState(Math.min(steps, Math.floor(manifest.filter(a => a%10000 === data_manifest.id)[0]/10000)) || 0)
-
-    useEffect(() => {
-      setCurrentStep(Math.min(steps, Math.floor(manifest.filter(a => a%10000 === data_manifest.id)[0]/10000)) || 0)
-    }, [version])
-    
-
 
     const onMinus = () => {
         const newStep = Math.max(0, CurrentStep-1)
@@ -68,7 +53,7 @@ const CharacterManifest:React.FC<CharacterInfo> = (data_manifest) =>  {
             </b>    
             <div style={{marginTop: 3, display: "flex", flexDirection: "column"}}>               
                 <div style={{width:60, position: "relative", display: "inline-block", margin: 2}}>
-                        {data_manifest.style !== "4.5" ? <Stylemark src={`images/category/${data_manifest.style}.png`}/> : null}
+                        {stylemark(data_manifest)}
                         <img alt="select" src={`images/character/${data_manifest.id}.png`} 
                         style={{width:60, borderRadius:3 }}/>
                 </div>
@@ -79,7 +64,7 @@ const CharacterManifest:React.FC<CharacterInfo> = (data_manifest) =>  {
                     <Button onClick={onMinus} icon={<MinusOutlined />} />
                     <Button onClick={onPlus} icon={<PlusOutlined />} />
                 </Button.Group>
-                <b style={{margin: "5px", fontSize: "15px"}}>{CurrentStep > 0 ? formatMessage({id: levels[CurrentStep]}) : levels[CurrentStep]}</b>
+                <b style={{margin: "5px", fontSize: "15px"}}>{CurrentStep > 0 ? formatMessage({id: MANIFEST_STEPS[CurrentStep]}) : MANIFEST_STEPS[CurrentStep]}</b>
             </div>
         </div>
     )

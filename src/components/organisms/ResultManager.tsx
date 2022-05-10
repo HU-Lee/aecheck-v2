@@ -11,7 +11,7 @@ import CharacterTable from '../molecules/CharacterTable'
  */
 function ResultManager() {
     return (
-        <Col xs={24} style={{display:"flex", flexWrap: "wrap", alignItems:"center", justifyContent: "center"}}>
+        <Col xs={24} style={{display:"flex", flexWrap: "wrap", alignItems:"center", justifyContent: "center", marginBottom: '20px'}}>
             <Downloader tag='checkresult'/>
             <CharacterTable/>
         </Col>

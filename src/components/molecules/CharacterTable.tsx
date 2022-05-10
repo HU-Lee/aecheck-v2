@@ -42,8 +42,8 @@ function CharacterTable() {
                         <thead>
                             <tr>
                                 <th style={{width: 70}}></th>
-                                {ELEMENTS.filter(a => a.id > 0).map(({element, id}) => (
-                                    <th key={id} style={{width: 240}}>
+                                {ELEMENTS.slice(1).map((element, idx) => (
+                                    <th key={idx} style={{width: 240}}>
                                         {element === "lunatic" ? <>
                                             <b style={{fontSize:"1.2rem"}}>Lunatic + </b>
                                         </> : null}
@@ -53,14 +53,14 @@ function CharacterTable() {
                             </tr>
                         </thead>
                         <tbody>
-                            {WEAPONS.filter(a => a.id > 0).map((weapon, index) => (
-                                <tr key={index}>
+                            {WEAPONS.slice(1).map((weapon, idx) => (
+                                <tr key={idx}>
                                     <td>
-                                        <img style={{width: 50}} src={`images/category/${weapon.weapon}.png`} alt={weapon.weapon}/>
+                                        <img style={{width: 50}} src={`images/category/${weapon}.png`} alt={weapon}/>
                                     </td>
-                                    {ELEMENTS.filter(a => a.id > 0).map((element, index) => (
-                                        <td key={index} className={(weapon.id+element.id)%2===1 ? "odd" : "even"} style={{padding:"5px 0 5px 0"}}>
-                                            {data.filter(a => element.id === Math.floor(a.category/10) && weapon.id === a.category%10)
+                                    {ELEMENTS.slice(1).map((element, idx2) => (
+                                        <td key={idx2} className={(idx+idx2)%2===1 ? "odd" : "even"} style={{padding:"5px 0 5px 0"}}>
+                                            {data.filter(a => idx2 === Math.floor(a.category/10) && idx === a.category%10)
                                             .filter(a => a.style !== "4.5")
                                             .filter(e => version==="japanese" || !e.jonly)
                                             .map((d) => (

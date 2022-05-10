@@ -1,9 +1,11 @@
-import { Collapse, Input, Empty } from 'antd';
+import { Collapse, Input } from 'antd';
 import React, { useContext, useState } from 'react'
 import { useIntl } from 'react-intl'
 import { AnotherContext } from '../../contexts'
 import { GLO_MANIFEST_NEW, JAP_MANIFEST_NEW } from '../../data/config';
 import { STYLES } from '../../data/constant';
+import { directButtonLink } from '../../util/commonComponent';
+import { PageWrapper } from '../../util/styles';
 import CharacterManifest from '../atoms/CharacterManifest';
 import CharacterResult from '../atoms/CharacterResult';
 
@@ -99,10 +101,10 @@ function ManifestPage() {
     }
 
     return (
-        <div style={{margin: "50px auto", width:"100%", maxWidth: "1200px", fontSize:"12px", padding: "20px 0 20px 0"}}>
-            <h1>{formatMessage({id: "manifest"})} Checklist</h1>
+        <PageWrapper style={{maxWidth: "1200px"}}>
+            {directButtonLink("/", "Back to Checklist")}
             <Search 
-                style={{width:"246px", margin: "0.2rem 8px 1rem 8px"}} 
+                style={{width:"250px", margin: "10px auto"}} 
                 placeholder="Search..." 
                 value={SearchName} 
                 onChange={HandleChange}
@@ -121,7 +123,8 @@ function ManifestPage() {
                 {filtered.map(info => {
                     if (getError(info)) return null
                     const steps = version==="japanese" ? levels.indexOf(info.manifest_jap) : levels.indexOf(info.manifest_glo)
-                    if (manifest.find(a => a%10000 === info.id) === steps*10000 + info.id) return null
+                    console.log(manifest.find(a => a%10000 === info.id) || 0 , steps*10000 + info.id, info.book)
+                    if ((manifest.find(a => a%10000 === info.id) || 0) >= steps*10000 + info.id) return null
                     else return <CharacterManifest key={info.id} {...info}/>
                 })}
             </div>
@@ -139,7 +142,7 @@ function ManifestPage() {
                         {filtered.map(info => {
                             if (getError(info)) return null
                             const steps = version==="japanese" ? levels.indexOf(info.manifest_jap) : levels.indexOf(info.manifest_glo)
-                            if (manifest.find(a => a%10000 === info.id) !== steps*10000 + info.id) return null
+                            if ((manifest.find(a => a%10000 === info.id) || 0) < steps*10000 + info.id) return null
                             else return <CharacterManifest key={info.id} {...info}/>
                         })}
                     </div>
@@ -155,7 +158,7 @@ function ManifestPage() {
                     ))}
                 </Panel>
             </Collapse>
-        </div>
+        </PageWrapper>
     )
 }
 

@@ -23,11 +23,11 @@ const CharacterTableView:React.FC<CharacterTableViewProps> = (data) => {
     // intl load
     const { formatMessage } = useIntl()
 
-    const weapon = WEAPONS.find(a => a.id === data.category%10)
+    const weapon = WEAPONS[data.category%10]
 
     return (
         <Tooltip title={`${formatMessage({id: data.code})}${data.style !== "4.5" ? " " + data.style.toUpperCase() : ""}
-                       - ${formatMessage({id: data.sky})}, ${formatMessage({id: weapon?.weapon})}`}>
+                       - ${formatMessage({id: data.sky})}, ${formatMessage({id: weapon})}`}>
             <div style={{width:60, position: "relative", display: "inline-block", margin: 2}}>
                 {data.style !== "4.5" ? <Stylemark src={`images/category/${data.style}.png`}/> : null}
                 <img className={!data.have ? "gray" : ""} alt="select"

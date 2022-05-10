@@ -47,7 +47,7 @@ function Sidebar() {
      * @param path: 현재 주소. 사이드바 메뉴를 강조할 때 참조한다.
      */
     const [visible, setVisible] = useState(false);
-    const path = window.location.pathname.replaceAll("/anothercharcheck", "")
+    const path = window.location.pathname.replaceAll("/aetest", "")
 
     // 체크 관련 메뉴 옵션
     const check_endpoints = [
@@ -85,11 +85,11 @@ function Sidebar() {
                 onClick={() => setVisible(true)}
             />
             <div style={{flexGrow: 1, maxWidth: 1300, fontSize: 20, fontWeight: 600, lineHeight: "40px"}}>
-                AE Checklist &#38; Tools
+                AE Check &#38; Tools
             </div>
         </div>
         <Drawer 
-            title="AE Checklist &#38; Tools"
+            title="AE Check &#38; Tools"
             width={240}
             placement="left" 
             onClose={() => setVisible(false)} 

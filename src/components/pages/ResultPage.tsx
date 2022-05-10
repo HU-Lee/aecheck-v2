@@ -1,11 +1,12 @@
-import { Collapse, Row, Col, Divider, Button } from 'antd';
+import { Collapse, Row, Col, Divider } from 'antd';
 import React, { useContext } from 'react'
 import { useIntl } from 'react-intl';
-import { Link } from 'react-router-dom';
 import { AnotherContext } from '../../contexts'
 import { ELEMENTS } from '../../data/constant';
+import { directButtonLink } from '../../util/commonComponent';
+import { PageWrapper } from '../../util/styles';
 import CharacterResult from '../atoms/CharacterResult';
-import DataManager from '../organisms/ResultManager';
+import ResultManager from '../organisms/ResultManager';
 
 const { Panel } = Collapse;
 
@@ -104,26 +105,10 @@ function ResultPage() {
     
 
     return (
-        <div style={{margin: "0 auto", width:"100%", maxWidth: "1100px", padding:20}}>
-            <Link to={"/"}>
-                <Button 
-                    shape='round' 
-                    style={{ 
-                        height: 45, 
-                        width: 240, 
-                        fontSize: "1.5rem", 
-                        fontWeight: 600, 
-                        margin: 5,
-                        marginTop: "50px"
-                    }} 
-                    type="primary" 
-                >
-                    Back to Checklist
-                </Button>
-            </Link>
-            <Divider style={{margin: 3}}/>
-            <DataManager/>
-            <Divider style={{margin: 8}}/>
+        <PageWrapper style={{maxWidth: "1100px"}}>
+            {directButtonLink("/", "Back to Checklist")}
+            <Divider style={{margin: 5}}/>
+            <ResultManager/>
             <div id="checkresult">
                 <Collapse defaultActiveKey={['1', '2', '3', '4']} style={{fontSize: "1rem", fontWeight: 600}}>
                     <Panel header={`${formatMessage({id: "resultmenu1"})} (${renderNo(false).length} + ${renderNo(true).length})`} key="1">
@@ -160,8 +145,8 @@ function ResultPage() {
                         </Row>
                     </Panel>
                     <Panel header={formatMessage({id: "resultmenu4"})} key="4">
-                        {ELEMENTS.filter(a => a.id > 0).map(({id, element}) => (
-                            <Row key={id} align="middle" justify="center" style={{marginBottom:"5px"}}>
+                        {ELEMENTS.slice(1).map((element, idx) => (
+                            <Row key={idx} align="middle" justify="center" style={{marginBottom:"5px"}}>
                                 <Col xs={24} sm={4}>
                                     {element === "etc" ? <>
                                         <b>Lunatic</b><br/>
@@ -170,7 +155,7 @@ function ResultPage() {
                                     <img alt={element} src={`images/category/${element}.png`} width="40"/>
                                 </Col>
                                 <Col xs={23} sm={20} style={{textAlign: "left"}}>
-                                    {renderElement(id)}
+                                    {renderElement(idx)}
                                 </Col>
                                 {element !== "etc" ? <Divider style={{margin: "15px auto"}}/> : null}
                             </Row>
@@ -178,7 +163,7 @@ function ResultPage() {
                     </Panel>
                 </Collapse>
             </div>
-        </div>
+        </PageWrapper>
     )
 }
 
