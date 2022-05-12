@@ -1,4 +1,4 @@
-import { Button } from "antd";
+import { Button, Empty } from "antd";
 import { Link } from "react-router-dom";
 import { StylemarkStyle } from "./styles";
 
@@ -36,4 +36,13 @@ export const directButtonLink = (endpoint: string, text: string) => (
             {text}
         </Button>
     </Link>
+)
+
+/**
+ * emptyImage
+ * 
+ * 데이터가 없을 때 표시할 이미지
+ */ 
+export const emptyImage = (
+    <Empty image="images/nodata.png" style={{margin: 20}}/>
 )

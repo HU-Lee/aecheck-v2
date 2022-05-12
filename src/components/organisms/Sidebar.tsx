@@ -5,6 +5,7 @@ import { useIntl } from 'react-intl';
 import { Link } from 'react-router-dom';
 import styled, { css } from 'styled-components';
 import { AnotherContext } from '../../contexts';
+import { GLO_VER, JAP_VER } from '../../data/config';
 import DataLoader from '../atoms/DataLoader';
 
 const { Option } = Select;
@@ -128,8 +129,8 @@ function Sidebar() {
                 </Radio.Group>
                 <b>Version</b>
                 <Select defaultValue={version} onChange={(value: string) => changeVersion(value)} style={{minWidth: 100}}>
-                    <Option value="global">GLOBAL (2.11.700)</Option>
-                    <Option value="japanese">JAPAN (2.13.10)</Option>
+                    <Option value="global">GLOBAL ({GLO_VER})</Option>
+                    <Option value="japanese">JAPAN ({JAP_VER})</Option>
                 </Select>
             </div>
         </Drawer>

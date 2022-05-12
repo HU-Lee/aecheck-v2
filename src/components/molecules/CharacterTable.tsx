@@ -16,7 +16,7 @@ function CharacterTable() {
 
     // intl, context load
     const { formatMessage } = useIntl()
-    const { inven, data, version } = useContext(AnotherContext)
+    const { inven, select_char_data, version } = useContext(AnotherContext)
 
     const [isModalVisible, setIsModalVisible] = useState(false);
 
@@ -60,7 +60,7 @@ function CharacterTable() {
                                     </td>
                                     {ELEMENTS.slice(1).map((element, idx2) => (
                                         <td key={idx2} className={(idx+idx2)%2===1 ? "odd" : "even"} style={{padding:"5px 0 5px 0"}}>
-                                            {data.filter(a => idx2 === Math.floor(a.category/10) && idx === a.category%10)
+                                            {select_char_data.filter(a => idx2 === Math.floor(a.category/10) && idx === a.category%10)
                                             .filter(a => a.style !== "4.5")
                                             .filter(e => version==="japanese" || !e.jonly)
                                             .map((d) => (

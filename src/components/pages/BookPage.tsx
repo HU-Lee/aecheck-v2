@@ -2,6 +2,7 @@ import React, { useContext, useState } from 'react'
 import { Input, Button, Table } from 'antd'
 import { AnotherContext } from '../../contexts';
 import { useIntl } from 'react-intl';
+import { FlexColumnCenterDiv } from '../../util/styles';
 
 const { Search } = Input;
 
@@ -14,7 +15,7 @@ function BookPage() {
 
     // intl, context load
     const { formatMessage } = useIntl()
-    const { data } = useContext(AnotherContext)
+    const { select_char_data } = useContext(AnotherContext)
 
     /**
      * @param dungeon_link_data: 던전 이름과 알테마 링크를 매칭시킨 데이터
@@ -28,7 +29,7 @@ function BookPage() {
     }
 
     // 설정값에 따라 데이터를 filter. 이름 또는 직업서 둘 중 하나만 해당되면 된다.
-    const filtered = data.filter(e => e.book !== "없음")
+    const filtered = select_char_data.filter(e => e.book !== "없음")
     .filter(e => SearchName==="" 
         || (formatMessage({id: e.code}) + `(${e.style})`).toLowerCase().includes(SearchName.toLowerCase()) 
         || formatMessage({id: e.book}).toLowerCase().includes(SearchName.toLowerCase())
@@ -58,11 +59,7 @@ function BookPage() {
     ];
 
     const datasets = filtered.map((info, index) => ({
-        name: <div style={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center"
-        }}>
+        name: <FlexColumnCenterDiv>
             <img alt="select"
                     src={`images/character/${info.id}.png`} 
                 style={{width:50, borderRadius:3 }}/>
@@ -71,7 +68,7 @@ function BookPage() {
             } : undefined}>
                 {(formatMessage({id: info.code}) + `(${info.style.toUpperCase()})`)}
             </b>
-        </div>,
+        </FlexColumnCenterDiv>,
         book: <b style={ SearchName!=="" && formatMessage({id: info.book}).toLowerCase().includes(SearchName.toLowerCase()) ? {
             color: "red"
         } : undefined}>

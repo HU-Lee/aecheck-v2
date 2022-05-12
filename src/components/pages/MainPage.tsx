@@ -2,9 +2,9 @@ import { Select, Input } from 'antd'
 import React, { useContext, useState } from 'react'
 import { useIntl } from 'react-intl'
 import { AnotherContext } from '../../contexts'
-import { GLO_NEW, JAP_NEW } from '../../data/config'
 import { ELEMENTS, WEAPONS } from '../../data/constant'
 import { directButtonLink } from '../../util/commonComponent'
+import { new_char_to_top } from '../../util/function'
 import { FlexColumnCenterDiv, PageWrapper } from '../../util/styles'
 import CheckComponent from '../organisms/CheckComponent'
 
@@ -20,7 +20,7 @@ function MainPage() {
 
     // intl, context load
     const { formatMessage } = useIntl()
-    const { data, version } = useContext(AnotherContext)
+    const { select_char_data, version } = useContext(AnotherContext)
 
     /**
      * @param Element: 선택한 속성
@@ -36,7 +36,7 @@ function MainPage() {
     }
 
     // 설정값에 따라 데이터를 filter
-    const filtered = data.filter(e => SearchName==="" || formatMessage({id: e.code}).toLowerCase().includes(SearchName.toLowerCase()))
+    const filtered = select_char_data.filter(e => SearchName==="" || formatMessage({id: e.code}).toLowerCase().includes(SearchName.toLowerCase()))
     .filter(e => Element===0 || Math.floor(e.category/10)===Element)
     .filter(e => Weapon===0 || Math.floor(e.category%10)===Weapon)
     .filter(e => {
@@ -44,12 +44,7 @@ function MainPage() {
         else return !e.jonly
     })
 
-    // 버전의 신 캐릭터를 맨 앞으로 보내도록 sort
-    if (version==="japanese") {
-        filtered.sort((a,b) => !JAP_NEW.includes(a.code) ? 1 : -1)
-    } else {
-        filtered.sort((a,b) => !GLO_NEW.includes(a.code) ? 1 : -1)
-    }
+    new_char_to_top(filtered, version)
 
     return (
         <PageWrapper style={{maxWidth: "1400px"}}>
@@ -80,7 +75,7 @@ function MainPage() {
                     />
                 </div>
             </FlexColumnCenterDiv>
-            <CheckComponent data={filtered}/>
+            <CheckComponent infos={filtered}/>
         </PageWrapper>
     )
 }

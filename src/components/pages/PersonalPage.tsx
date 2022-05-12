@@ -2,6 +2,7 @@ import { ExclamationOutlined } from '@ant-design/icons'
 import { AutoComplete, Button, Popover, Table, Tag } from 'antd'
 import React, { useState } from 'react'
 import { useIntl } from 'react-intl'
+import { FlexColumnCenterDiv } from '../../util/styles'
 
 const colors = ["magenta", "volcano", "gold", "green", "cyan", "blue", "purple"]
 
@@ -74,31 +75,21 @@ function PersonalPage() {
 
     const datasets = filtered.map((info, index) => {
       return {
-        name: <div style={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            justifyContent: "center"
-        }}>
+        name: <FlexColumnCenterDiv>
             <img alt="select"
                     src={`images/personality/${info.name}${info.is_extra ? "(ES)" : ""}.png`} 
                 style={{width:50, borderRadius:3 }}/>
             <b>
                 {formatMessage({id: info.name}) + (info.is_extra ? "(ES)" : "")}
             </b>
-        </div>,
-        personality: <div style={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            justifyContent: "center"
-        }}>
+        </FlexColumnCenterDiv>,
+        personality: <FlexColumnCenterDiv>
             <div>
               {info.personality.map((a,index) => (
                   <Tag style={{margin: '1px'}} color={colors[index%7]} key={index}>{formatMessage({id: a})}</Tag>
               ))}
             </div>
-        </div>,
+        </FlexColumnCenterDiv>,
         description: info.description ? <Popover content={<b style={{color: 'red'}}>{info.description}</b>}>
             <Button type="default" shape='circle' danger icon={<ExclamationOutlined />}/>
         </Popover> : null 

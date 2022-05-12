@@ -18,10 +18,27 @@ export const PageWrapper = styled.div`
     flex-direction: column;
 `
 
-// flexbox styling
+// image를 감싸는 div styling
+export const ImageWrapper = styled.div`
+    position: relative;
+    width: 60px;
+    margin: 3px;
+    display: inline-block;
+`
+
+
+// 그 외 기본 div styling
 export const FlexColumnCenterDiv = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 `
+export const GridDiv = styled.div`
+    display: grid;
+    padding: 3px;
+    gap: 2px 2px;
+    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+    justify-content: center;
+`
+
