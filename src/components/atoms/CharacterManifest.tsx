@@ -1,6 +1,6 @@
 import { MinusOutlined, PlusOutlined } from '@ant-design/icons'
 import { Button, Progress } from 'antd'
-import React, { useContext, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { useIntl } from 'react-intl'
 import { AnotherContext } from '../../contexts'
 import { GLO_MANIFEST_NEW, JAP_MANIFEST_NEW } from '../../data/config'
@@ -26,6 +26,11 @@ const CharacterManifest:React.FC<CharacterInfo> = (info) =>  {
      */
     const maxStep = version==="japanese" ? MANIFEST_STEPS.indexOf(info.manifest_jap) : MANIFEST_STEPS.indexOf(info.manifest_glo)
     const [currentStep, setCurrentStep] = useState(Math.min(maxStep, Math.floor(manifest.filter(a => a%10000 === info.id)[0]/10000)) || 0)
+
+    useEffect(() => {
+        if (maxStep < currentStep) setCurrentStep(maxStep)
+    }, [maxStep, currentStep])
+    
 
     const onMinus = () => {
         const newStep = Math.max(0, currentStep-1)

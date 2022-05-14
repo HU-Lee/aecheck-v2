@@ -92,7 +92,7 @@ function Sidebar() {
         </div>
         <Drawer 
             title="AE Check &#38; Tools"
-            width={240}
+            width={250}
             placement="left" 
             onClose={() => setVisible(false)} 
             visible={visible} 

@@ -1573,5 +1573,16 @@
 		],
 		"description": null,
 		"code": "101440051"
+	},
+	{
+		"name": "묵염의 책사 시온",
+		"is_extra": false,
+		"personality": [
+			"지팡이",
+			"동방",
+			"애묘가"
+		],
+		"description": null,
+		"code": "101000301"
 	}
 ]

@@ -1,4 +1,4 @@
-import { Button, Input, Modal } from 'antd'
+import { Button, Checkbox, Input, Modal } from 'antd'
 import React, { useContext, useState} from 'react'
 import styled from 'styled-components';
 import Swal from 'sweetalert2';
@@ -18,6 +18,9 @@ const DataLoaderStyle = styled.div`
     margin-bottom: 8px;
 `
 
+// 기존 데이터와 현재 데이터를 match시켜주는 데이터
+const convert_data = require("../../data/old_to_new.json")
+
 /**
  * DataLoader
  * 
@@ -31,9 +34,11 @@ function DataLoader() {
     
     /**
      * @param UserData          유저가 입력한 데이터
+     * @param isOld             데이터의 구 버전 여부 (2022.5.02 이전)
      * @param isModalVisible    모달의 보임 여부
      */
     const [UserData, setUserData] = useState("")
+    const [isOld, setIsOld] = useState(false)
     const [isModalVisible, setIsModalVisible] = useState(false);
 
     const showModal = () => {
@@ -62,13 +67,18 @@ function DataLoader() {
     // 텍스트를 캐시에 저장하고 사이트 데이터를 갱신
     const dataLoad = () => {
         try {
-            const newData: SaveData = JSON.parse(UserData.trim())
-
-            window.localStorage.setItem("a_inv_new", newData.inven.join(","))
-            setInven(newData.inven)
-            window.localStorage.setItem("a_man", newData.manifest.join(","))
-            setManifest(newData.manifest)
-
+            if (isOld) {
+                const oldData = UserData.split(",").map(a => convert_data[a] || -1)
+                window.localStorage.setItem("a_inv_new", oldData.join(","))
+                setInven(oldData)
+            } else {
+                const newData: SaveData = JSON.parse(UserData.trim())
+    
+                window.localStorage.setItem("a_inv_new", newData.inven.join(","))
+                setInven(newData.inven)
+                window.localStorage.setItem("a_man", newData.manifest.join(","))
+                setManifest(newData.manifest)
+            }
             Swal.fire({
                 text: "Data Load Success",
                 width: 280,
@@ -107,6 +117,8 @@ function DataLoader() {
                 <TextArea placeholder="New data here" value={UserData}
                 onChange={(e) => setUserData(e.currentTarget.value)}
                 autoSize={{ minRows: 4, maxRows: 4 }}/>
+                <br/><br/>
+                <Checkbox onChange={() => setIsOld(!isOld)}>Old Data (~22.05.02)</Checkbox>
                 <br/><br/>
                 <Button style={{margin: 5}} type="primary" onClick={dataSave}>SAVE TXT</Button>
                 <Button style={{margin: 5}} type="primary" onClick={dataLoad} danger>LOAD</Button>

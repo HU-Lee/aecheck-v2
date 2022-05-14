@@ -93,7 +93,7 @@ function ManifestPage() {
 
     // 현현 All Clear 메시지
     const manifestMessage = <div>
-        <h3>다음 현현이 완료 처리됩니다.</h3>
+        <h3>{formatMessage({id: "manifest_message"})}</h3>
         {manifest_incomplete.map((info, index) => (
             <CharacterResult key={index} {...info}/>
         ))}
@@ -105,7 +105,8 @@ function ManifestPage() {
             const maxStep = version==="japanese" ? MANIFEST_STEPS.indexOf(info.manifest_jap) : MANIFEST_STEPS.indexOf(info.manifest_glo)
             return maxStep*10000 + info.id
         })
-        const total_manifests = [...manifest, ...new_manifests]
+        const filtered_manifests = manifest.filter(a => !manifest_incomplete.map(info => info.id).includes(a%10000))
+        const total_manifests = [...filtered_manifests, ...new_manifests]
         window.localStorage.setItem("a_man", total_manifests.join(","))
         setManifest(total_manifests)
     }
