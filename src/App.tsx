@@ -12,14 +12,19 @@ import PersonalPage from './components/pages/PersonalPage';
 import ManifestPage from './components/pages/ManifestPage';
 
 const announceHTML = `<div class="announce">
-  JAPANESE 2.13.10 UPDATE<br/>
+  사이트가 리뉴얼 되었습니다.
   <br/>
-  라디아스AS, 별이 2캐릭 반영
+  Site has been renewed.
+  <br/>
+  <br/>
+  자세한 사항은 링크를 확인해 주세요. 
+  <br/>
+  <a href="https://github.com/HU-Lee" target="_blank" rel="noreferrer">Link</a>
 </div>`
 
 function App() {
 
-  const announceViewed = Boolean(window.localStorage.getItem("a_v_2"))
+  const announceViewed = Boolean(window.localStorage.getItem("a_v_220515"))
 
   const { lang } = useContext(AnotherContext)
   const message = require(`./language/${lang}.json`)
@@ -27,12 +32,13 @@ function App() {
   useEffect(() => {
     if(!announceViewed) {
       window.localStorage.removeItem("a_v")
+      window.localStorage.removeItem("a_v_2")
       Swal.fire({
         title: 'Update - 22.05.01',
         html: announceHTML,
         icon: 'success',
       }).then(() => {
-        window.localStorage.setItem("a_v_2", "true")
+        window.localStorage.setItem("a_v_220515", "true")
       })
     }
   }, [announceViewed])

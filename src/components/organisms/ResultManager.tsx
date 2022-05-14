@@ -1,4 +1,3 @@
-import { Col } from 'antd'
 import React from 'react'
 import Downloader from '../atoms/Downloader'
 import CharacterTable from '../molecules/CharacterTable'
@@ -11,10 +10,10 @@ import CharacterTable from '../molecules/CharacterTable'
  */
 function ResultManager() {
     return (
-        <Col xs={24} style={{display:"flex", flexWrap: "wrap", alignItems:"center", justifyContent: "center", marginBottom: '20px'}}>
+        <div style={{display:"flex", flexWrap: "wrap", alignItems:"center", justifyContent: "center", marginBottom: '20px'}}>
             <Downloader tag='checkresult'/>
             <CharacterTable/>
-        </Col>
+        </div>
     )
 }
 

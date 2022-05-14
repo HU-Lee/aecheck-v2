@@ -4,9 +4,9 @@ import CharacterGroup from '../molecules/CharacterGroup'
 
 /**
  * CheckComponent
+ * MainPage의 필터를 제외한 체크리스트 부분 Component입니다.
  * 
- * MainPage의 필터를 제외한 체크리스트 부분입니다.
- * @param infos : 캐릭터 json data array
+ * @param infos  해당하는 캐릭터의 json data array
  */
 const CheckComponent:React.FC<CharInfoProps> = ({infos}) => {
 

@@ -21,20 +21,20 @@ const DataLoaderStyle = styled.div`
 /**
  * DataLoader
  * 
- * 체크리스트 사이트 데이터 캐시를 로컬에 저장하거나 
- * 해당 값을 바탕으로 데이터를 불러옵니다.
+ * 체크리스트 사이트 데이터를 로컬에 저장하거나 
+ * 텍스트 데이터를 바탕으로 데이터를 불러옵니다.
  */
 function DataLoader() {
 
     // context load
-    const { inven, setInven } = useContext(AnotherContext)
+    const { inven, setInven, manifest, setManifest } = useContext(AnotherContext)
     
-    // 유저가 입력한 데이터
+    /**
+     * @param UserData          유저가 입력한 데이터
+     * @param isModalVisible    모달의 보임 여부
+     */
     const [UserData, setUserData] = useState("")
-
     const [isModalVisible, setIsModalVisible] = useState(false);
-
-    const dataText = inven.join(",")
 
     const showModal = () => {
         setIsModalVisible(true);
@@ -44,54 +44,71 @@ function DataLoader() {
         setIsModalVisible(false);
     };
 
-    const dataCopy = () => {
-        navigator.clipboard.writeText(`${dataText}`)
-        .then(()=>{
-            Swal.fire({
-            text: "Data Copied to Clipboard",
-            width: 280,
-            timer: 2000,
-            showConfirmButton: false,
-            timerProgressBar: true,
-            customClass: {
-                popup: "alert",
-            },
-            });
+    // 현재 데이터를 txt 파일로 다운로드
+    // https://stackoverflow.com/questions/61237355/how-to-save-my-input-values-to-text-file-with-reactjs
+    const dataSave = () => {
+        const jsonString = JSON.stringify({
+            inven: inven,
+            manifest: manifest
         })
+        const element = document.createElement("a");
+        const file = new Blob([jsonString], {type: 'text/plain'});
+        element.href = URL.createObjectURL(file);
+        element.download = "AEdata.txt";
+        document.body.appendChild(element); // Required for this to work in FireFox
+        element.click();
     }
 
+    // 텍스트를 캐시에 저장하고 사이트 데이터를 갱신
     const dataLoad = () => {
-        const newData = UserData.split(",").map(Number)
-        window.localStorage.setItem("a_inv_new", UserData)
-        setInven(newData)
-        Swal.fire({
-            text: "Data Load Success",
-            width: 280,
-            timer: 2000,
-            showConfirmButton: false,
-            timerProgressBar: true,
-            customClass: {
-                popup: "alert",
-            },
-        }).then(() => {
-            window.location.reload()
-        })
+        try {
+            const newData: SaveData = JSON.parse(UserData.trim())
+
+            window.localStorage.setItem("a_inv_new", newData.inven.join(","))
+            setInven(newData.inven)
+            window.localStorage.setItem("a_man", newData.manifest.join(","))
+            setManifest(newData.manifest)
+
+            Swal.fire({
+                text: "Data Load Success",
+                width: 280,
+                timer: 2000,
+                showConfirmButton: false,
+                timerProgressBar: true,
+                customClass: {
+                    popup: "alert",
+                },
+            }).then(() => {
+                window.location.reload()
+            })
+        } catch (error) {
+            Swal.fire({
+                text: "Data Load Error",
+                width: 280,
+                timer: 1000,
+                showConfirmButton: false,
+                timerProgressBar: true,
+                customClass: {
+                    popup: "alert",
+                },
+            })
+        }
     }
 
     return (
         <>
             <DataLoaderStyle onClick={showModal}>DataLoader</DataLoaderStyle>
-            <Modal title="Data Copy &#38; Load" visible={isModalVisible} onCancel={handleCancel}
-            okButtonProps={{ style: { display: 'none' } }}>
-                <h2>Your Data</h2>
-                <TextArea placeholder={dataText} disabled
-                autoSize={{ minRows: 4, maxRows: 4 }}/>
-                <br/><br/>
-                <TextArea placeholder="new data here" value={UserData}
+            <Modal 
+                title="Data Copy &#38; Load" 
+                visible={isModalVisible} 
+                onCancel={handleCancel}
+                okButtonProps={{ style: {display: 'none'} }}
+            >
+                <TextArea placeholder="New data here" value={UserData}
                 onChange={(e) => setUserData(e.currentTarget.value)}
                 autoSize={{ minRows: 4, maxRows: 4 }}/>
                 <br/><br/>
-                <Button style={{margin: 5}} type="primary" onClick={dataCopy}>COPY</Button>
+                <Button style={{margin: 5}} type="primary" onClick={dataSave}>SAVE TXT</Button>
                 <Button style={{margin: 5}} type="primary" onClick={dataLoad} danger>LOAD</Button>
             </Modal>
         </>

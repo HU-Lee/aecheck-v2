@@ -9,7 +9,7 @@ import Downloader from '../atoms/Downloader';
 /**
  * CharacterTable
  * 
- * 캐릭터 보유 현황을 테이블로 보여주는 Component
+ * 캐릭터 보유 현황을 테이블로 보여주는 Component입니다.
  * 5성 캐릭터만 표시합니다.
  */
 function CharacterTable() {
@@ -18,6 +18,9 @@ function CharacterTable() {
     const { formatMessage } = useIntl()
     const { inven, select_char_data, version } = useContext(AnotherContext)
 
+    /**
+     * @param isModalVisible    모달의 보임 여부
+     */
     const [isModalVisible, setIsModalVisible] = useState(false);
 
     const showModal = () => {
@@ -37,13 +40,13 @@ function CharacterTable() {
                 <b>{formatMessage({id: "tableinfo"})}</b>
                 <br/>
                 <Downloader tag='chartable'/>
-                <div style={{margin:"20px 0 0 0", overflow:"auto", display: "flex", justifyContent:"center"}}>
-                    <table style={{width:1280, backgroundColor:"white"}} id="chartable">
+                <div style={{margin:"20px 0 0 0", overflowX: "scroll"}}>
+                    <table style={{minWidth: "1280px", margin: "0 auto", maxWidth: "1280px", backgroundColor:"white", whiteSpace: "normal"}} id="chartable">
                         <thead>
                             <tr>
                                 <th style={{width: 70}}></th>
                                 {ELEMENTS.slice(1).map((element, idx) => (
-                                    <th key={idx} style={{width: 240}}>
+                                    <th key={idx}>
                                         {element === "lunatic" ? <>
                                             <b style={{fontSize:"1.2rem"}}>Lunatic + </b>
                                         </> : null}
@@ -60,7 +63,7 @@ function CharacterTable() {
                                     </td>
                                     {ELEMENTS.slice(1).map((element, idx2) => (
                                         <td key={idx2} className={(idx+idx2)%2===1 ? "odd" : "even"} style={{padding:"5px 0 5px 0"}}>
-                                            {select_char_data.filter(a => idx2 === Math.floor(a.category/10) && idx === a.category%10)
+                                            {select_char_data.filter(a => idx2+1 === Math.floor(a.category/10) && idx+1 === a.category%10)
                                             .filter(a => a.style !== "4.5")
                                             .filter(e => version==="japanese" || !e.jonly)
                                             .map((d) => (

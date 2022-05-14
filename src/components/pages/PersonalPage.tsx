@@ -2,15 +2,25 @@ import { ExclamationOutlined } from '@ant-design/icons'
 import { AutoComplete, Button, Popover, Table, Tag } from 'antd'
 import React, { useState } from 'react'
 import { useIntl } from 'react-intl'
-import { FlexColumnCenterDiv } from '../../util/styles'
+import { FlexColumnCenterDiv, PageWrapper } from '../../util/styles'
 
 const colors = ["magenta", "volcano", "gold", "green", "cyan", "blue", "purple"]
 
+/**
+ * PersonalPage
+ * 
+ * 캐릭터 특성을 검색하는 페이지입니다.
+ */
 function PersonalPage() {
 
-    // intl, context load
+    // intl load
     const { formatMessage } = useIntl()
     
+    /**
+     * @param person_data: 퍼스널리티 데이터
+     * @param Search : 퍼스널리티 검색 목록
+     * @param Input : 검색어
+     */ 
     const person_data: Array<PersonalityInfo> = require("../../data/personality.json")
     const [Search, setSearch] = useState([] as string[])
     const [Input, setInput] = useState("")
@@ -25,6 +35,7 @@ function PersonalPage() {
       ))
     }
 
+    // filtering
     const filtered = person_data.filter(item => {
         let temp = true;
         Search.forEach(b => {
@@ -34,6 +45,7 @@ function PersonalPage() {
         return temp;
     })
 
+    // 엔터 시 자동완성 (불완전)
     const onKeyDown = (e: React.KeyboardEvent<HTMLDivElement> | React.ChangeEvent<HTMLDivElement>) => {
         const {key} = (e as React.KeyboardEvent<HTMLInputElement>)
         const {target} = (e as React.ChangeEvent<HTMLInputElement>)
@@ -97,41 +109,38 @@ function PersonalPage() {
     })
 
   return (
-      <div style={{paddingTop: "1rem", textAlign: 'center', display: 'flex',
-                   flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
-                   maxWidth: '1500px', margin: '50px auto'}}>
-          <h1>{formatMessage({id: "personality"})}</h1>
-          <div style={{display: 'flex', maxWidth: '400px', flexWrap: 'wrap', margin: '10px 10px 10px 10px'}}>
-              {Search.map((a, index) => (
-                  <Tag style={{margin: '1px'}} color={colors[index%7]} key={index} closable 
-                  onClose={(e) => {
-                      e.preventDefault()
-                      handleClose(a)
-                  }}>
-                      {formatMessage({id: a})}
-                  </Tag>
-              ))}
-          </div>            
-          <AutoComplete
-              style={{ width: 250, marginBottom: '30px'}}
-              options={personalities()}
-              value={Input}
-              filterOption={(inputValue, option) =>
-                  option?.value.toUpperCase().indexOf(inputValue.toUpperCase()) !== -1
-              }
-              placeholder="Search..."
-              onChange={(value: string) => setInput(value)}
-              onSelect={(value: string) => {
-                  const b = personalities().filter(a => a.value.toUpperCase() === value.toUpperCase()).map(a => a.name)
-                  setSearch(Array.from(new Set([...Search, ...b])))
-                  setInput("")
-              }}
-              onKeyDown={onKeyDown}
-          />
-          <Table dataSource={datasets} columns={columns} size="small" pagination={{ position: ["topLeft", "bottomLeft"] }} style={{
-            minWidth: 300
-          }}/>
-      </div>
+        <PageWrapper  style={{maxWidth: "900px", alignItems: "center"}}>
+            <div style={{display: 'flex', maxWidth: '400px', flexWrap: 'wrap', margin: '10px 10px 10px 10px'}}>
+                {Search.map((a, index) => (
+                    <Tag style={{margin: '1px'}} color={colors[index%7]} key={index} closable 
+                    onClose={(e) => {
+                        e.preventDefault()
+                        handleClose(a)
+                    }}>
+                        {formatMessage({id: a})}
+                    </Tag>
+                ))}
+            </div>            
+            <AutoComplete
+                style={{ width: 250, marginBottom: '30px'}}
+                options={personalities()}
+                value={Input}
+                filterOption={(inputValue, option) =>
+                    option?.value.toUpperCase().indexOf(inputValue.toUpperCase()) !== -1
+                }
+                placeholder={formatMessage({id: "personality"})}
+                onChange={(value: string) => setInput(value)}
+                onSelect={(value: string) => {
+                    const b = personalities().filter(a => a.value.toUpperCase() === value.toUpperCase()).map(a => a.name)
+                    setSearch(Array.from(new Set([...Search, ...b])))
+                    setInput("")
+                }}
+                onKeyDown={onKeyDown}
+            />
+            <Table dataSource={datasets} columns={columns} size="small" pagination={{ position: ["topLeft", "bottomLeft"] }} style={{
+                minWidth: 300
+            }}/>
+        </PageWrapper>
   )
 }
 

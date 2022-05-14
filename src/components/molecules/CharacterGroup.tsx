@@ -7,9 +7,9 @@ import CharacterSelect from '../atoms/CharacterSelect'
 
 /**
  * CharacterGroup
+ * Checklist의 캐릭터별 Component입니다.
  * 
- * 체크리스트 부분의 캐릭터별 Component입니다.
- * @param infos : 해당 캐릭터의 json data array
+ * @param infos  해당하는 캐릭터의 json data array
  */
 const CharacterGroup:React.FC<CharInfoProps> = ({infos}) => {
 

@@ -1,4 +1,4 @@
-import { Collapse, Divider } from 'antd';
+import { Button, Collapse, Divider, Popconfirm } from 'antd';
 import React, { useContext } from 'react'
 import { useIntl } from 'react-intl'
 import { AnotherContext } from '../../contexts'
@@ -11,11 +11,16 @@ import CharacterResult from '../atoms/CharacterResult';
 
 const { Panel } = Collapse;
 
+/**
+ * ManifestPage
+ * 
+ * 체크리스트를 토대로 현현 도감을 표시해 줍니다.
+ */
 function ManifestPage() {
 
     // intl, context load
     const { formatMessage } = useIntl()
-    const { inven, manifest, select_char_data, version } = useContext(AnotherContext)
+    const { inven, manifest, setManifest, select_char_data, version } = useContext(AnotherContext)
 
     
     // result_char_data : 단어순 + 속성 정렬
@@ -35,7 +40,7 @@ function ManifestPage() {
         else return !e.jonly
     })
 
-     // 클래스 체인지 가능 캐릭터 id 배열을 계산하는 함수
+    // 클래스 체인지 가능 캐릭터 id 배열을 계산하는 함수
     const render_cc_id = () => {
         let tempIds = [] as number[]
         MyCharacter.forEach((a) => {
@@ -44,6 +49,7 @@ function ManifestPage() {
         return Array.from(new Set(tempIds)).filter(id => !inven.includes(id))
     }
 
+    // 현현 상태를 반환하는 함수
     const get_manifest_status = (target: CharacterInfo) => {
         // 1. 해당 캐릭터가 있으면 끝
         if (inven.includes(target.id)) return "ok"
@@ -85,10 +91,37 @@ function ManifestPage() {
         return (manifest.find(b => b%10000 === a.id) || 0) >= steps*10000 + a.id
     })
 
+    // 현현 All Clear 메시지
+    const manifestMessage = <div>
+        <h3>다음 현현이 완료 처리됩니다.</h3>
+        {manifest_incomplete.map((info, index) => (
+            <CharacterResult key={index} {...info}/>
+        ))}
+    </div>
+
+    // 미완료된 모든 현현을 완료 처리하는 함수
+    const clearAll = () => {
+        const new_manifests = manifest_incomplete.map(info => {
+            const maxStep = version==="japanese" ? MANIFEST_STEPS.indexOf(info.manifest_jap) : MANIFEST_STEPS.indexOf(info.manifest_glo)
+            return maxStep*10000 + info.id
+        })
+        const total_manifests = [...manifest, ...new_manifests]
+        window.localStorage.setItem("a_man", total_manifests.join(","))
+        setManifest(total_manifests)
+    }
+
     return (
         <PageWrapper style={{maxWidth: "1200px"}}>
             {directButtonLink("/", "Back to Checklist")}
             <Divider style={{margin: 5}}/>
+            <Popconfirm
+                title={manifestMessage}
+                onConfirm={clearAll}
+                okText="Yes"
+                cancelText="No"
+            >
+                <Button shape='round' style={{ height: 35, width: 110, fontSize: "1rem", fontWeight: 600, margin: "5px auto"}} type="primary" danger>ALL CLEAR</Button>
+            </Popconfirm>
             <GridDiv>
                 {manifest_incomplete.length > 0 ? manifest_incomplete.map(info => <CharacterManifest key={info.id} {...info}/>) : emptyImage}
             </GridDiv>

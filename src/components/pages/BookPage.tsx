@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react'
 import { Input, Button, Table } from 'antd'
 import { AnotherContext } from '../../contexts';
 import { useIntl } from 'react-intl';
-import { FlexColumnCenterDiv } from '../../util/styles';
+import { FlexColumnCenterDiv, PageWrapper } from '../../util/styles';
 
 const { Search } = Input;
 
@@ -60,9 +60,7 @@ function BookPage() {
 
     const datasets = filtered.map((info, index) => ({
         name: <FlexColumnCenterDiv>
-            <img alt="select"
-                    src={`images/character/${info.id}.png`} 
-                style={{width:50, borderRadius:3 }}/>
+            <img alt="select" src={`images/character/${info.id}.png`} width={50}/>
             <b style={ SearchName!=="" && (formatMessage({id: info.code}) + `(${info.style})`).toLowerCase().includes(SearchName.toLowerCase()) ? {
                 color: "red"
             } : undefined}>
@@ -89,18 +87,17 @@ function BookPage() {
     }))
 
     return (
-        <div style={{margin: "50px auto", width:"100%", maxWidth: "800px", fontSize:"12px", padding: "20px 0 20px 0"}}>
-            <h1>Book</h1>
+        <PageWrapper  style={{maxWidth: "900px", alignItems: "center"}}>
             <Search 
-                style={{width:"246px", margin: "0.2rem 8px 1rem 8px"}} 
-                placeholder="Search..." 
+                style={{width:"250px", margin: "0.2rem 8px 1rem 8px"}} 
+                placeholder={`${formatMessage({id: "name"})}, ${formatMessage({id: "books"})}`}
                 value={SearchName} 
                 onChange={HandleChange}
                 enterButton
                 allowClear
             />
             <Table dataSource={datasets} columns={columns} size="small" pagination={{ position: ["topLeft", "bottomLeft"] }}/>
-        </div>
+        </PageWrapper>
     )
 }
 

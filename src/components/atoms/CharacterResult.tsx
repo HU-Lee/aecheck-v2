@@ -6,9 +6,9 @@ import { ELEMENTS, WEAPONS } from '../../data/constant'
 
 /**
  * CharacterResult
+ * My Character의 결과를 나타내는 Component입니다.
  * 
- * 체크리스트 사이트 결과를 표시하는 단위
- * @param info : 해당하는 캐릭터의 json data
+ * @param info  해당하는 캐릭터의 json data
  */
 const CharacterResult:React.FC<CharacterInfo> = (info) => {
     
@@ -16,10 +16,9 @@ const CharacterResult:React.FC<CharacterInfo> = (info) => {
     const { formatMessage } = useIntl()
     const { version } = useContext(AnotherContext)
 
-    // Tooltip에 표시하기 위해 속성과 무기 값을 추출
+    // Tooltip과 View에 표시하기 위해 속성과 무기 값을 추출
     const element = ELEMENTS[Math.floor(info.category/10)]
-    const weapon = WEAPONS[info.category%10]
-
+    const weapon =  WEAPONS[info.category%10]
 
     return (
         <Tooltip title={`${formatMessage({id: info.code})}${info.style !== "4.5" ? " " + info.style.toUpperCase() : ""}

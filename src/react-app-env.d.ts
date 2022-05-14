@@ -34,18 +34,15 @@ interface PersonalityInfo {
     code: string
 }
 
+interface SaveData {
+    inven: number[],
+    manifest: number[]
+}
+
 // 캐릭터 정보 배열을 사용하는 Component의 Props
 // 사용되는 곳 : CheckComponent, CharacterGroup
 interface CharInfoProps {
     infos: CharacterInfo[]
-}
-
-// Downloader.tsx에 사용되는 interface
-interface DownloadProps {
-    text?: string;
-    width?: number;
-    height?: number;
-    tag: string;
 }
 
 interface CharacterTableViewProps extends CharacterInfo {

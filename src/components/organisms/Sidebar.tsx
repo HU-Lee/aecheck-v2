@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import styled, { css } from 'styled-components';
 import { AnotherContext } from '../../contexts';
 import { GLO_VER, JAP_VER } from '../../data/config';
+import { FlexColumnCenterDiv } from '../../util/styles';
 import DataLoader from '../atoms/DataLoader';
 
 const { Option } = Select;
@@ -32,7 +33,7 @@ const SideLink = styled.a`
 `
 
 /**
- * CheckComponent
+ * Sidebar
  * 
  * 메뉴를 표시하는 사이드바입니다.
  * 사이트 제목과 메뉴 버튼은 상단에 고정됩니다.
@@ -116,7 +117,7 @@ function Sidebar() {
                     Another Dungeon (Unused)
                 </SideLink>
             </div>          
-            <div style={{display: "flex", flexDirection: "column", justifyContent: "center", padding: 3}}>
+            <FlexColumnCenterDiv style={{padding: 3}}>
                 <b>Language</b>
                 <Radio.Group 
                     defaultValue={lang} 
@@ -132,7 +133,7 @@ function Sidebar() {
                     <Option value="global">GLOBAL ({GLO_VER})</Option>
                     <Option value="japanese">JAPAN ({JAP_VER})</Option>
                 </Select>
-            </div>
+            </FlexColumnCenterDiv>
         </Drawer>
       </>
     );

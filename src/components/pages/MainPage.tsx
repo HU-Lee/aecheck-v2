@@ -14,7 +14,7 @@ const { Search } = Input;
 /**
  * MainPage
  * 
- * 가장 처음 보게 되는 페이지로, 체크리스트가 표시됩니다. 
+ * 가장 처음 보게 되는 페이지로, Checklist가 표시됩니다. 
  */
 function MainPage() {
 

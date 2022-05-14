@@ -5,9 +5,9 @@ import { ImageWrapper } from '../../util/styles'
 
 /**
  * CharacterSelect
+ * Checklist에서 캐릭터를 선택할 수 있는 Component입니다.
  * 
- * 캐릭터를 선택할 수 있는 Component
- * @param info : 해당하는 캐릭터의 json data
+ * @param info  해당하는 캐릭터의 json data
  */
 const CharacterSelect:React.FC<CharacterInfo> = (info) => {
 
