@@ -19,7 +19,7 @@ const announceHTML = `<div class="announce">
   <br/>
   자세한 사항은 링크를 확인해 주세요. 
   <br/>
-  <a href="https://github.com/HU-Lee" target="_blank" rel="noreferrer">Link</a>
+  <a href="https://aecheck.tistory.com/7" target="_blank" rel="noreferrer">Link</a>
 </div>`
 
 function App() {
@@ -45,7 +45,7 @@ function App() {
 
   return (
     <IntlProvider messages={message} locale={lang} defaultLocale='ko'>
-      <Router basename="/aetest">
+      <Router basename="/anothercharcheck">
           <Sidebar/>
           <Routes>
               <Route path="/" element={<MainPage/>} />
