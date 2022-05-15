@@ -34,7 +34,7 @@ function App() {
       window.localStorage.removeItem("a_v")
       window.localStorage.removeItem("a_v_2")
       Swal.fire({
-        title: 'Update - 22.05.01',
+        title: 'Update - 22.05.15',
         html: announceHTML,
         icon: 'success',
       }).then(() => {
