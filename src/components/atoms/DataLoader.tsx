@@ -14,6 +14,7 @@ const DataLoaderStyle = styled.div`
     &:hover {
         color: #1890ff;
         transition: 0.5s;
+        cursor: pointer;
     }
     margin-bottom: 8px;
 `

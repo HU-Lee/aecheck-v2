@@ -19,7 +19,9 @@ const announceHTML = `<div class="announce">
   <br/>
   자세한 사항은 링크를 확인해 주세요. 
   <br/>
-  <a href="https://aecheck.tistory.com/7" target="_blank" rel="noreferrer">Link</a>
+  Please Check following link.
+  <br/>
+  <a href="https://aecheck.tistory.com/7" target="_blank" rel="noreferrer">Patch Note</a>
 </div>`
 
 function App() {

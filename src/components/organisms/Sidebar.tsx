@@ -113,6 +113,10 @@ function Sidebar() {
                 ))}
                 <Divider/>
                 <DataLoader/>
+                <SideLink href="https://aecheck.tistory.com/" rel="noreferrer" target="_blank" style={{fontSize: "16px"}}>
+                    Info Blog
+                </SideLink>
+                <Divider/>
                 <SideLink href="https://hu-lee.github.io/anotherdungeon/" rel="noreferrer" target="_blank">
                     Another Dungeon (Unused)
                 </SideLink>
