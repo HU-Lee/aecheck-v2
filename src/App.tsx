@@ -12,35 +12,36 @@ import PersonalPage from './components/pages/PersonalPage';
 import ManifestPage from './components/pages/ManifestPage';
 
 const announceHTML = `<div class="announce">
-  사이트가 리뉴얼 되었습니다.
+  Up to GLOBAL 2.11.700
   <br/>
-  Site has been renewed.
+  수제트(シュゼット, Suzette) ES  + Etc.
   <br/>
   <br/>
   자세한 사항은 링크를 확인해 주세요. 
   <br/>
   Please Check following link.
   <br/>
-  <a href="https://aecheck.tistory.com/7" target="_blank" rel="noreferrer">Patch Note</a>
+  <a href="https://aecheck.tistory.com/11" target="_blank" rel="noreferrer">Patch Note</a>
 </div>`
 
 function App() {
 
-  const announceViewed = Boolean(window.localStorage.getItem("a_v_220515"))
+  const announceViewed = Boolean(window.localStorage.getItem("a_v_220519"))
 
   const { lang } = useContext(AnotherContext)
   const message = require(`./language/${lang}.json`)
 
   useEffect(() => {
+    window.localStorage.removeItem("a_v_220515")
     if(!announceViewed) {
       window.localStorage.removeItem("a_v")
       window.localStorage.removeItem("a_v_2")
       Swal.fire({
-        title: 'Update - 22.05.15',
+        title: 'Update - 22.05.19',
         html: announceHTML,
         icon: 'success',
       }).then(() => {
-        window.localStorage.setItem("a_v_220515", "true")
+        window.localStorage.setItem("a_v_220519", "true")
       })
     }
   }, [announceViewed])

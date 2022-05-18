@@ -1046,7 +1046,7 @@
 		"free": true,
 		"sky": "light",
 		"first": true,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [],
 		"change": [],
@@ -2866,14 +2866,14 @@
 		"free": false,
 		"sky": "light",
 		"first": false,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [],
 		"change": [
 			135,
 			136
 		],
-		"book": "루시퍼",
+		"book": "루시페르",
 		"book_get": [
 			"개전"
 		],
