@@ -10,38 +10,35 @@ import BookPage from './components/pages/BookPage';
 import { BackTop } from 'antd';
 import PersonalPage from './components/pages/PersonalPage';
 import ManifestPage from './components/pages/ManifestPage';
+import { JAP_VER } from './data/config';
 
 const announceHTML = `<div class="announce">
-  Up to GLOBAL 2.11.700
-  <br/>
-  수제트(シュゼット, Suzette) ES  + Etc.
+  Up to GLOBAL 2.11.700, JAP ${JAP_VER}
   <br/>
   <br/>
   자세한 사항은 링크를 확인해 주세요. 
   <br/>
   Please Check following link.
   <br/>
-  <a href="https://aecheck.tistory.com/11" target="_blank" rel="noreferrer">Patch Note</a>
+  <a href="https://aecheck.tistory.com/12" target="_blank" rel="noreferrer">Patch Note</a>
 </div>`
 
 function App() {
 
-  const announceViewed = Boolean(window.localStorage.getItem("a_v_220519"))
+  const announceViewed = Boolean(window.localStorage.getItem("a_v_220527"))
 
   const { lang } = useContext(AnotherContext)
   const message = require(`./language/${lang}.json`)
 
   useEffect(() => {
-    window.localStorage.removeItem("a_v_220515")
+    window.localStorage.removeItem("a_v_220519")
     if(!announceViewed) {
-      window.localStorage.removeItem("a_v")
-      window.localStorage.removeItem("a_v_2")
       Swal.fire({
-        title: 'Update - 22.05.19',
+        title: 'Update - 22.05.27',
         html: announceHTML,
         icon: 'success',
       }).then(() => {
-        window.localStorage.setItem("a_v_220519", "true")
+        window.localStorage.setItem("a_v_220527", "true")
       })
     }
   }, [announceViewed])

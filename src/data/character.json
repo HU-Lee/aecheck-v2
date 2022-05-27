@@ -358,7 +358,7 @@
 		"book_get": [
 			"나다라 화산"
 		],
-		"manifest_jap": "현현",
+		"manifest_jap": "진현현",
 		"manifest_glo": "현현"
 	},
 	{
@@ -389,7 +389,7 @@
 		"free": false,
 		"sky": "light",
 		"first": true,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [],
 		"change": [
@@ -408,7 +408,7 @@
 		"free": false,
 		"sky": "light",
 		"first": false,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [
 			19
@@ -1717,7 +1717,7 @@
 		"free": false,
 		"sky": "light",
 		"first": true,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [],
 		"change": [
@@ -1736,7 +1736,7 @@
 		"free": false,
 		"sky": "light",
 		"first": false,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [],
 		"change": [],
@@ -3523,7 +3523,7 @@
 		"book_get": [
 			"나다라 화산"
 		],
-		"manifest_jap": "현현",
+		"manifest_jap": "진현현",
 		"manifest_glo": "현현"
 	},
 	{
@@ -4657,7 +4657,8 @@
 		"gonly": false,
 		"from": [],
 		"change": [
-			223
+			223,
+			270
 		],
 		"book": "없음",
 		"book_get": [],
@@ -4677,7 +4678,9 @@
 		"from": [
 			222
 		],
-		"change": [],
+		"change": [
+			270
+		],
 		"book": "브링로트",
 		"book_get": [
 			"차원전함"
@@ -5565,6 +5568,27 @@
 		"book": "오모이카네",
 		"book_get": [
 			"경전록"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 270,
+		"code": "101070101",
+		"style": "as",
+		"category": 37,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			223
+		],
+		"book": "유노",
+		"book_get": [
+			"이절"
 		],
 		"manifest_jap": "없음",
 		"manifest_glo": "없음"
