@@ -2363,7 +2363,7 @@
 			"이절"
 		],
 		"manifest_jap": "현현",
-		"manifest_glo": "없음"
+		"manifest_glo": "현현"
 	},
 	{
 		"id": 114,
@@ -2566,13 +2566,13 @@
 		"free": false,
 		"sky": "light",
 		"first": false,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [],
 		"change": [
 			122
 		],
-		"book": "비슈론",
+		"book": "비슈롱",
 		"book_get": [
 			"이절"
 		],

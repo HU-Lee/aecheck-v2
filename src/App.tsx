@@ -13,32 +13,31 @@ import ManifestPage from './components/pages/ManifestPage';
 import { JAP_VER } from './data/config';
 
 const announceHTML = `<div class="announce">
-  Up to GLOBAL 2.11.700, JAP ${JAP_VER}
   <br/>
   <br/>
   자세한 사항은 링크를 확인해 주세요. 
   <br/>
   Please Check following link.
   <br/>
-  <a href="https://aecheck.tistory.com/12" target="_blank" rel="noreferrer">Patch Note</a>
+  <a href="https://aecheck.tistory.com/13" target="_blank" rel="noreferrer">Patch Note</a>
 </div>`
 
 function App() {
 
-  const announceViewed = Boolean(window.localStorage.getItem("a_v_220527"))
+  const announceViewed = Boolean(window.localStorage.getItem("a_v_220605"))
 
   const { lang } = useContext(AnotherContext)
   const message = require(`./language/${lang}.json`)
 
   useEffect(() => {
-    window.localStorage.removeItem("a_v_220519")
+    window.localStorage.removeItem("a_v_220527")
     if(!announceViewed) {
       Swal.fire({
-        title: 'Update - 22.05.27',
+        title: 'Update - 22.06.05',
         html: announceHTML,
         icon: 'success',
       }).then(() => {
-        window.localStorage.setItem("a_v_220527", "true")
+        window.localStorage.setItem("a_v_220605", "true")
       })
     }
   }, [announceViewed])
