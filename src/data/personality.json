@@ -1151,7 +1151,8 @@
 		"name": "듀이",
 		"is_extra": false,
 		"personality": [
-			"권갑"
+			"권갑",
+			"총"
 		],
 		"description": null,
 		"code": "101060101"
@@ -1184,7 +1185,8 @@
 			"권갑",
 			"장비",
 			"생물",
-			"단것 애호가"
+			"단것 애호가",
+			"총"
 		],
 		"description": "단것 애호가는 미래외경에서 등장하는 라비앙 로즈에서 하디에게 말을 건 후",
 		"code": "101060131"
@@ -1293,7 +1295,8 @@
 		"name": "비아카",
 		"is_extra": false,
 		"personality": [
-			"망치"
+			"망치",
+			"총"
 		],
 		"description": null,
 		"code": "101070081"
@@ -1363,7 +1366,8 @@
 		"personality": [
 			"망치",
 			"가면",
-			"마음의 괴도단"
+			"마음의 괴도단",
+			"총"
 		],
 		"description": null,
 		"code": "101400011"
@@ -1375,7 +1379,8 @@
 			"검",
 			"가면",
 			"마음의 괴도단",
-			"대식가"
+			"대식가",
+			"총"
 		],
 		"description": null,
 		"code": "101400071"
@@ -1387,7 +1392,8 @@
 			"검",
 			"안경",
 			"가면",
-			"마음의 괴도단"
+			"마음의 괴도단",
+			"총"
 		],
 		"description": null,
 		"code": "101410011"
@@ -1493,7 +1499,8 @@
 		"is_extra": false,
 		"personality": [
 			"창",
-			"합성인간"
+			"합성인간",
+			"총"
 		],
 		"description": null,
 		"code": "101800063"
@@ -1584,5 +1591,16 @@
 		],
 		"description": null,
 		"code": "101000301"
+	},
+	{
+		"name": "알마",
+		"is_extra": false,
+		"personality": [
+			"활",
+			"애묘가",
+			"총"
+		],
+		"description": null,
+		"code": "101050171"
 	}
 ]

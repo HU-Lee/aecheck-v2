@@ -162,6 +162,7 @@
 	"101430031": "Mammy",
 	"101440051": "Starky",
 	"101000301": "Shion (Alter)",
+	"101050171": "Alma",
 	"달그림자 숲": "Moonlight Forest",
 	"공업도시 폐허": "Industrial Ruins",
 	"나다라 화산": "Nadara Volcano",
@@ -525,6 +526,8 @@
 	"묵염의 책사 시온": "Shion (Alter)",
 	"오모이카네": "Omoikane",
 	"유노": "Yuno",
+	"알마": "Alma",
+	"치트리니타스": "Citrinitas",
 	"장비": "Weapons",
 	"서방": "West",
 	"미술": "Art",
@@ -556,5 +559,6 @@
 	"용궁": "Dragon Palace",
 	"천계의 인도": "Guiding Light",
 	"왕족": "Royalty",
-	"북방": "Northern"
+	"북방": "Northern",
+	"총": "Gun"
 }

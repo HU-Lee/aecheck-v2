@@ -5592,5 +5592,45 @@
 		],
 		"manifest_jap": "없음",
 		"manifest_glo": "없음"
+	},
+	{
+		"id": 271,
+		"code": "101050171",
+		"style": "4.5",
+		"category": 55,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			272
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 272,
+		"code": "101050171",
+		"style": "ns",
+		"category": 55,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [
+			271
+		],
+		"change": [],
+		"book": "치트리니타스",
+		"book_get": [
+			"식인 늪"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
 	}
 ]
