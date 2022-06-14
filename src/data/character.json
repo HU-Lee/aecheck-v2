@@ -3326,13 +3326,13 @@
 		"free": false,
 		"sky": "shadow",
 		"first": false,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [],
 		"change": [
 			158
 		],
-		"book": "하르피스모니아",
+		"book": "하르피스 모니아",
 		"book_get": [
 			"이절"
 		],
