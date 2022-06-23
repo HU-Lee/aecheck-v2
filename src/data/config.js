@@ -1,5 +1,5 @@
 // 현재 버전을 저장하는 string 값입니다.
-export const JAP_VER = "2.13.50"
+export const JAP_VER = "2.13.60"
 export const GLO_VER = "2.11.700"
 
 // 현재 버전의 신규 캐릭터를 저장하는 array입니다.
