@@ -13,34 +13,34 @@ import ManifestPage from './components/pages/ManifestPage';
 import { JAP_VER } from './data/config';
 
 const announceHTML = `<div class="announce">
-  글로벌판 미르샤 AS 추가
+  일본판 레레AS, 로키드AS 현현
   <br/>
-  Add Milsha AS to GLOBAL Server
+  Add Lele AS and 1 manifest to JAPANESE Server
   <br/>
   <br/>
   그 외 자세한 사항은 링크를 확인해 주세요. 
   <br/>
   Please Check following link.
   <br/>
-  <a href="https://aecheck.tistory.com/15" target="_blank" rel="noreferrer">Patch Note</a>
+  <a href="https://aecheck.tistory.com/16" target="_blank" rel="noreferrer">Patch Note</a>
 </div>`
 
 function App() {
 
-  const announceViewed = Boolean(window.localStorage.getItem("a_v_220614"))
+  const announceViewed = Boolean(window.localStorage.getItem("a_v_220624"))
 
   const { lang } = useContext(AnotherContext)
   const message = require(`./language/${lang}.json`)
 
   useEffect(() => {
-    window.localStorage.removeItem("a_v_220611")
+    window.localStorage.removeItem("a_v_220614")
     if(!announceViewed) {
       Swal.fire({
-        title: 'Update - 22.06.14',
+        title: 'Update - 22.06.24',
         html: announceHTML,
         icon: 'success',
       }).then(() => {
-        window.localStorage.setItem("a_v_220614", "true")
+        window.localStorage.setItem("a_v_220624", "true")
       })
     }
   }, [announceViewed])

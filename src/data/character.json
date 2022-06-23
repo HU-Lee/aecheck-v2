@@ -3967,7 +3967,7 @@
 		"book_get": [
 			"이절"
 		],
-		"manifest_jap": "없음",
+		"manifest_jap": "현현",
 		"manifest_glo": "없음"
 	},
 	{
@@ -5629,6 +5629,46 @@
 		"book": "치트리니타스",
 		"book_get": [
 			"식인 늪"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 273,
+		"code": "101000101",
+		"style": "4.5",
+		"category": 28,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			274
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 274,
+		"code": "101000101",
+		"style": "as",
+		"category": 28,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [
+			273
+		],
+		"change": [],
+		"book": "미라클 워커",
+		"book_get": [
+			"이절"
 		],
 		"manifest_jap": "없음",
 		"manifest_glo": "없음"
