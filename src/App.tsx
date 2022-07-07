@@ -10,37 +10,37 @@ import BookPage from './components/pages/BookPage';
 import { BackTop } from 'antd';
 import PersonalPage from './components/pages/PersonalPage';
 import ManifestPage from './components/pages/ManifestPage';
-import { JAP_VER } from './data/config';
+import { GLO_VER, JAP_VER } from './data/config';
 
 const announceHTML = `<div class="announce">
-  일본판 레레AS, 로키드AS 현현
+  일본판 ${JAP_VER}, 글로벌판 ${GLO_VER} 반영
   <br/>
-  Add Lele AS and 1 manifest to JAPANESE Server
+  Update JAPANESE ${JAP_VER}, GLOBAL ${GLO_VER}
   <br/>
   <br/>
   그 외 자세한 사항은 링크를 확인해 주세요. 
   <br/>
   Please Check following link.
   <br/>
-  <a href="https://aecheck.tistory.com/16" target="_blank" rel="noreferrer">Patch Note</a>
+  <a href="https://aecheck.tistory.com/17" target="_blank" rel="noreferrer">Patch Note</a>
 </div>`
 
 function App() {
 
-  const announceViewed = Boolean(window.localStorage.getItem("a_v_220624"))
+  const announceViewed = Boolean(window.localStorage.getItem("a_v_220708"))
 
   const { lang } = useContext(AnotherContext)
   const message = require(`./language/${lang}.json`)
 
   useEffect(() => {
-    window.localStorage.removeItem("a_v_220614")
+    window.localStorage.removeItem("a_v_220624")
     if(!announceViewed) {
       Swal.fire({
-        title: 'Update - 22.06.24',
+        title: 'Update - 22.07.08',
         html: announceHTML,
         icon: 'success',
       }).then(() => {
-        window.localStorage.setItem("a_v_220624", "true")
+        window.localStorage.setItem("a_v_220708", "true")
       })
     }
   }, [announceViewed])

@@ -750,7 +750,7 @@
 		"code": "101030161"
 	},
 	{
-		"name": "올레이아",
+		"name": "오를레아",
 		"is_extra": false,
 		"personality": [
 			"도끼"
@@ -1603,5 +1603,14 @@
 		],
 		"description": null,
 		"code": "101050171"
+	},
+	{
+		"name": "우쿠아지",
+		"is_extra": false,
+		"personality": [
+			"권갑"
+		],
+		"description": null,
+		"code": "101060151"
 	}
 ]

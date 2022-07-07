@@ -1232,7 +1232,7 @@
 		"free": false,
 		"sky": "light",
 		"first": false,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [],
 		"change": [
@@ -2755,7 +2755,7 @@
 		"free": false,
 		"sky": "light",
 		"first": true,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [],
 		"change": [
@@ -2774,7 +2774,7 @@
 		"free": false,
 		"sky": "light",
 		"first": false,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [
 			132
@@ -3838,7 +3838,8 @@
 		"gonly": false,
 		"from": [],
 		"change": [
-			184
+			184,
+			275
 		],
 		"book": "없음",
 		"book_get": [],
@@ -3858,7 +3859,9 @@
 		"from": [
 			183
 		],
-		"change": [],
+		"change": [
+			275
+		],
 		"book": "우츠타히메",
 		"book_get": [
 			"달그림자 숲"
@@ -4736,7 +4739,7 @@
 		"free": true,
 		"sky": "shadow",
 		"first": true,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [],
 		"change": [],
@@ -5670,6 +5673,44 @@
 		"book_get": [
 			"이절"
 		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 275,
+		"code": "101050131",
+		"style": "as",
+		"category": 25,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			184
+		],
+		"book": "오카미노카미",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 276,
+		"code": "101060151",
+		"style": "ns",
+		"category": 26,
+		"free": true,
+		"sky": "shadow",
+		"first": true,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
 		"manifest_jap": "없음",
 		"manifest_glo": "없음"
 	}
