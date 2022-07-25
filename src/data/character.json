@@ -5504,13 +5504,13 @@
 		"free": false,
 		"sky": "light",
 		"first": false,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [],
 		"change": [
 			72
 		],
-		"book": "일륜 기사",
+		"book": "태양 기사",
 		"book_get": [
 			"이절"
 		],
