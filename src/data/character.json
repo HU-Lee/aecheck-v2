@@ -5713,5 +5713,81 @@
 		"book_get": [],
 		"manifest_jap": "없음",
 		"manifest_glo": "없음"
+	},
+	{
+		"id": 277,
+		"code": "101000311",
+		"style": "4.5",
+		"category": 58,
+		"free": true,
+		"sky": "light",
+		"first": true,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			278
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 278,
+		"code": "101000311",
+		"style": "ns",
+		"category": 58,
+		"free": true,
+		"sky": "light",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [
+			277
+		],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 279,
+		"code": "101040021",
+		"style": "4.5",
+		"category": 34,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			280
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 280,
+		"code": "101040021",
+		"style": "as",
+		"category": 34,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [],
+		"book": "아리스토크라트",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
 	}
 ]

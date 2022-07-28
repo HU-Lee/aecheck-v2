@@ -1612,5 +1612,15 @@
 		],
 		"description": null,
 		"code": "101060151"
+	},
+	{
+		"name": "아이샤",
+		"is_extra": false,
+		"personality": [
+			"지팡이",
+			"음유시인"
+		],
+		"description": null,
+		"code": "101000311"
 	}
 ]
