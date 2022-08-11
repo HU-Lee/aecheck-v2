@@ -13,7 +13,7 @@ import ManifestPage from './components/pages/ManifestPage';
 import { GLO_VER, JAP_VER } from './data/config';
 
 const announceHTML = `<div class="announce">
-  일본판 ${JAP_VER} 반영
+  일본판 ${JAP_VER}, 글로벌판 ${GLO_VER} 반영
   <br/>
   Update JAP Ver.${JAP_VER}, GLO Ver.${GLO_VER}
   <br/>
@@ -36,7 +36,7 @@ function App() {
     window.localStorage.removeItem("a_v_220728")
     if(!announceViewed) {
       Swal.fire({
-        title: 'Update - 22.07.28',
+        title: 'Update - 22.08.11',
         html: announceHTML,
         icon: 'success',
       }).then(() => {
