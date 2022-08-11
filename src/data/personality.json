@@ -1583,7 +1583,7 @@
 		"code": "101440051"
 	},
 	{
-		"name": "묵염의 책사 시온",
+		"name": "먹빛의 책사 시온",
 		"is_extra": false,
 		"personality": [
 			"지팡이",
@@ -1622,5 +1622,16 @@
 		],
 		"description": null,
 		"code": "101000311"
+	},
+	{
+		"name": "클로드",
+		"is_extra": true,
+		"personality": [
+			"검",
+			"IDA스쿨",
+			"왕족"
+		],
+		"description": null,
+		"code": "101050081"
 	}
 ]
