@@ -1424,7 +1424,8 @@
 		"gonly": false,
 		"from": [],
 		"change": [
-			70
+			70,
+			282
 		],
 		"book": "없음",
 		"book_get": [],
@@ -1444,7 +1445,9 @@
 		"from": [
 			69
 		],
-		"change": [],
+		"change": [
+			282
+		],
 		"book": "그리므와르",
 		"book_get": [
 			"토토 드림랜드"
@@ -5811,6 +5814,27 @@
 		"book": "케류켈",
 		"book_get": [
 			"개전"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 282,
+		"code": "101010101",
+		"style": "as",
+		"category": 31,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			70
+		],
+		"book": "아베스타",
+		"book_get": [
+			"이절"
 		],
 		"manifest_jap": "없음",
 		"manifest_glo": "없음"
