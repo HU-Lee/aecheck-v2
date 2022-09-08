@@ -3079,7 +3079,7 @@
 		"book_get": [
 			"이절"
 		],
-		"manifest_jap": "없음",
+		"manifest_jap": "현현",
 		"manifest_glo": "없음"
 	},
 	{
@@ -4562,7 +4562,8 @@
 		"gonly": false,
 		"from": [],
 		"change": [
-			218
+			218,
+			283
 		],
 		"book": "없음",
 		"book_get": [],
@@ -4582,7 +4583,9 @@
 		"from": [
 			217
 		],
-		"change": [],
+		"change": [
+			283
+		],
 		"book": "코만듀어",
 		"book_get": [
 			"공업도시 폐허"
@@ -5610,7 +5613,7 @@
 		"free": false,
 		"sky": "shadow",
 		"first": true,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [],
 		"change": [
@@ -5629,7 +5632,7 @@
 		"free": false,
 		"sky": "shadow",
 		"first": false,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [
 			271
@@ -5833,6 +5836,27 @@
 			70
 		],
 		"book": "아베스타",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 283,
+		"code": "101070081",
+		"style": "as",
+		"category": 37,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			218
+		],
+		"book": "언노운 로즈",
 		"book_get": [
 			"이절"
 		],

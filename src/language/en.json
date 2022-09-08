@@ -208,7 +208,7 @@
 	"칠흑의 영장 기관": "Sapient Complex: Midnight",
 	"이스카리옷": "Iscariot",
 	"얼음의 바다": "Sea of Ice",
-	"뒤틀린 소용돌이": "Twisted Vortex",
+	"뒤틀린 소용돌이": "Mysterious Vortex",
 	"속성": "Element",
 	"불": "Fire",
 	"물": "Water",
@@ -539,6 +539,7 @@
 	"아리스토크라트": "Aristocrat",
 	"케류켈": "Kelkale",
 	"아베스타": "Avesta",
+	"언노운 로즈": "Unknown Rose",
 	"장비": "Weapons",
 	"서방": "West",
 	"미술": "Art",
@@ -572,5 +573,6 @@
 	"왕족": "Royalty",
 	"북방": "Northern",
 	"총": "Gun",
-	"독서가": "Bookworm"
+	"독서가": "Bookworm",
+	"COA": "COA"
 }

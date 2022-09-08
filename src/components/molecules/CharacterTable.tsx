@@ -40,8 +40,8 @@ function CharacterTable() {
                 <b>{formatMessage({id: "tableinfo"})}</b>
                 <br/>
                 <Downloader tag='chartable'/>
-                <div style={{margin:"20px 0 0 0", overflowX: "scroll"}}>
-                    <table style={{minWidth: "1280px", margin: "0 auto", maxWidth: "1280px", backgroundColor:"white", whiteSpace: "normal"}} id="chartable">
+                <div style={{margin:"20px 0 0 0", overflowX: "scroll", display: "flex", justifyContent: "center"}}>
+                    <table style={{minWidth: "1280px", maxWidth: "1280px", backgroundColor:"white", whiteSpace: "normal"}} id="chartable">
                         <thead>
                             <tr>
                                 <th style={{width: 70}}></th>

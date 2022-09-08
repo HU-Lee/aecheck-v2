@@ -55,13 +55,13 @@ function Sidebar() {
     const check_endpoints = [
         {name: "Checklist", path: "/"},
         {name: "My Character", path: "/result"},
-        {name: formatMessage({id: "manifest"}) + " (Beta)", path: "/manifest"}
+        {name: formatMessage({id: "manifest"}), path: "/manifest"}
     ]
 
     // 검색 관련 메뉴 옵션
     const dict_endpoints = [
-        {name: formatMessage({id: "books"}) + " (Beta)", path: "/books"},
-        {name: formatMessage({id: "personality"}) + " (Beta)", path: "/person"}
+        {name: formatMessage({id: "books"}), path: "/books"},
+        {name: formatMessage({id: "personality"}), path: "/person"}
     ]
 
     return (
@@ -85,9 +85,11 @@ function Sidebar() {
                 size='large'
                 icon={<UnorderedListOutlined/>} 
                 onClick={() => setVisible(true)}
-            />
+            />            
             <div style={{flexGrow: 1, maxWidth: 1300, fontSize: 20, fontWeight: 600, lineHeight: "40px"}}>
-                AE Check &#38; Tools
+                <Link to="/" style={{color: "black"}}>
+                    AE Check &#38; Tools
+                </Link>
             </div>
         </div>
         <Drawer 
