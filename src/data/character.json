@@ -2343,7 +2343,7 @@
 		"book_get": [
 			"식인 늪"
 		],
-		"manifest_jap": "현현",
+		"manifest_jap": "진현현",
 		"manifest_glo": "현현"
 	},
 	{
@@ -2722,7 +2722,8 @@
 		"gonly": false,
 		"from": [],
 		"change": [
-			131
+			131,
+			284
 		],
 		"book": "없음",
 		"book_get": [],
@@ -2742,7 +2743,9 @@
 		"from": [
 			130
 		],
-		"change": [],
+		"change": [
+			284
+		],
 		"book": "금화묘",
 		"book_get": [
 			"달그림자 숲"
@@ -3977,7 +3980,7 @@
 			"이절"
 		],
 		"manifest_jap": "현현",
-		"manifest_glo": "없음"
+		"manifest_glo": "현현"
 	},
 	{
 		"id": 190,
@@ -5653,7 +5656,7 @@
 		"free": false,
 		"sky": "light",
 		"first": true,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [],
 		"change": [
@@ -5672,13 +5675,13 @@
 		"free": false,
 		"sky": "light",
 		"first": false,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [
 			273
 		],
 		"change": [],
-		"book": "미라클 워커",
+		"book": "미러클 워커",
 		"book_get": [
 			"이절"
 		],
@@ -5857,6 +5860,27 @@
 			218
 		],
 		"book": "언노운 로즈",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 284,
+		"code": "101030151",
+		"style": "as",
+		"category": 43,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			131
+		],
+		"book": "오덕묘",
 		"book_get": [
 			"이절"
 		],
