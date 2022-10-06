@@ -1916,7 +1916,8 @@
 		"change": [
 			93,
 			94,
-			95
+			95,
+			287
 		],
 		"book": "없음",
 		"book_get": [],
@@ -1938,7 +1939,8 @@
 		],
 		"change": [
 			94,
-			95
+			95,
+			287
 		],
 		"book": "무라사메",
 		"book_get": [
@@ -5883,6 +5885,65 @@
 		"book": "오덕묘",
 		"book_get": [
 			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 285,
+		"code": "101050161",
+		"style": "4.5",
+		"category": 25,
+		"free": true,
+		"sky": "shadow",
+		"first": true,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			286
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 286,
+		"code": "101050161",
+		"style": "ns",
+		"category": 25,
+		"free": true,
+		"sky": "shadow",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [
+			285
+		],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 287,
+		"code": "101040181",
+		"style": "ns",
+		"category": 14,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			93
+		],
+		"book": "미야비노카미",
+		"book_get": [
+			"경전록"
 		],
 		"manifest_jap": "없음",
 		"manifest_glo": "없음"
