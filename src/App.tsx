@@ -13,34 +13,27 @@ import ManifestPage from './components/pages/ManifestPage';
 import { GLO_VER, JAP_VER } from './data/config';
 
 const announceHTML = `<div class="announce">
-  글로벌판 ${GLO_VER} 반영
+  글로벌판 아이샤, 소이라AS 반영
   <br/>
-  Update GLOBAL Ver.${GLO_VER}
-  <br/>
-  <br/>
-  그 외 자세한 사항은 링크를 확인해 주세요. 
-  <br/>
-  Please Check following link.
-  <br/>
-  <a href="https://aecheck.tistory.com/26" target="_blank" rel="noreferrer">Patch Note</a>
+  Update Aisha, Soira(AS) to GLOBAL Server
 </div>`
 
 function App() {
 
-  const announceViewed = Boolean(window.localStorage.getItem("a_v_221011"))
+  const announceViewed = Boolean(window.localStorage.getItem("a_v_221021"))
 
   const { lang } = useContext(AnotherContext)
   const message = require(`./language/${lang}.json`)
 
   useEffect(() => {
-    window.localStorage.removeItem("a_v_221007")
+    window.localStorage.removeItem("a_v_221011")
     if(!announceViewed) {
       Swal.fire({
-        title: 'Update - 22.10.07',
+        title: 'Update - 22.10.21',
         html: announceHTML,
         icon: 'success',
       }).then(() => {
-        window.localStorage.setItem("a_v_221011", "true")
+        window.localStorage.setItem("a_v_221021", "true")
       })
     }
   }, [announceViewed])
