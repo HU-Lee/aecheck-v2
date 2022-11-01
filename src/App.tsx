@@ -14,34 +14,39 @@ import { GLO_VER, JAP_VER } from './data/config';
 import BuddyPage from './components/pages/BuddyPage';
 
 const announceHTML = `<div class="announce">
-  글로벌판 아이샤, 소이라AS 반영
+  JAPANESE ${JAP_VER} UPDATE
   <br/>
-  Update Aisha, Soira(AS) to GLOBAL Server
+  <br/>
+  그 외 자세한 사항은 링크를 확인해 주세요. 
+  <br/>
+  Please Check following link.
+  <br/>
+  <a href="https://aecheck.tistory.com/28" target="_blank" rel="noreferrer">Patch Note</a>
 </div>`
 
 function App() {
 
-  const announceViewed = Boolean(window.localStorage.getItem("a_v_221021"))
+  const announceViewed = Boolean(window.localStorage.getItem("a_v_221101"))
 
   const { lang } = useContext(AnotherContext)
   const message = require(`./language/${lang}.json`)
 
   useEffect(() => {
-    window.localStorage.removeItem("a_v_221011")
+    window.localStorage.removeItem("a_v_221021")
     if(!announceViewed) {
       Swal.fire({
-        title: 'Update - 22.10.21',
+        title: 'Update 22.11.01',
         html: announceHTML,
         icon: 'success',
       }).then(() => {
-        window.localStorage.setItem("a_v_221021", "true")
+        window.localStorage.setItem("a_v_221101", "true")
       })
     }
   }, [announceViewed])
 
   return (
     <IntlProvider messages={message} locale={lang} defaultLocale='ko'>
-      <Router basename="/anothercharcheck">
+      <Router basename={process.env.PUBLIC_URL}>
           <Sidebar/>
           <Routes>
               <Route path="/" element={<MainPage/>} />
