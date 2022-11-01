@@ -1,13 +1,14 @@
-import { Button, Collapse, Divider, Popconfirm } from 'antd';
+import { Button, Collapse, Popconfirm } from 'antd';
 import React, { useContext } from 'react'
 import { useIntl } from 'react-intl'
 import { AnotherContext } from '../../contexts'
 import { MANIFEST_STEPS } from '../../data/constant';
-import { directButtonLink, emptyImage } from '../../util/commonComponent';
+import { emptyImage } from '../../util/commonComponent';
 import { new_manifest_to_top } from '../../util/function';
 import { GridDiv, PageWrapper } from '../../util/styles';
 import CharacterManifest from '../atoms/CharacterManifest';
 import CharacterResult from '../atoms/CharacterResult';
+import Downloader from '../atoms/Downloader';
 
 const { Panel } = Collapse;
 
@@ -113,36 +114,40 @@ function ManifestPage() {
 
     return (
         <PageWrapper style={{maxWidth: "1200px"}}>
-            {directButtonLink("/", "Back to Checklist")}
-            <Divider style={{margin: 5}}/>
-            <Popconfirm
-                title={manifestMessage}
-                onConfirm={clearAll}
-                okText="Yes"
-                cancelText="No"
-            >
-                <Button shape='round' style={{ height: 35, width: 110, fontSize: "1rem", fontWeight: 600, margin: "5px auto"}} type="primary" danger>ALL CLEAR</Button>
-            </Popconfirm>
-            <GridDiv>
-                {manifest_incomplete.length > 0 ? manifest_incomplete.map(info => <CharacterManifest key={info.id} {...info}/>) : emptyImage}
-            </GridDiv>
-            <Collapse defaultActiveKey={['3', "4"]} style={{fontSize: "1rem", fontWeight: 600}}>
-                <Panel header="Complete" key="2">
-                    <GridDiv>
-                        {manifest_complete.length > 0 ? manifest_complete.map(info => <CharacterManifest key={info.id} {...info}/>) : emptyImage}
-                    </GridDiv>
-                </Panel>
-                <Panel header={formatMessage({id: "manifest_error2"})} key="3">
-                    {filtered.filter(a => get_manifest_status(a) === "manifest_error2").map((info, index) => (
-                        <CharacterResult key={index} {...info}/>
-                    ))}
-                </Panel>
-                <Panel header={formatMessage({id: "manifest_error3"})} key="4">
-                    {filtered.filter(a => get_manifest_status(a) === "manifest_error3").map((info, index) => (
-                        <CharacterResult key={index} {...info}/>
-                    ))}
-                </Panel>
-            </Collapse>
+            <div style={{marginBottom: "10px"}}>
+                <Popconfirm
+                    title={manifestMessage}
+                    onConfirm={clearAll}
+                    okText="Yes"
+                    cancelText="No"
+                >
+                    <Button shape='round' style={{ height: 35, width: 110, fontSize: "1rem", fontWeight: 600, margin: "5px auto"}}>ALL CLEAR</Button>
+                </Popconfirm>
+                <Downloader tag='manifestresult'/>
+            </div>
+            <div id="manifestresult">
+                <h2><b>{formatMessage({id: "manifest"})}</b></h2>    
+                <GridDiv>
+                    {manifest_incomplete.length > 0 ? manifest_incomplete.map(info => <CharacterManifest key={info.id} {...info}/>) : emptyImage("All CLEAR")}
+                </GridDiv>
+                <Collapse defaultActiveKey={['3', "4"]} style={{fontSize: "1rem", fontWeight: 600}}>
+                    <Panel header="Complete" key="2">
+                        <GridDiv>
+                            {manifest_complete.length > 0 ? manifest_complete.map(info => <CharacterManifest key={info.id} {...info}/>) : emptyImage()}
+                        </GridDiv>
+                    </Panel>
+                    <Panel header={formatMessage({id: "manifest_error2"})} key="3">
+                        {filtered.filter(a => get_manifest_status(a) === "manifest_error2").map((info, index) => (
+                            <CharacterResult key={index} {...info}/>
+                        ))}
+                    </Panel>
+                    <Panel header={formatMessage({id: "manifest_error3"})} key="4">
+                        {filtered.filter(a => get_manifest_status(a) === "manifest_error3").map((info, index) => (
+                            <CharacterResult key={index} {...info}/>
+                        ))}
+                    </Panel>
+                </Collapse>
+            </div>
         </PageWrapper>
     )
 }

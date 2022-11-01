@@ -1662,5 +1662,27 @@
 		],
 		"description": null,
 		"code": "101040181"
+	},
+	{
+		"name": "미나르카",
+		"is_extra": false,
+		"personality": [
+			"검",
+			"대식가"
+		],
+		"description": null,
+		"code": "101010131"
+	},
+	{
+		"name": "애쉬티어",
+		"is_extra": false,
+		"personality": [
+			"안경",
+			"권갑",
+			"총",
+			"과학자"
+		],
+		"description": null,
+		"code": "101060161"
 	}
 ]

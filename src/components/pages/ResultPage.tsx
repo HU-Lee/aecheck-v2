@@ -3,7 +3,6 @@ import React, { useContext } from 'react'
 import { useIntl } from 'react-intl';
 import { AnotherContext } from '../../contexts'
 import { ELEMENTS, STYLES } from '../../data/constant';
-import { directButtonLink } from '../../util/commonComponent';
 import { PageWrapper } from '../../util/styles';
 import CharacterResult from '../atoms/CharacterResult';
 import ResultManager from '../organisms/ResultManager';
@@ -104,8 +103,6 @@ function ResultPage() {
 
     return (
         <PageWrapper style={{maxWidth: "1100px"}}>
-            {directButtonLink("/", "Back to Checklist")}
-            <Divider style={{margin: 5}}/>
             <ResultManager/>
             <div id="checkresult">
                 <Collapse defaultActiveKey={['1', '2', '3', '4']} style={{fontSize: "1rem", fontWeight: 600}}>

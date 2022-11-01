@@ -49,13 +49,14 @@ function Sidebar() {
      * @param path: 현재 주소. 사이드바 메뉴를 강조할 때 참조한다.
      */
     const [visible, setVisible] = useState(false);
-    const path = window.location.pathname.replaceAll("/aetest", "")
+    const path = window.location.pathname.replaceAll("/anothercharcheck", "")
 
     // 체크 관련 메뉴 옵션
     const check_endpoints = [
         {name: "Checklist", path: "/"},
-        {name: "My Character", path: "/result"},
-        {name: formatMessage({id: "manifest"}), path: "/manifest"}
+        {name: "Buddy (NEW)", path: "/buddy"},
+        {name: formatMessage({id: "manifest"}), path: "/manifest"},
+        {name: "My Result", path: "/result"},
     ]
 
     // 검색 관련 메뉴 옵션

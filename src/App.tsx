@@ -11,6 +11,7 @@ import { BackTop } from 'antd';
 import PersonalPage from './components/pages/PersonalPage';
 import ManifestPage from './components/pages/ManifestPage';
 import { GLO_VER, JAP_VER } from './data/config';
+import BuddyPage from './components/pages/BuddyPage';
 
 const announceHTML = `<div class="announce">
   글로벌판 아이샤, 소이라AS 반영
@@ -48,6 +49,7 @@ function App() {
               <Route path="/books" element={<BookPage/>} />
               <Route path="/person" element={<PersonalPage/>} />
               <Route path="/manifest" element={<ManifestPage/>} />
+              <Route path="/buddy" element={<BuddyPage/>} />
           </Routes>
       </Router>
       <BackTop/>

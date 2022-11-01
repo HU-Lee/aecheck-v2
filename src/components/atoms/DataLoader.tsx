@@ -31,7 +31,7 @@ const convert_data = require("../../data/old_to_new.json")
 function DataLoader() {
 
     // context load
-    const { inven, setInven, manifest, setManifest } = useContext(AnotherContext)
+    const { inven, setInven, manifest, setManifest, buddyInven, setBuddy } = useContext(AnotherContext)
     
     /**
      * @param UserData          유저가 입력한 데이터
@@ -55,7 +55,8 @@ function DataLoader() {
     const dataSave = () => {
         const jsonString = JSON.stringify({
             inven: inven,
-            manifest: manifest
+            manifest: manifest,
+            buddy: buddyInven
         })
         const element = document.createElement("a");
         const file = new Blob([jsonString], {type: 'text/plain'});
@@ -79,6 +80,8 @@ function DataLoader() {
                 setInven(newData.inven)
                 window.localStorage.setItem("a_man", newData.manifest.join(","))
                 setManifest(newData.manifest)
+                window.localStorage.setItem("a_man", newData.buddy.join(","))
+                setBuddy(newData.buddy)
             }
             Swal.fire({
                 text: "Data Load Success",

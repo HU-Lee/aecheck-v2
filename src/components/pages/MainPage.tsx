@@ -3,7 +3,6 @@ import React, { useContext, useState } from 'react'
 import { useIntl } from 'react-intl'
 import { AnotherContext } from '../../contexts'
 import { ELEMENTS, WEAPONS } from '../../data/constant'
-import { directButtonLink } from '../../util/commonComponent'
 import { new_char_to_top } from '../../util/function'
 import { FlexColumnCenterDiv, PageWrapper } from '../../util/styles'
 import CheckComponent from '../organisms/CheckComponent'
@@ -48,10 +47,6 @@ function MainPage() {
 
     return (
         <PageWrapper style={{maxWidth: "1400px"}}>
-            <div style={{display: "flex", justifyContent: "center", flexWrap: "wrap"}}>
-                {directButtonLink("/result", "Result")}
-                {directButtonLink("/manifest", formatMessage({id: "manifest"}))}
-            </div>
             <FlexColumnCenterDiv style={{margin: "15px"}}>
                 <b>Filter</b>
                 <div style={{display:"flex", flexWrap: "wrap", justifyContent:"center"}}>

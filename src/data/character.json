@@ -5947,5 +5947,62 @@
 		],
 		"manifest_jap": "없음",
 		"manifest_glo": "없음"
+	},
+	{
+		"id": 288,
+		"code": "101010131",
+		"style": "4.5",
+		"category": 11,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			289
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 289,
+		"code": "101010131",
+		"style": "ns",
+		"category": 11,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [
+			288
+		],
+		"change": [],
+		"book": "네메시스",
+		"book_get": [
+			"차원전함"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 290,
+		"code": "101060161",
+		"style": "ns",
+		"category": 16,
+		"free": true,
+		"sky": "light",
+		"first": true,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
 	}
 ]

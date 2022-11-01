@@ -34,6 +34,10 @@ const AnotherContext = createContext({
     setInven: (data: number[]) => {},
     addInven: (ids : number[]) => {},
     removeInven: (id : number) => {},
+    buddyInven: [] as number[],
+    setBuddy: (data: number[]) => {},
+    addBuddy: (ids : number[]) => {},
+    removeBuddy: (id : number) => {},
     manifest: [] as number[],
     setManifest: (data: number[]) => {},
     changeManifest: (level: number, id: number) => {},
@@ -90,6 +94,17 @@ const AnotherProvider = ({ children }: Props): JSX.Element => {
       setInven(newData);
     };
 
+    const [buddyInven, setBuddy] = useState(window.localStorage.getItem("a_bud")?.split(",").map(Number) || [] as number[])
+    const addBuddy = (ids: number[]): void => {
+      const newData = Array.from(new Set([...buddyInven, ...ids]))
+      window.localStorage.setItem("a_bud", newData.join(","))
+      setBuddy(newData);
+    };
+    const removeBuddy = (id: number): void => {
+      const newData = buddyInven.filter(a => a !== id)
+      window.localStorage.setItem("a_bud", newData.join(","))
+      setBuddy(newData);
+    };
 
 
     const [manifest, setManifest] = useState(window.localStorage.getItem("a_man")?.split(",").map(Number) || [] as number[])
@@ -123,6 +138,10 @@ const AnotherProvider = ({ children }: Props): JSX.Element => {
           setInven,
           addInven,
           removeInven,
+          buddyInven,
+          setBuddy,
+          addBuddy,
+          removeBuddy,
           manifest,
           setManifest,
           changeManifest,

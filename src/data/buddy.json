@@ -1,0 +1,46 @@
+[
+	{
+		"id": 2001,
+		"code": "2000000001",
+		"from": [
+			289
+		],
+		"free": false,
+		"jonly": true,
+		"gonly": false
+	},
+	{
+		"id": 2002,
+		"code": "2000000002",
+		"from": [
+			290
+		],
+		"free": true,
+		"jonly": true,
+		"gonly": false
+	},
+	{
+		"id": 2003,
+		"code": "2000000003",
+		"from": [],
+		"free": true,
+		"jonly": true,
+		"gonly": false
+	},
+	{
+		"id": 2004,
+		"code": "2000000004",
+		"from": [],
+		"free": true,
+		"jonly": true,
+		"gonly": false
+	},
+	{
+		"id": 2005,
+		"code": "2000000005",
+		"from": [],
+		"free": true,
+		"jonly": true,
+		"gonly": false
+	}
+]

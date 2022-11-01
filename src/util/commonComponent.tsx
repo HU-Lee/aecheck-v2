@@ -43,6 +43,6 @@ export const directButtonLink = (endpoint: string, text: string) => (
  * 
  * 데이터가 없을 때 표시할 이미지
  */ 
-export const emptyImage = (
-    <Empty image="images/nodata.png" style={{margin: 20}}/>
+export const emptyImage = (title = "No Data") => (
+    <Empty image="images/nodata.png" style={{margin: 20}} description={title}/>
 )
