@@ -17,7 +17,8 @@
 		"is_extra": false,
 		"personality": [
 			"지팡이",
-			"가면"
+			"가면",
+			"기억상실"
 		],
 		"description": null,
 		"code": "101000021"
@@ -78,7 +79,8 @@
 		"name": "가리유",
 		"is_extra": false,
 		"personality": [
-			"지팡이"
+			"지팡이",
+			"용"
 		],
 		"description": null,
 		"code": "101000081"
@@ -171,7 +173,8 @@
 		"is_extra": false,
 		"personality": [
 			"지팡이",
-			"용궁"
+			"용궁",
+			"기억상실"
 		],
 		"description": null,
 		"code": "101000201"
@@ -235,7 +238,8 @@
 		"is_extra": false,
 		"personality": [
 			"지팡이",
-			"서방"
+			"서방",
+			"기억상실"
 		],
 		"description": null,
 		"code": "101000261"
@@ -254,7 +258,8 @@
 		"name": "에바",
 		"is_extra": false,
 		"personality": [
-			"지팡이"
+			"지팡이",
+			"용"
 		],
 		"description": null,
 		"code": "101000281"
@@ -331,7 +336,8 @@
 		"is_extra": false,
 		"personality": [
 			"검",
-			"미글랜스 왕궁"
+			"미글랜스 왕궁",
+			"기억상실"
 		],
 		"description": null,
 		"code": "101010051"
@@ -510,7 +516,8 @@
 		"is_extra": false,
 		"personality": [
 			"도",
-			"애묘가"
+			"애묘가",
+			"기억상실"
 		],
 		"description": "애묘가는 AS 획득 시에만",
 		"code": "101020091"
@@ -891,7 +898,8 @@
 		"is_extra": false,
 		"personality": [
 			"창",
-			"단것 애호가"
+			"단것 애호가",
+			"용"
 		],
 		"description": null,
 		"code": "101040121"
@@ -1003,9 +1011,10 @@
 			"활",
 			"IDA스쿨",
 			"왕족",
-			"독서가"
+			"독서가",
+			"용"
 		],
-		"description": null,
+		"description": "용은 ES 획득 시",
 		"code": "101050081"
 	},
 	{
@@ -1085,7 +1094,8 @@
 		"name": "노나",
 		"is_extra": false,
 		"personality": [
-			"활"
+			"활",
+			"기억상실"
 		],
 		"description": null,
 		"code": "101050161"
@@ -1420,7 +1430,8 @@
 		"is_extra": false,
 		"personality": [
 			"검",
-			"마음의 괴도단"
+			"마음의 괴도단",
+			"기억상실"
 		],
 		"description": null,
 		"code": "101420011"
@@ -1551,7 +1562,8 @@
 			"검",
 			"주인공",
 			"천계의 인도",
-			"채집"
+			"채집",
+			"용"
 		],
 		"description": null,
 		"code": "101910011"
