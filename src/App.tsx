@@ -14,35 +14,35 @@ import { GLO_VER, JAP_VER } from './data/config';
 import BuddyPage from './components/pages/BuddyPage';
 
 const announceHTML = `<div class="announce">
+  글로벌판 ES클로드 추가
+  <br/>
+  Add Claude(ES) to GLOBAL Server
+  <br/>
+  <br/>
   최근 도메인 변경에 관하여
   <br/>
   About Recent Domain Changes
-  <br/>
-  <br/>
-  자세한 사항은 링크를 확인해 주세요. 
-  <br/>
-  Please Check following link.
   <br/>
   <a href="https://aecheck.tistory.com/notice/30" target="_blank" rel="noreferrer">https://aecheck.tistory.com/notice/30</a>
 </div>`
 
 function App() {
 
-  // const announceViewed = Boolean(window.localStorage.getItem("a_v_221105"))
+  const announceViewed = Boolean(window.localStorage.getItem("a_v_221110"))
 
   const { lang } = useContext(AnotherContext)
   const message = require(`./language/${lang}.json`)
 
   useEffect(() => {
     window.localStorage.removeItem("a_v_221105")
-    // if(!announceViewed) {
-    if(true) {
+    if(!announceViewed) {
+    // if(true) {
       Swal.fire({
-        title: 'Announcement',
+        title: 'Update 22.11.10',
         html: announceHTML,
-        icon: 'warning',
+        icon: 'info',
       }).then(() => {
-        // window.localStorage.setItem("a_v_221105", "true")
+        window.localStorage.setItem("a_v_221110", "true")
       })
     }
   }, [])
