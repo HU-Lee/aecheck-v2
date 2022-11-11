@@ -16,7 +16,11 @@ import BuddyPage from './components/pages/BuddyPage';
 const announceHTML = `<div class="announce">
   글로벌판 ES클로드 추가
   <br/>
+  일본판 AS플람라피스 추가
+  <br/>
   Add Claude(ES) to GLOBAL Server
+  <br/>
+  Add Flammelapis(AS) to JAPANESE Server
   <br/>
   <br/>
   최근 도메인 변경에 관하여
@@ -28,13 +32,13 @@ const announceHTML = `<div class="announce">
 
 function App() {
 
-  const announceViewed = Boolean(window.localStorage.getItem("a_v_221110"))
+  const announceViewed = Boolean(window.localStorage.getItem("a_v_221112"))
 
   const { lang } = useContext(AnotherContext)
   const message = require(`./language/${lang}.json`)
 
   useEffect(() => {
-    window.localStorage.removeItem("a_v_221105")
+    window.localStorage.removeItem("a_v_221110")
     if(!announceViewed) {
     // if(true) {
       Swal.fire({
@@ -42,7 +46,7 @@ function App() {
         html: announceHTML,
         icon: 'info',
       }).then(() => {
-        window.localStorage.setItem("a_v_221110", "true")
+        window.localStorage.setItem("a_v_221112", "true")
       })
     }
   }, [])

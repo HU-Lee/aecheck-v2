@@ -970,7 +970,8 @@
 		"gonly": false,
 		"from": [],
 		"change": [
-			48
+			48,
+			291
 		],
 		"book": "없음",
 		"book_get": [],
@@ -990,7 +991,9 @@
 		"from": [
 			47
 		],
-		"change": [],
+		"change": [
+			291
+		],
 		"book": "스카디",
 		"book_get": [
 			"마수성"
@@ -6002,6 +6005,27 @@
 		"change": [],
 		"book": "없음",
 		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 291,
+		"code": "101000271",
+		"style": "as",
+		"category": 28,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			48
+		],
+		"book": "볼바",
+		"book_get": [
+			"이절"
+		],
 		"manifest_jap": "없음",
 		"manifest_glo": "없음"
 	}
