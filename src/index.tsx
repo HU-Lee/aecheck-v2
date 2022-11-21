@@ -4,11 +4,10 @@ import './index.css';
 import 'antd/dist/antd.css';
 import App from './App';
 import { AnotherProvider } from './contexts';
-import ReactGA from 'react-ga';
+import ReactGA from "react-ga4";
 
-// Analytics 적용(?)
-ReactGA.initialize('UA-190586417-2');
-ReactGA.pageview(window.location.pathname + window.location.search);
+ReactGA.initialize("G-J7KTFCS1GH");
+ReactGA.send("pageview");
 
 ReactDOM.render(
   <React.StrictMode>
