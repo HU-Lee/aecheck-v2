@@ -14,35 +14,35 @@ import { GLO_VER, JAP_VER } from './data/config';
 import BuddyPage from './components/pages/BuddyPage';
 
 const announceHTML = `<div class="announce">
-  글로벌판 AS신시아 추가
+  일본판 ${JAP_VER} 반영
   <br/>
-  Add Cynthia(AS) to GLOBAL Server
+  Update JAPANESE Ver.${JAP_VER}
   <br/>
   <br/>
   그 외 자세한 사항은 링크를 확인해 주세요. 
   <br/>
   Please Check following link.
   <br/>
-  <a href="https://aecheck.tistory.com/31" target="_blank" rel="noreferrer">Patch Note</a>
+  <a href="https://aecheck.tistory.com/32" target="_blank" rel="noreferrer">Patch Note</a>
 </div>`
 
 function App() {
 
-  const announceViewed = Boolean(window.localStorage.getItem("a_v_221121"))
+  const announceViewed = Boolean(window.localStorage.getItem("a_v_221125"))
 
   const { lang } = useContext(AnotherContext)
   const message = require(`./language/${lang}.json`)
 
   useEffect(() => {
-    window.localStorage.removeItem("a_v_221112")
+    window.localStorage.removeItem("a_v_221121")
     if(!announceViewed) {
     // if(true) {
       Swal.fire({
-        title: 'Update 22.11.21',
+        title: 'Update 22.11.25',
         html: announceHTML,
         icon: 'info',
       }).then(() => {
-        window.localStorage.setItem("a_v_221121", "true")
+        window.localStorage.setItem("a_v_221125", "true")
       })
     }
   }, [])

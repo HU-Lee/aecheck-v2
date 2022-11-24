@@ -3402,7 +3402,8 @@
 		"gonly": false,
 		"from": [],
 		"change": [
-			163
+			163,
+			292
 		],
 		"book": "없음",
 		"book_get": [],
@@ -3422,7 +3423,9 @@
 		"from": [
 			162
 		],
-		"change": [],
+		"change": [
+			292
+		],
 		"book": "흐룽그니르",
 		"book_get": [
 			"식인 늪"
@@ -4441,7 +4444,7 @@
 		"book_get": [
 			"차원전함"
 		],
-		"manifest_jap": "현현",
+		"manifest_jap": "진현현",
 		"manifest_glo": "현현"
 	},
 	{
@@ -6023,6 +6026,27 @@
 			48
 		],
 		"book": "볼바",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 292,
+		"code": "101040161",
+		"style": "as",
+		"category": 34,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			163
+		],
+		"book": "이미르",
 		"book_get": [
 			"이절"
 		],
