@@ -2200,7 +2200,8 @@
 		"gonly": false,
 		"from": [],
 		"change": [
-			106
+			106,
+			293
 		],
 		"book": "없음",
 		"book_get": [],
@@ -2220,7 +2221,9 @@
 		"from": [
 			105
 		],
-		"change": [],
+		"change": [
+			293
+		],
 		"book": "카라쿠레나이",
 		"book_get": [
 			"미글랜스 성"
@@ -3088,7 +3091,7 @@
 			"이절"
 		],
 		"manifest_jap": "현현",
-		"manifest_glo": "없음"
+		"manifest_glo": "현현"
 	},
 	{
 		"id": 148,
@@ -4200,7 +4203,7 @@
 		"book_get": [
 			"달그림자 숲"
 		],
-		"manifest_jap": "없음",
+		"manifest_jap": "현현",
 		"manifest_glo": "없음"
 	},
 	{
@@ -5861,7 +5864,7 @@
 		"free": false,
 		"sky": "shadow",
 		"first": false,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [],
 		"change": [
@@ -6047,6 +6050,27 @@
 			163
 		],
 		"book": "이미르",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 293,
+		"code": "101020121",
+		"style": "as",
+		"category": 32,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			106
+		],
+		"book": "조루리히메",
 		"book_get": [
 			"이절"
 		],
