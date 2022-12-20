@@ -2352,7 +2352,7 @@
 			"식인 늪"
 		],
 		"manifest_jap": "진현현",
-		"manifest_glo": "현현"
+		"manifest_glo": "진현현"
 	},
 	{
 		"id": 113,
@@ -3170,7 +3170,8 @@
 		"from": [],
 		"change": [
 			152,
-			153
+			153,
+			294
 		],
 		"book": "없음",
 		"book_get": [],
@@ -3191,7 +3192,8 @@
 			151
 		],
 		"change": [
-			153
+			153,
+			294
 		],
 		"book": "브류나크",
 		"book_get": [
@@ -6074,6 +6076,179 @@
 		"book_get": [
 			"이절"
 		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 294,
+		"code": "101010141",
+		"style": "ns",
+		"category": 21,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			152
+		],
+		"book": "프로일라인",
+		"book_get": [
+			"경전록"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 295,
+		"code": "101450011",
+		"style": "4.5",
+		"category": 12,
+		"free": true,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			296
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 296,
+		"code": "101450011",
+		"style": "ns",
+		"category": 12,
+		"free": true,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			295
+		],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 297,
+		"code": "101450021",
+		"style": "4.5",
+		"category": 58,
+		"free": true,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			298
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 298,
+		"code": "101450021",
+		"style": "ns",
+		"category": 58,
+		"free": true,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			297
+		],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 299,
+		"code": "101450031",
+		"style": "4.5",
+		"category": 11,
+		"free": true,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			300
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 300,
+		"code": "101450031",
+		"style": "ns",
+		"category": 11,
+		"free": true,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			299
+		],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 301,
+		"code": "101450041",
+		"style": "4.5",
+		"category": 15,
+		"free": true,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			302
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 302,
+		"code": "101450041",
+		"style": "ns",
+		"category": 15,
+		"free": true,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			301
+		],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
 		"manifest_jap": "없음",
 		"manifest_glo": "없음"
 	}

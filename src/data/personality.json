@@ -1696,5 +1696,55 @@
 		],
 		"description": null,
 		"code": "101060161"
+	},
+	{
+		"name": "월화의 영애 히스메나",
+		"is_extra": false,
+		"personality": [
+			"검",
+			"IDA스쿨"
+		],
+		"description": null,
+		"code": "101010141"
+	},
+	{
+		"name": "로이드",
+		"is_extra": false,
+		"personality": [
+			"도"
+		],
+		"description": null,
+		"code": "101450011"
+	},
+	{
+		"name": "콜레트",
+		"is_extra": false,
+		"personality": [
+			"지팡이"
+		],
+		"description": null,
+		"code": "101450021"
+	},
+	{
+		"name": "알펜",
+		"is_extra": false,
+		"personality": [
+			"가면",
+			"검",
+			"기억상실"
+		],
+		"description": null,
+		"code": "101450031"
+	},
+	{
+		"name": "시온 (테일즈)",
+		"is_extra": false,
+		"personality": [
+			"활",
+			"대식가",
+			"총"
+		],
+		"description": null,
+		"code": "101450041"
 	}
 ]
