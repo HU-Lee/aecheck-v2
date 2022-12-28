@@ -14,35 +14,29 @@ import { GLO_VER, JAP_VER } from './data/config';
 import BuddyPage from './components/pages/BuddyPage';
 
 const announceHTML = `<div class="announce">
-  일본판 ${JAP_VER}, 글로벌판 ${GLO_VER} 반영
+  글로벌판 네코코 AS 반영
   <br/>
-  Update JAPANESE Ver.${JAP_VER}, GLOBAL Ver.${GLO_VER}
+  Update Necoco(AS) to GLOBAL server
   <br/>
-  <br/>
-  그 외 자세한 사항은 링크를 확인해 주세요. 
-  <br/>
-  Please Check following link.
-  <br/>
-  <a href="https://aecheck.tistory.com/34" target="_blank" rel="noreferrer">Patch Note</a>
 </div>`
 
 function App() {
 
-  const announceViewed = Boolean(window.localStorage.getItem("a_v_221220"))
+  const announceViewed = Boolean(window.localStorage.getItem("a_v_221229"))
 
   const { lang } = useContext(AnotherContext)
   const message = require(`./language/${lang}.json`)
 
   useEffect(() => {
-    window.localStorage.removeItem("a_v_221206")
+    window.localStorage.removeItem("a_v_221220")
     if(!announceViewed) {
     // if(true) {
       Swal.fire({
-        title: 'Update 22.12.20',
+        title: 'Update 22.12.29',
         html: announceHTML,
         icon: 'info',
       }).then(() => {
-        window.localStorage.setItem("a_v_221220", "true")
+        window.localStorage.setItem("a_v_221229", "true")
       })
     }
   }, [])
