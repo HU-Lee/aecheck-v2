@@ -14,29 +14,29 @@ import { GLO_VER, JAP_VER } from './data/config';
 import BuddyPage from './components/pages/BuddyPage';
 
 const announceHTML = `<div class="announce">
-  글로벌판 네코코 AS 반영
+  일본판 마리엘 ES 반영
   <br/>
-  Update Necoco(AS) to GLOBAL server
+  Update Mariel(ES) to JAPANESE server
   <br/>
 </div>`
 
 function App() {
 
-  const announceViewed = Boolean(window.localStorage.getItem("a_v_221229"))
+  const announceViewed = Boolean(window.localStorage.getItem("a_v_221230"))
 
   const { lang } = useContext(AnotherContext)
   const message = require(`./language/${lang}.json`)
 
   useEffect(() => {
-    window.localStorage.removeItem("a_v_221220")
+    window.localStorage.removeItem("a_v_221229")
     if(!announceViewed) {
     // if(true) {
       Swal.fire({
-        title: 'Update 22.12.29',
+        title: 'Update 22.12.30',
         html: announceHTML,
         icon: 'info',
       }).then(() => {
-        window.localStorage.setItem("a_v_221229", "true")
+        window.localStorage.setItem("a_v_221230", "true")
       })
     }
   }, [])

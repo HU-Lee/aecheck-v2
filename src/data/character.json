@@ -76,7 +76,8 @@
 		"from": [],
 		"change": [
 			5,
-			6
+			6,
+			303
 		],
 		"book": "없음",
 		"book_get": [],
@@ -97,7 +98,8 @@
 			4
 		],
 		"change": [
-			6
+			6,
+			303
 		],
 		"book": "하이어로팬트",
 		"book_get": [
@@ -118,7 +120,8 @@
 		"gonly": false,
 		"from": [],
 		"change": [
-			5
+			5,
+			303
 		],
 		"book": "하이 프리스티스",
 		"book_get": [
@@ -6249,6 +6252,28 @@
 		"change": [],
 		"book": "없음",
 		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 303,
+		"code": "101000031",
+		"style": "es",
+		"category": 56,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			5,
+			6
+		],
+		"book": "아르카눔",
+		"book_get": [
+			"개전"
+		],
 		"manifest_jap": "없음",
 		"manifest_glo": "없음"
 	}

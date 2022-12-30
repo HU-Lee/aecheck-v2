@@ -1746,5 +1746,16 @@
 		],
 		"description": null,
 		"code": "101450041"
+	},
+	{
+		"name": "마리엘",
+		"is_extra": true,
+		"personality": [
+			"권갑",
+			"애묘가",
+			"성직자"
+		],
+		"description": null,
+		"code": "101000031"
 	}
 ]
