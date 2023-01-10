@@ -14,29 +14,35 @@ import { GLO_VER, JAP_VER } from './data/config';
 import BuddyPage from './components/pages/BuddyPage';
 
 const announceHTML = `<div class="announce">
-  일본판 마리엘 ES 반영
+  글로벌판 ${GLO_VER} 반영
   <br/>
-  Update Mariel(ES) to JAPANESE server
+  Update GLOBAL Ver.${GLO_VER}
   <br/>
+  <br/>
+  그 외 자세한 사항은 링크를 확인해 주세요. 
+  <br/>
+  Please Check following link.
+  <br/>
+  <a href="https://aecheck.tistory.com/35" target="_blank" rel="noreferrer">Patch Note</a>
 </div>`
 
 function App() {
 
-  const announceViewed = Boolean(window.localStorage.getItem("a_v_221230"))
+  const announceViewed = Boolean(window.localStorage.getItem("a_v_230111"))
 
   const { lang } = useContext(AnotherContext)
   const message = require(`./language/${lang}.json`)
 
   useEffect(() => {
-    window.localStorage.removeItem("a_v_221229")
+    window.localStorage.removeItem("a_v_221230")
     if(!announceViewed) {
     // if(true) {
       Swal.fire({
-        title: 'Update 22.12.30',
+        title: 'Update 23.01.11',
         html: announceHTML,
         icon: 'info',
       }).then(() => {
-        window.localStorage.setItem("a_v_221230", "true")
+        window.localStorage.setItem("a_v_230111", "true")
       })
     }
   }, [])
