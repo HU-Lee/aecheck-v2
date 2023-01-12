@@ -1757,5 +1757,17 @@
 		],
 		"description": null,
 		"code": "101000031"
+	},
+	{
+		"name": "은주의 구미 호오즈키",
+		"is_extra": false,
+		"personality": [
+			"창",
+			"동방",
+			"요리",
+			"총"
+		],
+		"description": null,
+		"code": "101040191"
 	}
 ]

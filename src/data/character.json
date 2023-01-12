@@ -2103,7 +2103,7 @@
 		"book_get": [
 			"미글랜스 성"
 		],
-		"manifest_jap": "없음",
+		"manifest_jap": "현현",
 		"manifest_glo": "없음"
 	},
 	{
@@ -3649,7 +3649,8 @@
 		"from": [],
 		"change": [
 			174,
-			175
+			175,
+			304
 		],
 		"book": "없음",
 		"book_get": [],
@@ -3670,7 +3671,8 @@
 			173
 		],
 		"change": [
-			175
+			175,
+			304
 		],
 		"book": "구미호",
 		"book_get": [
@@ -6273,6 +6275,27 @@
 		"book": "아르카눔",
 		"book_get": [
 			"개전"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 304,
+		"code": "101040191",
+		"style": "ns",
+		"category": 14,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			174
+		],
+		"book": "우카노미타마",
+		"book_get": [
+			"경전록"
 		],
 		"manifest_jap": "없음",
 		"manifest_glo": "없음"
