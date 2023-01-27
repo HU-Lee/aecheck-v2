@@ -127,7 +127,7 @@
 		"book_get": [
 			"이절"
 		],
-		"manifest_jap": "없음",
+		"manifest_jap": "현현",
 		"manifest_glo": "없음"
 	},
 	{
@@ -4118,7 +4118,8 @@
 		"from": [],
 		"change": [
 			196,
-			197
+			197,
+			305
 		],
 		"book": "없음",
 		"book_get": [],
@@ -4139,7 +4140,8 @@
 			195
 		],
 		"change": [
-			197
+			197,
+			305
 		],
 		"book": "템페스터",
 		"book_get": [
@@ -6297,6 +6299,67 @@
 		"book": "우카노미타마",
 		"book_get": [
 			"경전록"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 305,
+		"code": "101060101",
+		"style": "as",
+		"category": 26,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			196
+		],
+		"book": "팬텀 시프",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 306,
+		"code": "101000321",
+		"style": "4.5",
+		"category": 58,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": true,
+		"from": [],
+		"change": [
+			307
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 307,
+		"code": "101000321",
+		"style": "ns",
+		"category": 58,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": true,
+		"from": [
+			306
+		],
+		"change": [],
+		"book": "카르밀라",
+		"book_get": [
+			"식인 늪"
 		],
 		"manifest_jap": "없음",
 		"manifest_glo": "없음"

@@ -1178,9 +1178,10 @@
 		"personality": [
 			"권갑",
 			"총",
-			"독서가"
+			"독서가",
+			"안경"
 		],
-		"description": null,
+		"description": "안경은 AS 획득 시에만",
 		"code": "101060101"
 	},
 	{
@@ -1769,5 +1770,15 @@
 		],
 		"description": null,
 		"code": "101040191"
+	},
+	{
+		"name": "애니",
+		"is_extra": false,
+		"personality": [
+			"지팡이",
+			"총"
+		],
+		"description": null,
+		"code": "101000321"
 	}
 ]
