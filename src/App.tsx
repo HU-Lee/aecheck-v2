@@ -38,7 +38,7 @@ function App() {
     if(!announceViewed) {
     // if(true) {
       Swal.fire({
-        title: 'Update 23.01.27',
+        title: 'Update 23.02.09',
         html: announceHTML,
         icon: 'info',
       }).then(() => {
