@@ -528,7 +528,8 @@
 		"personality": [
 			"도",
 			"동방",
-			"애묘가"
+			"애묘가",
+			"부천수 애호가"
 		],
 		"description": null,
 		"code": "101020101"
@@ -617,7 +618,8 @@
 		"name": "미란다",
 		"is_extra": false,
 		"personality": [
-			"도끼"
+			"도끼",
+			"부천수 애호가"
 		],
 		"description": null,
 		"code": "101030041"
@@ -627,7 +629,8 @@
 		"is_extra": false,
 		"personality": [
 			"도끼",
-			"가면"
+			"가면",
+			"부천수 애호가"
 		],
 		"description": null,
 		"code": "101030051"
@@ -1023,7 +1026,8 @@
 		"personality": [
 			"활",
 			"동방",
-			"요리"
+			"요리",
+			"부천수 애호가"
 		],
 		"description": null,
 		"code": "101050091"
@@ -1344,7 +1348,8 @@
 		"is_extra": false,
 		"personality": [
 			"망치",
-			"성직자"
+			"성직자",
+			"부천수 애호가"
 		],
 		"description": null,
 		"code": "101070101"
@@ -1354,7 +1359,8 @@
 		"is_extra": false,
 		"personality": [
 			"망치",
-			"연옥계"
+			"연옥계",
+			"부천수 애호가"
 		],
 		"description": null,
 		"code": "101070111"
@@ -1776,7 +1782,8 @@
 		"is_extra": false,
 		"personality": [
 			"지팡이",
-			"총"
+			"총",
+			"부천수 애호가"
 		],
 		"description": null,
 		"code": "101000321"

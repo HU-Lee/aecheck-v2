@@ -23,18 +23,18 @@ const announceHTML = `<div class="announce">
   <br/>
   Please Check following link.
   <br/>
-  <a href="https://aecheck.tistory.com/37" target="_blank" rel="noreferrer">Patch Note</a>
+  <a href="https://aecheck.tistory.com/38" target="_blank" rel="noreferrer">Patch Note</a>
 </div>`
 
 function App() {
 
-  const announceViewed = Boolean(window.localStorage.getItem("a_v_230127"))
+  const announceViewed = Boolean(window.localStorage.getItem("a_v_230209"))
 
   const { lang } = useContext(AnotherContext)
   const message = require(`./language/${lang}.json`)
 
   useEffect(() => {
-    window.localStorage.removeItem("a_v_230112")
+    window.localStorage.removeItem("a_v_230127")
     if(!announceViewed) {
     // if(true) {
       Swal.fire({
@@ -42,7 +42,7 @@ function App() {
         html: announceHTML,
         icon: 'info',
       }).then(() => {
-        window.localStorage.setItem("a_v_230127", "true")
+        window.localStorage.setItem("a_v_230209", "true")
       })
     }
   }, [])

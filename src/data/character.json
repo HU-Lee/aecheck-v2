@@ -6032,7 +6032,7 @@
 		"free": false,
 		"sky": "light",
 		"first": false,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [],
 		"change": [
@@ -6333,7 +6333,7 @@
 		"sky": "shadow",
 		"first": true,
 		"jonly": false,
-		"gonly": true,
+		"gonly": false,
 		"from": [],
 		"change": [
 			307
@@ -6352,7 +6352,7 @@
 		"sky": "shadow",
 		"first": false,
 		"jonly": false,
-		"gonly": true,
+		"gonly": false,
 		"from": [
 			306
 		],
