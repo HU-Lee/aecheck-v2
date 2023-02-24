@@ -5975,7 +5975,7 @@
 		"free": false,
 		"sky": "shadow",
 		"first": true,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [],
 		"change": [
@@ -5994,7 +5994,7 @@
 		"free": false,
 		"sky": "shadow",
 		"first": false,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [
 			288
@@ -6015,7 +6015,7 @@
 		"free": true,
 		"sky": "light",
 		"first": true,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [],
 		"change": [],

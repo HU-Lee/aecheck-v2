@@ -29,5 +29,5 @@ export const new_manifest_to_top = (array: CharacterInfo[], version: string) => 
 // 버전의 신 버디를 맨 앞으로 보내도록 sort
 export const new_buddy_to_top = (array: BuddyInfo[], version: string) => {
     const target_chars = version==="japanese" ? JAP_BUDDY_NEW : GLO_BUDDY_NEW
-    array.sort((a,b) => !target_chars.includes(a.id) ? 1 : -1)
+    array.sort((a,b) => !target_chars.includes(a.id.toString()) ? 1 : -1)
 }

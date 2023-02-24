@@ -6,7 +6,7 @@
 			289
 		],
 		"free": false,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false
 	},
 	{
@@ -16,7 +16,7 @@
 			290
 		],
 		"free": true,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false
 	},
 	{
@@ -24,7 +24,7 @@
 		"code": "2000000003",
 		"from": [],
 		"free": true,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false
 	},
 	{
@@ -32,7 +32,7 @@
 		"code": "2000000004",
 		"from": [],
 		"free": true,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false
 	},
 	{
@@ -40,7 +40,7 @@
 		"code": "2000000005",
 		"from": [],
 		"free": true,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false
 	}
 ]

@@ -14,16 +14,9 @@ import { GLO_VER, JAP_VER } from './data/config';
 import BuddyPage from './components/pages/BuddyPage';
 
 const announceHTML = `<div class="announce">
-  일본판 ${JAP_VER}, 글로벌판 ${GLO_VER} 반영
+  글로벌판 ${GLO_VER} 반영
   <br/>
-  Update JAPANESE Ver.${JAP_VER}, GLOBAL Ver.${GLO_VER}
-  <br/>
-  <br/>
-  그 외 자세한 사항은 링크를 확인해 주세요. 
-  <br/>
-  Please Check following link.
-  <br/>
-  <a href="https://aecheck.tistory.com/38" target="_blank" rel="noreferrer">Patch Note</a>
+  Update GLOBAL Ver.${GLO_VER}
 </div>`
 
 function App() {
