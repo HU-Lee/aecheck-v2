@@ -42,5 +42,15 @@
 		"free": true,
 		"jonly": false,
 		"gonly": false
+	},
+	{
+		"id": 2006,
+		"code": "2000000006",
+		"from": [
+			309
+		],
+		"free": false,
+		"jonly": true,
+		"gonly": false
 	}
 ]

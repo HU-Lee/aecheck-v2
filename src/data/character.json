@@ -2099,7 +2099,7 @@
 		"change": [
 			101
 		],
-		"book": "해신",
+		"book": "와타츠미",
 		"book_get": [
 			"미글랜스 성"
 		],
@@ -6360,6 +6360,46 @@
 		"book": "카르밀라",
 		"book_get": [
 			"식인 늪"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 308,
+		"code": "101000331",
+		"style": "4.5",
+		"category": 58,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			309
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 309,
+		"code": "101000331",
+		"style": "ns",
+		"category": 58,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [
+			308
+		],
+		"change": [],
+		"book": "데인슬레이프",
+		"book_get": [
+			"제노 도메인"
 		],
 		"manifest_jap": "없음",
 		"manifest_glo": "없음"

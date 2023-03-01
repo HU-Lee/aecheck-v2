@@ -70,7 +70,8 @@
 			"지팡이",
 			"안경",
 			"과학자",
-			"채집"
+			"채집",
+			"KMS사"
 		],
 		"description": null,
 		"code": "101000071"
@@ -185,7 +186,8 @@
 		"personality": [
 			"지팡이",
 			"과학자",
-			"채집"
+			"채집",
+			"KMS사"
 		],
 		"description": null,
 		"code": "101000211"
@@ -367,7 +369,8 @@
 		"personality": [
 			"검",
 			"애묘가",
-			"미술"
+			"미술",
+			"KMS사"
 		],
 		"description": null,
 		"code": "101010091"
@@ -1603,7 +1606,8 @@
 		"personality": [
 			"망치",
 			"애묘가",
-			"채굴"
+			"채굴",
+			"KMS사"
 		],
 		"description": null,
 		"code": "101970011"
@@ -1787,5 +1791,15 @@
 		],
 		"description": null,
 		"code": "101000321"
+	},
+	{
+		"name": "야쿠모",
+		"is_extra": false,
+		"personality": [
+			"지팡이",
+			"KMS사"
+		],
+		"description": null,
+		"code": "101000331"
 	}
 ]
