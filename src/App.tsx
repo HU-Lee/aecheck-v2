@@ -14,35 +14,36 @@ import { GLO_VER, JAP_VER } from './data/config';
 import BuddyPage from './components/pages/BuddyPage';
 
 const announceHTML = `<div class="announce">
-  일본판 ${JAP_VER} 반영
+  글로벌판 ${GLO_VER} 반영
   <br/>
-  Update JAPANESE Ver.${JAP_VER}
-  <br/>
-  <br/>
-  그 외 자세한 사항은 링크를 확인해 주세요. 
-  <br/>
-  Please Check following link.
-  <br/>
-  <a href="https://aecheck.tistory.com/39" target="_blank" rel="noreferrer">Patch Note</a>
+  Update GLOBAL Ver.${GLO_VER}
 </div>`
+
+{/* <br/>
+<br/>
+그 외 자세한 사항은 링크를 확인해 주세요. 
+<br/>
+Please Check following link.
+<br/>
+<a href="https://aecheck.tistory.com/39" target="_blank" rel="noreferrer">Patch Note</a> */}
 
 function App() {
 
-  const announceViewed = Boolean(window.localStorage.getItem("a_v_230301"))
+  const announceViewed = Boolean(window.localStorage.getItem("a_v_230310"))
 
   const { lang } = useContext(AnotherContext)
   const message = require(`./language/${lang}.json`)
 
   useEffect(() => {
-    window.localStorage.removeItem("a_v_230209")
+    window.localStorage.removeItem("a_v_230301")
     if(!announceViewed) {
     // if(true) {
       Swal.fire({
-        title: 'Update 23.03.01',
+        title: 'Update 23.03.10',
         html: announceHTML,
         icon: 'info',
       }).then(() => {
-        window.localStorage.setItem("a_v_230301", "true")
+        window.localStorage.setItem("a_v_230310", "true")
       })
     }
   }, [])

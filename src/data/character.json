@@ -4458,7 +4458,7 @@
 			"차원전함"
 		],
 		"manifest_jap": "진현현",
-		"manifest_glo": "현현"
+		"manifest_glo": "진현현"
 	},
 	{
 		"id": 212,
@@ -6053,7 +6053,7 @@
 		"free": false,
 		"sky": "light",
 		"first": false,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [],
 		"change": [
