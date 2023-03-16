@@ -1367,7 +1367,8 @@
 		"from": [],
 		"change": [
 			67,
-			68
+			68,
+			311
 		],
 		"book": "없음",
 		"book_get": [],
@@ -1388,7 +1389,8 @@
 			66
 		],
 		"change": [
-			68
+			68,
+			311
 		],
 		"book": "화이트 나이트",
 		"book_get": [
@@ -4013,7 +4015,8 @@
 		"gonly": false,
 		"from": [],
 		"change": [
-			191
+			191,
+			310
 		],
 		"book": "없음",
 		"book_get": [],
@@ -4033,7 +4036,9 @@
 		"from": [
 			190
 		],
-		"change": [],
+		"change": [
+			310
+		],
 		"book": "엠프리스",
 		"book_get": [
 			"공업도시 폐허"
@@ -6400,6 +6405,47 @@
 		"book": "데인슬레이프",
 		"book_get": [
 			"제노 도메인"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 310,
+		"code": "101060081",
+		"style": "as",
+		"category": 46,
+		"free": true,
+		"sky": "light",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [
+			190,
+			191
+		],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 311,
+		"code": "101010151",
+		"style": "ns",
+		"category": 41,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			67
+		],
+		"book": "디케",
+		"book_get": [
+			"경전록"
 		],
 		"manifest_jap": "없음",
 		"manifest_glo": "없음"

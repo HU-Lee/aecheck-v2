@@ -339,7 +339,8 @@
 		"personality": [
 			"검",
 			"미글랜스 왕궁",
-			"기억상실"
+			"기억상실",
+			"무법자"
 		],
 		"description": null,
 		"code": "101010051"
@@ -426,7 +427,8 @@
 		"is_extra": false,
 		"personality": [
 			"도",
-			"동방"
+			"동방",
+			"무법자"
 		],
 		"description": null,
 		"code": "101020021"
@@ -603,7 +605,8 @@
 		"is_extra": false,
 		"personality": [
 			"도끼",
-			"채집"
+			"채집",
+			"무법자"
 		],
 		"description": null,
 		"code": "101030021"
@@ -633,7 +636,8 @@
 		"personality": [
 			"도끼",
 			"가면",
-			"부천수 애호가"
+			"부천수 애호가",
+			"무법자"
 		],
 		"description": null,
 		"code": "101030051"
@@ -643,7 +647,8 @@
 		"is_extra": false,
 		"personality": [
 			"도끼",
-			"안경"
+			"안경",
+			"무법자"
 		],
 		"description": null,
 		"code": "101030061"
@@ -986,7 +991,8 @@
 		"is_extra": false,
 		"personality": [
 			"활",
-			"로스트 랩"
+			"로스트 랩",
+			"무법자"
 		],
 		"description": null,
 		"code": "101050051"
@@ -1164,9 +1170,10 @@
 		"personality": [
 			"권갑",
 			"안경",
-			"IDA스쿨"
+			"IDA스쿨",
+			"무법자"
 		],
-		"description": null,
+		"description": "무법자는 AS 획득 시에만",
 		"code": "101060081"
 	},
 	{
@@ -1174,7 +1181,8 @@
 		"is_extra": false,
 		"personality": [
 			"권갑",
-			"미글랜스 왕궁"
+			"미글랜스 왕궁",
+			"무법자"
 		],
 		"description": null,
 		"code": "101060091"
@@ -1220,7 +1228,8 @@
 			"장비",
 			"생물",
 			"단것 애호가",
-			"총"
+			"총",
+			"무법자"
 		],
 		"description": "단것 애호가는 미래외경에서 등장하는 라비앙 로즈에서 하디에게 말을 건 후",
 		"code": "101060131"
@@ -1538,7 +1547,8 @@
 		"personality": [
 			"창",
 			"합성인간",
-			"총"
+			"총",
+			"무법자"
 		],
 		"description": null,
 		"code": "101800063"
@@ -1801,5 +1811,16 @@
 		],
 		"description": null,
 		"code": "101000331"
+	},
+	{
+		"name": "잔영의 가인 섀넌",
+		"is_extra": false,
+		"personality": [
+			"검",
+			"애묘가",
+			"KMS사"
+		],
+		"description": null,
+		"code": "101010151"
 	}
 ]
