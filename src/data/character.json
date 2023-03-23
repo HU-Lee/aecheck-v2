@@ -4219,7 +4219,7 @@
 			"달그림자 숲"
 		],
 		"manifest_jap": "현현",
-		"manifest_glo": "없음"
+		"manifest_glo": "현현"
 	},
 	{
 		"id": 200,
@@ -6079,7 +6079,7 @@
 		"free": false,
 		"sky": "shadow",
 		"first": false,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [],
 		"change": [
