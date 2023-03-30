@@ -3979,7 +3979,7 @@
 		"book_get": [
 			"달그림자 숲"
 		],
-		"manifest_jap": "현현",
+		"manifest_jap": "진현현",
 		"manifest_glo": "현현"
 	},
 	{
@@ -4254,7 +4254,8 @@
 		"gonly": false,
 		"from": [],
 		"change": [
-			202
+			202,
+			312
 		],
 		"book": "없음",
 		"book_get": [],
@@ -4274,7 +4275,9 @@
 		"from": [
 			201
 		],
-		"change": [],
+		"change": [
+			312
+		],
 		"book": "러블리 셰프",
 		"book_get": [
 			"나다라 화산"
@@ -6446,6 +6449,27 @@
 		"book": "디케",
 		"book_get": [
 			"경전록"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 312,
+		"code": "101060121",
+		"style": "as",
+		"category": 16,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			202
+		],
+		"book": "러브 버드",
+		"book_get": [
+			"이절"
 		],
 		"manifest_jap": "없음",
 		"manifest_glo": "없음"
