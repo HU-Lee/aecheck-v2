@@ -208,7 +208,8 @@
 		"change": [
 			11,
 			12,
-			13
+			13,
+			313
 		],
 		"book": "없음",
 		"book_get": [],
@@ -230,7 +231,8 @@
 		],
 		"change": [
 			12,
-			13
+			13,
+			313
 		],
 		"book": "지오맨서",
 		"book_get": [
@@ -253,7 +255,8 @@
 		"gonly": false,
 		"from": [],
 		"change": [
-			11
+			11,
+			313
 		],
 		"book": "커스 브라이드",
 		"book_get": [
@@ -5948,7 +5951,9 @@
 		"from": [
 			285
 		],
-		"change": [],
+		"change": [
+			316
+		],
 		"book": "없음",
 		"book_get": [],
 		"manifest_jap": "없음",
@@ -6471,6 +6476,88 @@
 		"book_get": [
 			"이절"
 		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 313,
+		"code": "101000051",
+		"style": "es",
+		"category": 57,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			11,
+			12
+		],
+		"book": "에레쉬키갈",
+		"book_get": [
+			"개전"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 314,
+		"code": "101020161",
+		"style": "4.5",
+		"category": 32,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			315
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 315,
+		"code": "101020161",
+		"style": "ns",
+		"category": 32,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [
+			314
+		],
+		"change": [],
+		"book": "펜리르",
+		"book_get": [
+			"공업도시 폐허"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 316,
+		"code": "101050161",
+		"style": "as",
+		"category": 25,
+		"free": true,
+		"sky": "shadow",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [
+			285,
+			286
+		],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
 		"manifest_jap": "없음",
 		"manifest_glo": "없음"
 	}

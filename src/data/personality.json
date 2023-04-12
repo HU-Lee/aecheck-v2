@@ -1108,9 +1108,10 @@
 		"is_extra": false,
 		"personality": [
 			"활",
-			"기억상실"
+			"기억상실",
+			"왕족"
 		],
-		"description": null,
+		"description": "왕족은 외사 진행시",
 		"code": "101050161"
 	},
 	{
@@ -1822,5 +1823,23 @@
 		],
 		"description": null,
 		"code": "101010151"
+	},
+	{
+		"name": "세스타",
+		"is_extra": false,
+		"personality": [
+			"도"
+		],
+		"description": null,
+		"code": "101020161"
+	},
+	{
+		"name": "투바",
+		"is_extra": true,
+		"personality": [
+			"망치"
+		],
+		"description": null,
+		"code": "101000051"
 	}
 ]
