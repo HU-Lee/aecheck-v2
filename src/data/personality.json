@@ -499,7 +499,8 @@
 			"도",
 			"동방",
 			"가면",
-			"왕족"
+			"왕족",
+			"복수"
 		],
 		"description": null,
 		"code": "101020081"
@@ -511,7 +512,8 @@
 			"활",
 			"동방",
 			"가면",
-			"왕족"
+			"왕족",
+			"복수"
 		],
 		"description": null,
 		"code": "101020081"
@@ -726,7 +728,8 @@
 		"personality": [
 			"도끼",
 			"애묘가",
-			"동방"
+			"동방",
+			"복수"
 		],
 		"description": null,
 		"code": "101030121"
@@ -1001,7 +1004,8 @@
 		"name": "라클레어",
 		"is_extra": false,
 		"personality": [
-			"활"
+			"활",
+			"복수"
 		],
 		"description": null,
 		"code": "101050061"
@@ -1130,7 +1134,8 @@
 		"is_extra": false,
 		"personality": [
 			"권갑",
-			"마수"
+			"마수",
+			"복수"
 		],
 		"description": "마수는 AS 획득 시에만",
 		"code": "101060031"
@@ -1606,7 +1611,8 @@
 		"personality": [
 			"권갑",
 			"대장간",
-			"요리"
+			"요리",
+			"복수"
 		],
 		"description": null,
 		"code": "101960011"
@@ -1687,7 +1693,7 @@
 		"code": "101050081"
 	},
 	{
-		"name": "하나에미노히메기미 츠키하",
+		"name": "꽃피우는 공주 츠키하",
 		"is_extra": false,
 		"personality": [
 			"창",
@@ -1781,7 +1787,7 @@
 		"code": "101000031"
 	},
 	{
-		"name": "은주의 구미 호오즈키",
+		"name": "은주의 구미호 호오즈키",
 		"is_extra": false,
 		"personality": [
 			"창",
@@ -1828,7 +1834,8 @@
 		"name": "세스타",
 		"is_extra": false,
 		"personality": [
-			"도"
+			"도",
+			"복수"
 		],
 		"description": null,
 		"code": "101020161"
