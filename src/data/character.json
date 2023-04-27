@@ -3913,7 +3913,8 @@
 		"gonly": false,
 		"from": [],
 		"change": [
-			186
+			186,
+			317
 		],
 		"book": "없음",
 		"book_get": [],
@@ -3933,7 +3934,9 @@
 		"from": [
 			185
 		],
-		"change": [],
+		"change": [
+			317
+		],
 		"book": "시레나리아",
 		"book_get": [
 			"나다라 화산",
@@ -6558,6 +6561,27 @@
 		"change": [],
 		"book": "없음",
 		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 317,
+		"code": "101050141",
+		"style": "as",
+		"category": 15,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			186
+		],
+		"book": "에라토",
+		"book_get": [
+			"이절"
+		],
 		"manifest_jap": "없음",
 		"manifest_glo": "없음"
 	}
