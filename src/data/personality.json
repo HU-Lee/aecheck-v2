@@ -1848,5 +1848,16 @@
 		],
 		"description": null,
 		"code": "101000051"
+	},
+	{
+		"name": "심비의 수확자 이루루",
+		"is_extra": false,
+		"personality": [
+			"도끼",
+			"연옥계",
+			"가면"
+		],
+		"description": null,
+		"code": "101030181"
 	}
 ]

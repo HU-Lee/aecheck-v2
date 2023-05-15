@@ -2483,7 +2483,8 @@
 		"from": [],
 		"change": [
 			119,
-			120
+			120,
+			318
 		],
 		"book": "없음",
 		"book_get": [],
@@ -2504,7 +2505,8 @@
 			118
 		],
 		"change": [
-			120
+			120,
+			318
 		],
 		"book": "그림 리퍼",
 		"book_get": [
@@ -6581,6 +6583,27 @@
 		"book": "에라토",
 		"book_get": [
 			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 318,
+		"code": "101030181",
+		"style": "ns",
+		"category": 23,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			119
+		],
+		"book": "타나토스",
+		"book_get": [
+			"경전록"
 		],
 		"manifest_jap": "없음",
 		"manifest_glo": "없음"
