@@ -3739,7 +3739,8 @@
 		"from": [],
 		"change": [
 			178,
-			179
+			179,
+			319
 		],
 		"book": "없음",
 		"book_get": [],
@@ -3760,7 +3761,8 @@
 			177
 		],
 		"change": [
-			179
+			179,
+			319
 		],
 		"book": "듀얼 페르소나",
 		"book_get": [
@@ -6604,6 +6606,27 @@
 		"book": "타나토스",
 		"book_get": [
 			"경전록"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 319,
+		"code": "101050111",
+		"style": "as",
+		"category": 45,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			178
+		],
+		"book": "브리더 반트",
+		"book_get": [
+			"이절"
 		],
 		"manifest_jap": "없음",
 		"manifest_glo": "없음"

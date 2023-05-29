@@ -1059,7 +1059,9 @@
 		"name": "프레메아",
 		"is_extra": false,
 		"personality": [
-			"활"
+			"활",
+			"요리",
+			"로스트 랩"
 		],
 		"description": null,
 		"code": "101050111"
