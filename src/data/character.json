@@ -6392,7 +6392,7 @@
 		"free": false,
 		"sky": "shadow",
 		"first": true,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [],
 		"change": [
@@ -6411,13 +6411,13 @@
 		"free": false,
 		"sky": "shadow",
 		"first": false,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [
 			308
 		],
 		"change": [],
-		"book": "데인슬레이프",
+		"book": "다인슬라이프",
 		"book_get": [
 			"제노 도메인"
 		],
@@ -6627,6 +6627,84 @@
 		"book": "브리더 반트",
 		"book_get": [
 			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 320,
+		"code": "101030021",
+		"style": "4.5",
+		"category": 33,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			321
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 321,
+		"code": "101030021",
+		"style": "ns",
+		"category": 33,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [
+			320
+		],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 322,
+		"code": "101010161",
+		"style": "4.5",
+		"category": 21,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			323
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 323,
+		"code": "101010161",
+		"style": "ns",
+		"category": 21,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [
+			322
+		],
+		"change": [],
+		"book": "메일 쉽",
+		"book_get": [
+			"미글랜스 성"
 		],
 		"manifest_jap": "없음",
 		"manifest_glo": "없음"

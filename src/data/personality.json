@@ -1861,5 +1861,15 @@
 		],
 		"description": null,
 		"code": "101030181"
+	},
+	{
+		"name": "엘시르",
+		"is_extra": false,
+		"personality": [
+			"검",
+			"독서가"
+		],
+		"description": null,
+		"code": "101010161"
 	}
 ]
