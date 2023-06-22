@@ -50,7 +50,7 @@
 			309
 		],
 		"free": false,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false
 	},
 	{

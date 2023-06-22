@@ -1871,5 +1871,16 @@
 		],
 		"description": null,
 		"code": "101010161"
+	},
+	{
+		"name": "펠미나",
+		"is_extra": true,
+		"personality": [
+			"도끼",
+			"미글랜스 왕궁",
+			"무법자"
+		],
+		"description": null,
+		"code": "101060091"
 	}
 ]
