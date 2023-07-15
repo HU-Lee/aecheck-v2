@@ -6502,7 +6502,7 @@
 		"free": false,
 		"sky": "shadow",
 		"first": false,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [],
 		"change": [
@@ -6524,7 +6524,7 @@
 		"free": false,
 		"sky": "shadow",
 		"first": true,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [],
 		"change": [
@@ -6543,7 +6543,7 @@
 		"free": false,
 		"sky": "shadow",
 		"first": false,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [
 			314
@@ -6564,7 +6564,7 @@
 		"free": true,
 		"sky": "shadow",
 		"first": false,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [
 			285,
