@@ -58,7 +58,7 @@
 		"code": "2000000007",
 		"from": [],
 		"free": true,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false
 	},
 	{

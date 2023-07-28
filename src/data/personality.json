@@ -1882,5 +1882,16 @@
 		],
 		"description": null,
 		"code": "101060091"
+	},
+	{
+		"name": "몽음의 시인 듀나리스",
+		"is_extra": false,
+		"personality": [
+			"지팡이",
+			"마수",
+			"음유시인"
+		],
+		"description": null,
+		"code": "101000351"
 	}
 ]

@@ -855,7 +855,8 @@
 		"from": [],
 		"change": [
 			42,
-			43
+			43,
+			327
 		],
 		"book": "없음",
 		"book_get": [],
@@ -876,7 +877,8 @@
 			41
 		],
 		"change": [
-			43
+			43,
+			327
 		],
 		"book": "소울 브링거",
 		"book_get": [
@@ -6584,7 +6586,7 @@
 		"free": false,
 		"sky": "light",
 		"first": false,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [],
 		"change": [
@@ -6775,6 +6777,27 @@
 		"book": "메데이아",
 		"book_get": [
 			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 327,
+		"code": "101000351",
+		"style": "ns",
+		"category": 28,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			42
+		],
+		"book": "오르페우스",
+		"book_get": [
+			"경전록"
 		],
 		"manifest_jap": "없음",
 		"manifest_glo": "없음"
