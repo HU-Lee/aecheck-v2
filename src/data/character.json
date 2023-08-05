@@ -4300,7 +4300,7 @@
 		"book_get": [
 			"나다라 화산"
 		],
-		"manifest_jap": "없음",
+		"manifest_jap": "현현",
 		"manifest_glo": "없음"
 	},
 	{
@@ -6607,7 +6607,7 @@
 		"free": false,
 		"sky": "shadow",
 		"first": true,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [],
 		"change": [
@@ -6798,6 +6798,44 @@
 		"book": "오르페우스",
 		"book_get": [
 			"경전록"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 328,
+		"code": "101050031",
+		"style": "4.5",
+		"category": 15,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			329
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 329,
+		"code": "101050031",
+		"style": "as",
+		"category": 15,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [],
+		"book": "폴리힘니아",
+		"book_get": [
+			"이절"
 		],
 		"manifest_jap": "없음",
 		"manifest_glo": "없음"
