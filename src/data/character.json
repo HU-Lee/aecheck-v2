@@ -1168,8 +1168,8 @@
 		"book_get": [
 			"이절"
 		],
-		"manifest_jap": "없음",
-		"manifest_glo": "없음"
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
 	},
 	{
 		"id": 57,
@@ -6628,13 +6628,13 @@
 		"free": false,
 		"sky": "light",
 		"first": false,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [],
 		"change": [
 			178
 		],
-		"book": "브리더 반트",
+		"book": "브라이더번트",
 		"book_get": [
 			"이절"
 		],
