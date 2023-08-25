@@ -1863,7 +1863,7 @@
 		"code": "101030181"
 	},
 	{
-		"name": "엘시르",
+		"name": "엘실",
 		"is_extra": false,
 		"personality": [
 			"검",
@@ -1893,5 +1893,24 @@
 		],
 		"description": null,
 		"code": "101000351"
+	},
+	{
+		"name": "벨렛",
+		"is_extra": false,
+		"personality": [
+			"채굴",
+			"망치"
+		],
+		"description": null,
+		"code": "101070131"
+	},
+	{
+		"name": "캄라녜쥬",
+		"is_extra": false,
+		"personality": [
+			"지팡이"
+		],
+		"description": null,
+		"code": "101000341"
 	}
 ]

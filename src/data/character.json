@@ -6649,7 +6649,7 @@
 		"free": false,
 		"sky": "shadow",
 		"first": true,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [],
 		"change": [
@@ -6668,7 +6668,7 @@
 		"free": false,
 		"sky": "shadow",
 		"first": false,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [
 			320
@@ -6687,7 +6687,7 @@
 		"free": false,
 		"sky": "light",
 		"first": true,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [],
 		"change": [
@@ -6706,13 +6706,13 @@
 		"free": false,
 		"sky": "light",
 		"first": false,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [
 			322
 		],
 		"change": [],
-		"book": "메일 쉽",
+		"book": "메일드 십",
 		"book_get": [
 			"미글랜스 성"
 		],
@@ -6836,6 +6836,63 @@
 		"book": "폴리힘니아",
 		"book_get": [
 			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 330,
+		"code": "101000341",
+		"style": "ns",
+		"category": 58,
+		"free": true,
+		"sky": "shadow",
+		"first": true,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 331,
+		"code": "101070131",
+		"style": "4.5",
+		"category": 58,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			332
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 332,
+		"code": "101070131",
+		"style": "ns",
+		"category": 58,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [
+			331
+		],
+		"change": [],
+		"book": "드림 디거",
+		"book_get": [
+			"식인 늪"
 		],
 		"manifest_jap": "없음",
 		"manifest_glo": "없음"
