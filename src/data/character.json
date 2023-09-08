@@ -4656,7 +4656,8 @@
 		"from": [],
 		"change": [
 			220,
-			221
+			221,
+			333
 		],
 		"book": "없음",
 		"book_get": [],
@@ -4677,7 +4678,8 @@
 			219
 		],
 		"change": [
-			221
+			221,
+			333
 		],
 		"book": "진",
 		"book_get": [
@@ -6893,6 +6895,27 @@
 		"book": "드림 디거",
 		"book_get": [
 			"식인 늪"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 333,
+		"code": "101000361",
+		"style": "ns",
+		"category": 48,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			220
+		],
+		"book": "재닌",
+		"book_get": [
+			"경전록"
 		],
 		"manifest_jap": "없음",
 		"manifest_glo": "없음"

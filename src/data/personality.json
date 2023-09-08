@@ -1912,5 +1912,15 @@
 		],
 		"description": null,
 		"code": "101000341"
+	},
+	{
+		"name": "백자의 마인 밍화",
+		"is_extra": false,
+		"personality": [
+			"동방",
+			"지팡이"
+		],
+		"description": null,
+		"code": "101000361"
 	}
 ]
