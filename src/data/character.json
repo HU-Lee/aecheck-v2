@@ -2788,7 +2788,8 @@
 		"gonly": false,
 		"from": [],
 		"change": [
-			133
+			133,
+			334
 		],
 		"book": "없음",
 		"book_get": [],
@@ -2808,7 +2809,9 @@
 		"from": [
 			132
 		],
-		"change": [],
+		"change": [
+			334
+		],
 		"book": "발키리",
 		"book_get": [
 			"마수성"
@@ -6751,7 +6754,7 @@
 		"free": true,
 		"sky": "shadow",
 		"first": false,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [
 			226
@@ -6770,7 +6773,7 @@
 		"free": false,
 		"sky": "light",
 		"first": false,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [],
 		"change": [
@@ -6916,6 +6919,27 @@
 		"book": "재닌",
 		"book_get": [
 			"경전록"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 334,
+		"code": "101030171",
+		"style": "as",
+		"category": 53,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			133
+		],
+		"book": "시구르드리바",
+		"book_get": [
+			"이절"
 		],
 		"manifest_jap": "없음",
 		"manifest_glo": "없음"
