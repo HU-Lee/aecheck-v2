@@ -15,4 +15,4 @@ export const GLO_BUDDY_NEW = ["2000000008"]        // 23.8.05
 // 현재 버전의 신규 현현을 저장하는 array입니다.
 // 데이터 파일에서 이름을 찾아 id로 입력해 주세요.
 export const JAP_MANIFEST_NEW = [202]
-export const GLO_MANIFEST_NEW = [56]
+export const GLO_MANIFEST_NEW = [34]               // 23.09.24
