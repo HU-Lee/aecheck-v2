@@ -9,7 +9,7 @@ export const GLO_NEW = ["101070121", "101000141"] // 23.9.21
 
 // 현재 버전의 신규 버디를 저장하는 array입니다.
 // 데이터 파일에서 이름을 찾아 코드로 입력해 주세요.
-export const JAP_BUDDY_NEW = ["2000000009"]        // 23.8.25
+export const JAP_BUDDY_NEW = ["2000000009", "2000000010"]        // 23.9.24
 export const GLO_BUDDY_NEW = ["2000000008"]        // 23.8.05
 
 // 현재 버전의 신규 현현을 저장하는 array입니다.

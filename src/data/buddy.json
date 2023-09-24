@@ -80,5 +80,13 @@
 		"free": false,
 		"jonly": true,
 		"gonly": false
+	},
+	{
+		"id": 2010,
+		"code": "2000000010",
+		"from": [],
+		"free": true,
+		"jonly": true,
+		"gonly": false
 	}
 ]
