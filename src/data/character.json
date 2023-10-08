@@ -2645,7 +2645,7 @@
 		"book_get": [
 			"토토 드림랜드"
 		],
-		"manifest_jap": "없음",
+		"manifest_jap": "현현",
 		"manifest_glo": "없음"
 	},
 	{
@@ -4304,7 +4304,7 @@
 			"나다라 화산"
 		],
 		"manifest_jap": "현현",
-		"manifest_glo": "없음"
+		"manifest_glo": "현현"
 	},
 	{
 		"id": 203,
@@ -6815,7 +6815,7 @@
 		"free": false,
 		"sky": "shadow",
 		"first": true,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [],
 		"change": [
@@ -6834,7 +6834,7 @@
 		"free": false,
 		"sky": "shadow",
 		"first": false,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [],
 		"change": [],
@@ -6938,6 +6938,44 @@
 			133
 		],
 		"book": "시구르드리바",
+		"book_get": [
+			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 335,
+		"code": "101000161",
+		"style": "4.5",
+		"category": 58,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			336
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 336,
+		"code": "101000161",
+		"style": "as",
+		"category": 18,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [],
+		"book": "베누스",
 		"book_get": [
 			"이절"
 		],
