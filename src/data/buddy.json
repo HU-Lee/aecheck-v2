@@ -78,7 +78,7 @@
 			332
 		],
 		"free": false,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false
 	},
 	{
@@ -86,7 +86,7 @@
 		"code": "2000000010",
 		"from": [],
 		"free": true,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false
 	}
 ]

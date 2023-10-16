@@ -15,10 +15,10 @@ body {
   user-select: none;
 }
 
-.gray{
+.gray {
   -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%); 
-  -o-filter: grayscale(100%); 
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
   filter: grayscale(100%);
   opacity: 0.3;
 }
@@ -26,15 +26,19 @@ body {
 .fire {
   border: 2px solid #FF0000;
 }
+
 .water {
   border: 2px solid #00A5FF;
 }
+
 .wind {
   border: 2px solid green;
 }
+
 .earth {
   border: 2px solid #9B673C;
 }
+
 .etc {
   border: 2px solid lightgray;
 }

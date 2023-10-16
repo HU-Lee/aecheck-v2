@@ -5,12 +5,12 @@ export const GLO_VER = "3.2.400"
 // 현재 버전의 신규 캐릭터를 저장하는 array입니다.
 // 데이터 파일에서 이름을 찾아 코드로 입력해 주세요.
 export const JAP_NEW = ["101000161"] // 231008
-export const GLO_NEW = ["101050031"] // 231008
+export const GLO_NEW = ["101000341", "101070131"] // 231016
 
 // 현재 버전의 신규 버디를 저장하는 array입니다.
 // 데이터 파일에서 이름을 찾아 코드로 입력해 주세요.
 export const JAP_BUDDY_NEW = ["2000000009", "2000000010"]        // 23.9.24
-export const GLO_BUDDY_NEW = ["2000000008"]        // 23.8.05
+export const GLO_BUDDY_NEW = ["2000000009", "2000000010"]        // 23.10.16
 
 // 현재 버전의 신규 현현을 저장하는 array입니다.
 // 데이터 파일에서 이름을 찾아 id로 입력해 주세요.

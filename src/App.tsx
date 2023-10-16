@@ -1,4 +1,4 @@
-import React, { useContext, useEffect} from 'react';
+import React, { useContext, useEffect } from 'react';
 import { IntlProvider } from 'react-intl';
 import Swal from 'sweetalert2';
 import { AnotherContext } from './contexts';
@@ -12,37 +12,36 @@ import PersonalPage from './components/pages/PersonalPage';
 import ManifestPage from './components/pages/ManifestPage';
 import { GLO_VER, JAP_VER } from './data/config';
 import BuddyPage from './components/pages/BuddyPage';
+import { announceUpdate } from './data/constant';
 
 const announceHTML = `<div class="announce">
-  일본판 ${JAP_VER} 반영
-  <br/>
-  Update JAPANESE Ver.${JAP_VER}
-  <br/>
-  <br/>
-  그 외 자세한 사항은 링크를 확인해 주세요. 
-  <br/>
-  Please Check following link.
-  <br/>
-  <a href="https://aecheck.tistory.com/41" target="_blank" rel="noreferrer">Patch Note</a>
+  글로벌판 23.10.16 패치노트 반영<br />
+  Update GLO 23.10.16 PatchNote Data
+  <br />
+  <br />
+  조만간 사이트 업데이트를 준비중입니다.<br />
+  불편이 없도록 준비되면 따로 공지드리겠습니다.
+  <br />
+  I'm preparing updates for aecheck.com.<br />
+  I'll notify for it when it's ready so that there's no inconvenience.
 </div>`
 
 function App() {
-
-  const announceViewed = Boolean(window.localStorage.getItem("a_v_230428"))
 
   const { lang } = useContext(AnotherContext)
   const message = require(`./language/${lang}.json`)
 
   useEffect(() => {
-    window.localStorage.removeItem("a_v_230412")
-    if(!announceViewed) {
-    // if(true) {
+    window.localStorage.removeItem("a_v_230428")
+    const checkDay = window.localStorage.getItem("AE_INFO")
+    console.log(checkDay)
+    if (checkDay !== announceUpdate) {
       Swal.fire({
-        title: 'Update 23.04.28',
+        title: 'Update',
         html: announceHTML,
         icon: 'info',
       }).then(() => {
-        window.localStorage.setItem("a_v_230428", "true")
+        window.localStorage.setItem("AE_INFO", announceUpdate)
       })
     }
   }, [])
@@ -50,17 +49,17 @@ function App() {
   return (
     <IntlProvider messages={message} locale={lang} defaultLocale='ko'>
       <Router basename={process.env.PUBLIC_URL}>
-          <Sidebar/>
-          <Routes>
-              <Route path="/" element={<MainPage/>} />
-              <Route path="/result" element={<ResultPage/>} />
-              <Route path="/books" element={<BookPage/>} />
-              <Route path="/person" element={<PersonalPage/>} />
-              <Route path="/manifest" element={<ManifestPage/>} />
-              <Route path="/buddy" element={<BuddyPage/>} />
-          </Routes>
+        <Sidebar />
+        <Routes>
+          <Route path="/" element={<MainPage />} />
+          <Route path="/result" element={<ResultPage />} />
+          <Route path="/books" element={<BookPage />} />
+          <Route path="/person" element={<PersonalPage />} />
+          <Route path="/manifest" element={<ManifestPage />} />
+          <Route path="/buddy" element={<BuddyPage />} />
+        </Routes>
       </Router>
-      <BackTop/>
+      <BackTop />
     </IntlProvider>
   );
 }
