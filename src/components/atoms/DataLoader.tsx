@@ -1,5 +1,5 @@
 import { Button, Checkbox, Input, Modal } from 'antd'
-import React, { useContext, useState} from 'react'
+import React, { useContext, useState } from 'react'
 import styled from 'styled-components';
 import Swal from 'sweetalert2';
 import { AnotherContext } from '../../contexts';
@@ -32,7 +32,7 @@ function DataLoader() {
 
     // context load
     const { inven, setInven, manifest, setManifest, buddyInven, setBuddy } = useContext(AnotherContext)
-    
+
     /**
      * @param UserData          유저가 입력한 데이터
      * @param isOld             데이터의 구 버전 여부 (2022.5.02 이전)
@@ -59,7 +59,7 @@ function DataLoader() {
             buddy: buddyInven
         })
         const element = document.createElement("a");
-        const file = new Blob([jsonString], {type: 'text/plain'});
+        const file = new Blob([jsonString], { type: 'text/plain' });
         element.href = URL.createObjectURL(file);
         element.download = "AEdata.txt";
         document.body.appendChild(element); // Required for this to work in FireFox
@@ -75,12 +75,12 @@ function DataLoader() {
                 setInven(oldData)
             } else {
                 const newData: SaveData = JSON.parse(UserData.trim())
-    
+
                 window.localStorage.setItem("a_inv_new", newData.inven.join(","))
                 setInven(newData.inven)
                 window.localStorage.setItem("a_man", newData.manifest.join(","))
                 setManifest(newData.manifest)
-                window.localStorage.setItem("a_man", newData.buddy.join(","))
+                window.localStorage.setItem("a_bud", newData.buddy.join(","))
                 setBuddy(newData.buddy)
             }
             Swal.fire({
@@ -112,20 +112,20 @@ function DataLoader() {
     return (
         <>
             <DataLoaderStyle onClick={showModal}>DataLoader</DataLoaderStyle>
-            <Modal 
-                title="Data Copy &#38; Load" 
-                visible={isModalVisible} 
+            <Modal
+                title="Data Copy &#38; Load"
+                visible={isModalVisible}
                 onCancel={handleCancel}
-                okButtonProps={{ style: {display: 'none'} }}
+                okButtonProps={{ style: { display: 'none' } }}
             >
                 <TextArea placeholder="New data here" value={UserData}
-                onChange={(e) => setUserData(e.currentTarget.value)}
-                autoSize={{ minRows: 4, maxRows: 4 }}/>
-                <br/><br/>
+                    onChange={(e) => setUserData(e.currentTarget.value)}
+                    autoSize={{ minRows: 4, maxRows: 4 }} />
+                <br /><br />
                 <Checkbox onChange={() => setIsOld(!isOld)}>Old Data (~22.05.02)</Checkbox>
-                <br/><br/>
-                <Button style={{margin: 5}} type="primary" onClick={dataSave}>SAVE TXT</Button>
-                <Button style={{margin: 5}} type="primary" onClick={dataLoad} danger>LOAD</Button>
+                <br /><br />
+                <Button style={{ margin: 5 }} type="primary" onClick={dataSave}>SAVE TXT</Button>
+                <Button style={{ margin: 5 }} type="primary" onClick={dataLoad} danger>LOAD</Button>
             </Modal>
         </>
     )
