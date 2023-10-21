@@ -10,20 +10,22 @@ import BookPage from './components/pages/BookPage';
 import { BackTop } from 'antd';
 import PersonalPage from './components/pages/PersonalPage';
 import ManifestPage from './components/pages/ManifestPage';
-import { GLO_VER, JAP_VER } from './data/config';
 import BuddyPage from './components/pages/BuddyPage';
 import { announceUpdate } from './data/constant';
 
 const announceHTML = `<div class="announce">
-  글로벌판 23.10.16 패치노트 반영<br />
-  Update GLO 23.10.16 PatchNote Data
-  <br />
-  <br />
-  조만간 사이트 업데이트를 준비중입니다.<br />
-  불편이 없도록 준비되면 따로 공지드리겠습니다.
-  <br />
-  I'm preparing updates for aecheck.com.<br />
-  I'll notify for it when it's ready so that there's no inconvenience.
+  근시일 내에 사이트가 변경될 예정입니다.<br/>
+  Site will be changed Soon.
+  <br/>
+  <br/>
+  자세한 내용은 아래 게시물을 확인부탁드립니다.<br/>
+  Please check following post.
+  <br/>
+  <br/>
+  <a href="https://aecheck.tistory.com/44" target="_blank" rel="noreferrer">한국어</a>
+  <br/>
+  <a href="https://www.reddit.com/r/AnotherEdenGlobal/comments/17d469m/aecheckcom_will_be_changed_soon/?utm_source=share&utm_medium=web2x&context=3" target="_blank" rel="noreferrer">English(Reddit)</a>
+
 </div>`
 
 function App() {
@@ -33,11 +35,11 @@ function App() {
 
   useEffect(() => {
     window.localStorage.removeItem("a_v_230428")
-    const checkDay = window.localStorage.getItem("AE_INFO")
-    console.log(checkDay)
-    if (checkDay !== announceUpdate) {
+    // const checkDay = window.localStorage.getItem("AE_INFO")
+    // if (checkDay !== announceUpdate) {
+    if (true) {
       Swal.fire({
-        title: 'Update',
+        title: 'Site will be Changed',
         html: announceHTML,
         icon: 'info',
       }).then(() => {
