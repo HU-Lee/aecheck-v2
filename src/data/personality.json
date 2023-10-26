@@ -1927,5 +1927,24 @@
 		],
 		"description": null,
 		"code": "101000361"
+	},
+	{
+		"name": "세리에스",
+		"is_extra": false,
+		"personality": [
+			"활",
+			"부천수 애호가"
+		],
+		"description": null,
+		"code": "101050181"
+	},
+	{
+		"name": "류제",
+		"is_extra": false,
+		"personality": [
+			"창"
+		],
+		"description": null,
+		"code": "101040201"
 	}
 ]

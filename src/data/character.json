@@ -5731,9 +5731,7 @@
 		"first": false,
 		"jonly": false,
 		"gonly": false,
-		"from": [
-			273
-		],
+		"from": [],
 		"change": [],
 		"book": "미러클 워커",
 		"book_get": [
@@ -6910,13 +6908,13 @@
 		"free": false,
 		"sky": "light",
 		"first": true,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [],
 		"change": [
 			220
 		],
-		"book": "재닌",
+		"book": "쟈닌",
 		"book_get": [
 			"경전록"
 		],
@@ -6978,6 +6976,46 @@
 		"book": "베누스",
 		"book_get": [
 			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 337,
+		"code": "101050181",
+		"style": "4.5",
+		"category": 45,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			338
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 338,
+		"code": "101050181",
+		"style": "ns",
+		"category": 45,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [
+			337
+		],
+		"change": [],
+		"book": "올레루스",
+		"book_get": [
+			"나다라 화산"
 		],
 		"manifest_jap": "없음",
 		"manifest_glo": "없음"

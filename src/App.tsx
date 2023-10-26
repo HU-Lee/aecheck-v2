@@ -12,8 +12,12 @@ import PersonalPage from './components/pages/PersonalPage';
 import ManifestPage from './components/pages/ManifestPage';
 import BuddyPage from './components/pages/BuddyPage';
 import { announceUpdate } from './data/constant';
+import { GLO_VER, JAP_VER } from './data/config';
 
 const announceHTML = `<div class="announce">
+  JP ${JAP_VER}, GLO ${GLO_VER} Update
+  <br/>
+  <br/>
   근시일 내에 사이트가 변경될 예정입니다.<br/>
   Site will be changed Soon.
   <br/>
@@ -35,11 +39,11 @@ function App() {
 
   useEffect(() => {
     window.localStorage.removeItem("a_v_230428")
-    // const checkDay = window.localStorage.getItem("AE_INFO")
-    // if (checkDay !== announceUpdate) {
-    if (true) {
+    const checkDay = window.localStorage.getItem("AE_INFO")
+    if (checkDay !== announceUpdate) {
+      // if (true) {
       Swal.fire({
-        title: 'Site will be Changed',
+        title: 'Data Update',
         html: announceHTML,
         icon: 'info',
       }).then(() => {
