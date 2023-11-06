@@ -6929,13 +6929,13 @@
 		"free": false,
 		"sky": "light",
 		"first": false,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [],
 		"change": [
 			133
 		],
-		"book": "시구르드리바",
+		"book": "시그드리파",
 		"book_get": [
 			"이절"
 		],
