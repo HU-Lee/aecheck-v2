@@ -50,7 +50,7 @@ function App() {
         window.localStorage.setItem("AE_INFO", announceKey);
       });
     }
-  }, []);
+  }, [lang]);
 
   return (
     <IntlProvider messages={message} locale={lang} defaultLocale="ko">
