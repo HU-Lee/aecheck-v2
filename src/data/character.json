@@ -7019,5 +7019,45 @@
 		],
 		"manifest_jap": "없음",
 		"manifest_glo": "없음"
+	},
+	{
+		"id": 339,
+		"code": "101020171",
+		"style": "4.5",
+		"category": 52,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			340
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 340,
+		"code": "101020171",
+		"style": "ns",
+		"category": 52,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [
+			339
+		],
+		"change": [],
+		"book": "나루카미",
+		"book_get": [
+			"제노 도메인"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
 	}
 ]

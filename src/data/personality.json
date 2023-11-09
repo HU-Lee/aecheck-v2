@@ -1946,5 +1946,18 @@
 		],
 		"description": null,
 		"code": "101040201"
+	},
+	{
+		"name": "오보로",
+		"is_extra": false,
+		"personality": [
+			"도",
+			"애묘가",
+			"동방",
+			"가면",
+			"KMS사"
+		],
+		"description": null,
+		"code": "101020171"
 	}
 ]
