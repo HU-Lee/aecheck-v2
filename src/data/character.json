@@ -2646,7 +2646,7 @@
 			"토토 드림랜드"
 		],
 		"manifest_jap": "현현",
-		"manifest_glo": "없음"
+		"manifest_glo": "현현"
 	},
 	{
 		"id": 126,
@@ -6950,7 +6950,7 @@
 		"free": false,
 		"sky": "light",
 		"first": true,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [],
 		"change": [
@@ -6969,7 +6969,7 @@
 		"free": false,
 		"sky": "light",
 		"first": false,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [],
 		"change": [],
