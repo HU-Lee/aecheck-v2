@@ -15,11 +15,11 @@ import { announceUpdate } from "./data/config";
 import { GLO_VER, JAP_VER } from "./data/config";
 
 const announceHTML = `<div class="announce">
-  Global Update : 231115
+  UPDATE JAP ${JAP_VER}
   <br/>
   <br/>
-  근시일 내에 사이트가 변경될 예정입니다.<br/>
-  Site will be changed Soon.
+  <b>사이트 변경 예정일 : 2024년 2/3-4</b><br/>
+  <b>Site will be changed on Feb 3-4, 2024</b>
   <br/>
   <br/>
   자세한 내용은 아래 게시물을 확인부탁드립니다.<br/>
