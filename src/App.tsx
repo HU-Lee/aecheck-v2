@@ -15,7 +15,7 @@ import { announceUpdate } from "./data/config";
 import { GLO_VER, JAP_VER } from "./data/config";
 
 const announceHTML = `<div class="announce">
-  UPDATE JAP ${JAP_VER}
+  UPDATE JAP ${JAP_VER}, GLO ${GLO_VER}
   <br/>
   <br/>
   <b>사이트 변경 예정일 : 2024년 2/3-4</b><br/>
