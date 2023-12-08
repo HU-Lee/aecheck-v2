@@ -1992,8 +1992,7 @@
 		"name": "베네피카",
 		"is_extra": false,
 		"personality": [
-			"활",
-			"저주"
+			"활"
 		],
 		"description": null,
 		"code": "101050191"
