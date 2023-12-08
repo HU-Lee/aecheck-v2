@@ -1959,5 +1959,43 @@
 		],
 		"description": null,
 		"code": "101020171"
+	},
+	{
+		"name": "사이러스 (옥토패스)",
+		"is_extra": false,
+		"personality": [
+			"지팡이",
+			"독서가"
+		],
+		"description": null,
+		"code": "101450051"
+	},
+	{
+		"name": "파르티티오",
+		"is_extra": false,
+		"personality": [
+			"활"
+		],
+		"description": null,
+		"code": "101450061"
+	},
+	{
+		"name": "티티",
+		"is_extra": false,
+		"personality": [
+			"권갑"
+		],
+		"description": null,
+		"code": "101450071"
+	},
+	{
+		"name": "베네피카",
+		"is_extra": false,
+		"personality": [
+			"활",
+			"저주"
+		],
+		"description": null,
+		"code": "101050191"
 	}
 ]

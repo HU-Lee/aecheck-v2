@@ -7028,7 +7028,7 @@
 		"free": false,
 		"sky": "light",
 		"first": true,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [],
 		"change": [
@@ -7047,7 +7047,7 @@
 		"free": false,
 		"sky": "light",
 		"first": false,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [
 			339
@@ -7056,6 +7056,160 @@
 		"book": "나루카미",
 		"book_get": [
 			"제노 도메인"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 341,
+		"code": "101450051",
+		"style": "4.5",
+		"category": 58,
+		"free": true,
+		"sky": "shadow",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			342
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 342,
+		"code": "101450051",
+		"style": "ns",
+		"category": 58,
+		"free": true,
+		"sky": "shadow",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			341
+		],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 343,
+		"code": "101450061",
+		"style": "4.5",
+		"category": 15,
+		"free": true,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			344
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 344,
+		"code": "101450061",
+		"style": "ns",
+		"category": 15,
+		"free": true,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			343
+		],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 345,
+		"code": "101450071",
+		"style": "4.5",
+		"category": 56,
+		"free": true,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			346
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 346,
+		"code": "101450071",
+		"style": "ns",
+		"category": 56,
+		"free": true,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			345
+		],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 347,
+		"code": "101050191",
+		"style": "4.5",
+		"category": 55,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			348
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 348,
+		"code": "101050191",
+		"style": "ns",
+		"category": 55,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [
+			347
+		],
+		"change": [],
+		"book": "베네피카",
+		"book_get": [
+			"달그림자 숲"
 		],
 		"manifest_jap": "없음",
 		"manifest_glo": "없음"
