@@ -5674,7 +5674,8 @@
 		"gonly": false,
 		"from": [],
 		"change": [
-			272
+			272,
+			349
 		],
 		"book": "없음",
 		"book_get": [],
@@ -5694,7 +5695,9 @@
 		"from": [
 			271
 		],
-		"change": [],
+		"change": [
+			349
+		],
 		"book": "치트리니타스",
 		"book_get": [
 			"식인 늪"
@@ -7210,6 +7213,27 @@
 		"book": "베네피카",
 		"book_get": [
 			"달그림자 숲"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 349,
+		"code": "101050171",
+		"style": "as",
+		"category": 55,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			272
+		],
+		"book": "에포크 메이커",
+		"book_get": [
+			"이절"
 		],
 		"manifest_jap": "없음",
 		"manifest_glo": "없음"

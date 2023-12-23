@@ -1661,9 +1661,10 @@
 		"personality": [
 			"활",
 			"애묘가",
-			"총"
+			"총",
+			"안경"
 		],
-		"description": null,
+		"description": "안경은 AS 획득 시에만",
 		"code": "101050171"
 	},
 	{
