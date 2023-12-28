@@ -7185,7 +7185,7 @@
 		"free": false,
 		"sky": "shadow",
 		"first": true,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [],
 		"change": [
@@ -7204,13 +7204,13 @@
 		"free": false,
 		"sky": "shadow",
 		"first": false,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [
 			347
 		],
 		"change": [],
-		"book": "베네피카",
+		"book": "웨네피카",
 		"book_get": [
 			"달그림자 숲"
 		],
