@@ -1527,7 +1527,8 @@
 		"from": [],
 		"change": [
 			74,
-			75
+			75,
+			350
 		],
 		"book": "없음",
 		"book_get": [],
@@ -1548,7 +1549,8 @@
 			73
 		],
 		"change": [
-			75
+			75,
+			350
 		],
 		"book": "어비스 데보티",
 		"book_get": [
@@ -1573,7 +1575,8 @@
 		"gonly": false,
 		"from": [],
 		"change": [
-			74
+			74,
+			350
 		],
 		"book": "어비스 리버레이터",
 		"book_get": [
@@ -7234,6 +7237,28 @@
 		"book": "에포크 메이커",
 		"book_get": [
 			"이절"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 350,
+		"code": "101010121",
+		"style": "es",
+		"category": 51,
+		"free": false,
+		"sky": "shadow",
+		"first": false,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [
+			74,
+			75
+		],
+		"book": "새크러먼트",
+		"book_get": [
+			"개전"
 		],
 		"manifest_jap": "없음",
 		"manifest_glo": "없음"

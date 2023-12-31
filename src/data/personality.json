@@ -1997,5 +1997,17 @@
 		],
 		"description": null,
 		"code": "101050191"
+	},
+	{
+		"name": "틸릴",
+		"is_extra": true,
+		"personality": [
+			"검",
+			"성직자",
+			"단것 애호가",
+			"서방"
+		],
+		"description": null,
+		"code": "101010121"
 	}
 ]
