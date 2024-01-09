@@ -37,11 +37,10 @@ function App() {
   const message = require(`./language/${lang}.json`);
 
   useEffect(() => {
-    window.localStorage.removeItem("a_v_230428");
-    const checkDay = window.localStorage.getItem("AE_INFO");
+    // const checkDay = window.localStorage.getItem("AE_INFO");
     const announceKey = `${announceUpdate}_${lang}`;
-    if (checkDay !== announceKey) {
-      // if (true) {
+    // if (checkDay !== announceKey) {
+    if (true) {
       Swal.fire({
         title: "Data Update",
         html: announceHTML,
