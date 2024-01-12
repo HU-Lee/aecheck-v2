@@ -1781,7 +1781,8 @@
 		"gonly": false,
 		"from": [],
 		"change": [
-			86
+			86,
+			351
 		],
 		"book": "없음",
 		"book_get": [],
@@ -7259,6 +7260,25 @@
 		"book": "새크러먼트",
 		"book_get": [
 			"개전"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 351,
+		"code": "101020181",
+		"style": "ns",
+		"category": 42,
+		"free": false,
+		"sky": "shadow",
+		"first": true,
+		"jonly": true,
+		"gonly": false,
+		"from": [],
+		"change": [],
+		"book": "타쿠하타치지히메",
+		"book_get": [
+			"경전록"
 		],
 		"manifest_jap": "없음",
 		"manifest_glo": "없음"

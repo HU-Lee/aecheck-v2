@@ -2009,5 +2009,15 @@
 		],
 		"description": null,
 		"code": "101010121"
+	},
+	{
+		"name": "국화의 검객 아카네",
+		"is_extra": false,
+		"personality": [
+			"도",
+			"동방"
+		],
+		"description": null,
+		"code": "101020181"
 	}
 ]
