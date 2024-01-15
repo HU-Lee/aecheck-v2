@@ -7250,14 +7250,14 @@
 		"free": false,
 		"sky": "shadow",
 		"first": false,
-		"jonly": true,
+		"jonly": false,
 		"gonly": false,
 		"from": [],
 		"change": [
 			74,
 			75
 		],
-		"book": "새크러먼트",
+		"book": "새크라멘트",
 		"book_get": [
 			"개전"
 		],
