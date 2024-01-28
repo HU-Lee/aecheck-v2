@@ -98,5 +98,13 @@
 		"free": false,
 		"jonly": false,
 		"gonly": false
+	},
+	{
+		"id": 2011,
+		"code": "2009000001",
+		"from": [],
+		"free": true,
+		"jonly": false,
+		"gonly": false
 	}
 ]

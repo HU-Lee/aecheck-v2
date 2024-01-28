@@ -566,7 +566,8 @@
 		"is_extra": false,
 		"personality": [
 			"도",
-			"합성인간"
+			"합성인간",
+			"KMS사"
 		],
 		"description": null,
 		"code": "101020131"
@@ -1943,7 +1944,8 @@
 		"name": "류제",
 		"is_extra": false,
 		"personality": [
-			"창"
+			"창",
+			"용"
 		],
 		"description": null,
 		"code": "101040201"
@@ -2019,5 +2021,15 @@
 		],
 		"description": null,
 		"code": "101020181"
+	},
+	{
+		"name": "멜피피아",
+		"is_extra": false,
+		"personality": [
+			"엘프",
+			"검"
+		],
+		"description": null,
+		"code": "101010171"
 	}
 ]

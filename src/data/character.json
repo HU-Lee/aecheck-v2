@@ -2285,8 +2285,8 @@
 		"book_get": [
 			"공업도시 폐허"
 		],
-		"manifest_jap": "없음",
-		"manifest_glo": "없음"
+		"manifest_jap": "현현",
+		"manifest_glo": "현현"
 	},
 	{
 		"id": 109,
@@ -7280,6 +7280,84 @@
 		"book_get": [
 			"경전록"
 		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 352,
+		"code": "101010171",
+		"style": "4.5",
+		"category": 31,
+		"free": false,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			353
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 353,
+		"code": "101010171",
+		"style": "ns",
+		"category": 31,
+		"free": false,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			352
+		],
+		"change": [],
+		"book": "오라클",
+		"book_get": [
+			"나다라 화산"
+		],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 354,
+		"code": "101040201",
+		"style": "4.5",
+		"category": 24,
+		"free": true,
+		"sky": "light",
+		"first": true,
+		"jonly": false,
+		"gonly": false,
+		"from": [],
+		"change": [
+			355
+		],
+		"book": "없음",
+		"book_get": [],
+		"manifest_jap": "없음",
+		"manifest_glo": "없음"
+	},
+	{
+		"id": 355,
+		"code": "101040201",
+		"style": "ns",
+		"category": 24,
+		"free": true,
+		"sky": "light",
+		"first": false,
+		"jonly": false,
+		"gonly": false,
+		"from": [
+			354
+		],
+		"change": [],
+		"book": "없음",
+		"book_get": [],
 		"manifest_jap": "없음",
 		"manifest_glo": "없음"
 	}
