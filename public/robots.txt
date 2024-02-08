@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hu-lee.github.io/anothercharcheck/sitemap.xml
+Sitemap: https://old.aecheck.com/sitemap.xml

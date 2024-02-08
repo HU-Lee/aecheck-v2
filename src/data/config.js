@@ -16,5 +16,3 @@ export const GLO_BUDDY_NEW = ["2000000011"];
 // 데이터 파일에서 이름을 찾아 id로 입력해 주세요.
 export const JAP_MANIFEST_NEW = [108];
 export const GLO_MANIFEST_NEW = [108];
-
-export const announceUpdate = "240128";

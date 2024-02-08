@@ -11,25 +11,15 @@ import { BackTop } from "antd";
 import PersonalPage from "./components/pages/PersonalPage";
 import ManifestPage from "./components/pages/ManifestPage";
 import BuddyPage from "./components/pages/BuddyPage";
-import { announceUpdate } from "./data/config";
-import { GLO_VER, JAP_VER } from "./data/config";
 
 const announceHTML = `<div class="announce">
-  UPDATE JAP ${JAP_VER}, GLO ${GLO_VER}
   <br/>
   <br/>
-  <b>사이트 변경 예정일 : 2024년 2/3-4</b><br/>
-  <b>Site will be changed on Feb 3-4, 2024</b>
-  <br/>
-  <br/>
-  자세한 내용은 아래 게시물을 확인부탁드립니다.<br/>
-  Please check following post.
-  <br/>
-  <br/>
-  <a href="https://aecheck.tistory.com/44" target="_blank" rel="noreferrer">한국어</a>
-  <br/>
-  <a href="https://www.reddit.com/r/AnotherEdenGlobal/comments/17d469m/aecheckcom_will_be_changed_soon/?utm_source=share&utm_medium=web2x&context=3" target="_blank" rel="noreferrer">English(Reddit)</a>
-
+  <h1>
+    <a href="https://aecheck.com" target="_blank" rel="noreferrer">
+      Please use the new website.
+    </a>
+  </h1>
 </div>`;
 
 function App() {
@@ -37,16 +27,11 @@ function App() {
   const message = require(`./language/${lang}.json`);
 
   useEffect(() => {
-    // const checkDay = window.localStorage.getItem("AE_INFO");
-    const announceKey = `${announceUpdate}_${lang}`;
-    // if (checkDay !== announceKey) {
     if (true) {
       Swal.fire({
-        title: "Data Update",
+        title: "UPDATE STOPPED",
         html: announceHTML,
-        icon: "info",
-      }).then(() => {
-        window.localStorage.setItem("AE_INFO", announceKey);
+        icon: "error",
       });
     }
   }, [lang]);
